@@ -690,18 +690,29 @@ hr {
   .active { color: $accent; font-weight: 500; }
 }
 
-// ── Search ────────────────────────────────────────────────────────
-#quarto-search,
-#quarto-search .aa-DetachedSearchButton,
-#quarto-search button,
+// ── Search icon ───────────────────────────────────────────────────
+// Target the button directly regardless of wrapper depth
+.aa-DetachedSearchButton,
+.aa-DetachedSearchButton svg,
 .quarto-search-button {
   color: $primary !important;
+  fill: $primary !important;
   opacity: 1 !important;
 }
 
-#quarto-search .aa-DetachedSearchButton:hover,
-#quarto-search button:hover {
+.aa-DetachedSearchButton:hover,
+.aa-DetachedSearchButton:hover svg {
   color: $accent !important;
+  fill: $accent !important;
+}
+
+// ── Mobile navbar burger menu ─────────────────────────────────────
+.navbar-toggler {
+  border-color: $primary !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%230D1F3C' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 // ── Accessibility ────────────────────────────────────────────────

@@ -691,8 +691,16 @@ hr {
 }
 
 // ── Search ────────────────────────────────────────────────────────
-.aa-DetachedSearchButton,
+#quarto-search,
+#quarto-search .aa-DetachedSearchButton,
+#quarto-search button,
 .quarto-search-button {
+  color: $primary !important;
+  opacity: 1 !important;
+}
+
+#quarto-search .aa-DetachedSearchButton:hover,
+#quarto-search button:hover {
   color: $accent !important;
 }
 

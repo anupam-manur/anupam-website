@@ -244,3 +244,51 @@ podcast.qmd
 | Heading / body-text font | Playfair Display (Google Fonts) |
 
 To change colours, edit the variables at the top of `styles.scss`.
+
+---
+
+## Deployment (GitHub Actions)
+
+The site is live at **https://pranaykotas.com**, hosted on GitHub Pages.
+
+Two workflows in `.github/workflows/`:
+
+| Workflow | Trigger | What it does |
+|---|---|---|
+| `deploy.yml` | Every push to `main` | Runs `quarto render`, pushes `_site/` to `gh-pages` branch |
+| `sync-takshashila.yml` | Mon + Thu 6am UTC | Scrapes Takshashila team page, adds new content to YAMLs, commits → triggers deploy |
+
+Manual trigger: GitHub → Actions tab → select workflow → Run workflow.
+
+**git push notes** (local quirk on this machine):
+```bash
+git config http.version HTTP/1.1
+git config http.postBuffer 524288000
+git push --set-upstream origin main   # first push only
+git push                              # subsequent pushes
+```
+
+---
+
+## YAML content rules — IMPORTANT
+
+The blog and op-eds listings read **only from their `.yml` files** (not from `*.qmd`).
+
+Rules for all three YAMLs (`blog/blog.yml`, `op-eds/op-eds.yml`, `publications/publications.yml`):
+
+- `path:` must be a full `https://` URL — never a relative path like `../../content/...`
+- `date:` must be ISO format `YYYY-MM-DD`
+- Add new entries at the **top** of the file
+- Editing these files directly in the GitHub web editor can introduce garbled characters (â€™ instead of ') and relative paths — prefer editing locally and pushing
+
+---
+
+## Auto-sync script
+
+`scripts/sync_takshashila.py` — scrapes `takshashila.org.in/content/team/pranay-kotasthane.html` and prepends new entries to the three YAMLs.
+
+Run locally to test:
+```bash
+python3 -m venv /tmp/venv && /tmp/venv/bin/pip install requests beautifulsoup4
+/tmp/venv/bin/python scripts/sync_takshashila.py
+```

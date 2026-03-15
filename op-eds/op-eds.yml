@@ -9,20 +9,8 @@
 # Note: Mint/"The Intersection" articles link to nitinpai.in (where the column
 # is republished) because livemint.com blocks external access.
 
-- title: "Pakistan is bluffing. Thereâs no proof for $6 trillion mineral wealth claim"
-  date: Nov 10, 2025
-  description: "The Print"
-  path: "http://www.theprint.in/opinion/pakistan-bluffing-6-trillion-mineral-wealth/2780538/"
-  categories: [India Foreign Policy]
-
-- title: "Rare earths sector can do with recycling thrust"
-  date: Feb 1, 2026
-  description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/rare-earths-sector-can-do-with-recycling-thrust-101769970010181-amp.html"
-  categories: [Critical Minerals]
-
 - title: "Rare earths in India, Bridging the gaps to ensure sufficiency"
-  date: Dec 2, 2025
+  date: 2025-12-02
   description: "Hindustan Times"
   path: "https://www.hindustantimes.com/opinion/rare-earths-in-india-bridging-the-gaps-to-ensure-sufficiency-101764605571306.html"
   categories: [Critical Minerals]
@@ -38,7 +26,6 @@
   description: "Hindustan Times"
   path: "https://www.hindustantimes.com/opinion/rare-earths-sector-can-do-with-recycling-thrust-101769970010181.html"
   categories: [Critical Minerals]
-
 
 - title: "India is talking about critical minerals. But do we have a plan?"
   date: 2026-01-19
@@ -98,7 +85,7 @@
   date: 2025-05-31
   description: "Times of India"
   path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/what-tn-case-tells-us-about-the-need-to-ease-centre-state-friction/"
-  categories: [Political Economy]  
+  categories: [Political Economy]
 
 - title: "Reconfiguring supply chains in a world where trust's eroding"
   date: 2025-06-30
@@ -110,8 +97,7 @@
   date: 2025-06-23
   description: "India's World"
   path: "https://indiasworld.in/the-way-to-break-chinas-stranglehold-on-rare-earths-2/"
-  categories: [Technology Geopolitics]  
-
+  categories: [Technology Geopolitics]
 
 - title: "Towards techno-strategic autonomy: India should spearhead an Open Technology Maitri"
   date: 2025-03-06
@@ -634,18 +620,6 @@
   description: "Economic and Political Weekly"
   path: "https://www.epw.in/journal/2015/46-47/commentary/impact-fourteenth-finance-commission.html"
   categories: [Public Finance]
-
-- title: "What value does BRICS really add to India"
-  date: 2015-07-01
-  description: "NDTV"
-  path: "http://www.ndtv.com/opinion/what-value-does-brics-really-add-to-india-779833"
-  categories: [Public Policy, India Foreign Policy]
-
-- title: "India, and the Taliban's changing dynamics"
-  date: 2015-07-01
-  description: "The Hindu"
-  path: "http://www.thehindu.com/opinion/columns/world-view-india-and-the-talibans-changing-dynamics/article7430357.ece"
-  categories: [India Foreign Policy]
 
 - title: "The lure of legalising bilateral disputes"
   date: 2014-07-22

@@ -45,7 +45,7 @@ website:
         href: blog/index.xml
         aria-label: RSS Feed
       - icon: twitter
-        href: https://twitter.com/pranaborodin
+        href: https://twitter.com/pranaykotas
         aria-label: Twitter
       - icon: linkedin
         href: https://linkedin.com/in/pranaykotasthane
@@ -57,7 +57,7 @@ website:
     center: |
       Made with [Quarto](https://quarto.org)
     right: |
-      [Subscribe via RSS](blog/index.xml)
+      [Blog via RSS](blog/index.xml)
 
   search: true
 

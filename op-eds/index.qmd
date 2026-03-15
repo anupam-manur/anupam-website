@@ -4,7 +4,6 @@ description: "Opinion pieces I have authored or co-authored in newspapers and ma
 listing:
   - id: op-eds-list
     contents:
-      - "*.qmd"
       - op-eds.yml
     type: table
     sort: "date desc"

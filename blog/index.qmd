@@ -4,7 +4,6 @@ description: "Essays and analysis on public policy, technology, and geopolitics"
 listing:
   - id: blog-list
     contents:
-      - "*.qmd"
       - blog.yml
     type: default
     sort: "date desc"

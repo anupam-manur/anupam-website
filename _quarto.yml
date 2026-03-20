@@ -59,6 +59,8 @@ website:
     right: |
       [Blog via RSS](blog/index.xml)
 
+  favicon: images/favicon.png
+
   search: true
 
   open-graph:

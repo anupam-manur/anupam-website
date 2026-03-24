@@ -89,6 +89,15 @@ Institutionally, there are three major actors in any community: the market, the 
 [Download slides →](assets/slides/Manthan-Societism.pdf){.btn .btn-primary target="_blank"}
 :::
 
+::: {.talk-card}
+### Democracy, Constitution, and National Power
+**Event:** Army War College, Mhow
+**Date:** March 2026
+
+In this lecture to select officers of the Indian armed forces, conducted as part of their training at the Army War College, I spoke about the Indian constitutional design. I discussed features of the Constitution that impinge on India's national power.
+
+[Download slides →](assets/slides/AWC-2026_1.pdf){.btn .btn-primary target="_blank"}
+:::
 
 ::: {.talk-card}
 ### Why is the Indian State Like This Only?

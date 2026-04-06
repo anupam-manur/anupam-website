@@ -397,10 +397,11 @@ def scrape_publications(soup: BeautifulSoup, existing_paths: set[str]) -> list[d
         return new_entries
 
     for card in container.select(".content-card"):
-        link = card.select_one("a[href]")
-        if not link:
+        # The <a href> wraps the .content-card div, so look at the parent, not inside
+        parent = card.parent
+        if parent.name != "a" or not parent.get("href"):
             continue
-        href = urljoin(TEAM_PAGE, link.get("href", ""))
+        href = urljoin(TEAM_PAGE, parent.get("href", ""))
         href = normalize_url(href)
 
         if href in existing_paths:
@@ -411,7 +412,7 @@ def scrape_publications(soup: BeautifulSoup, existing_paths: set[str]) -> list[d
         if not meta or not meta.get("title"):
             # Fallback from listing
             title_el = card.select_one("h2.content-title") or card.select_one("h2")
-            title = title_el.get_text(strip=True) if title_el else link.get_text(strip=True)
+            title = title_el.get_text(strip=True) if title_el else parent.get_text(strip=True)
             date  = date_from_slug(href) or ""
             meta  = {"title": title, "date": date, "authors": [], "pub_type": "", "taks_cats": []}
 

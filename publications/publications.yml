@@ -6,6 +6,54 @@
 #   path:        Full URL to paper/PDF/DOI
 #   categories:  List of tags
 
+- title: "Sand Slipping Through Fingers"
+  date: 2026-03-30
+  description: "Takshashila Discussion Document 2026-09. · with Amit Kumar"
+  path: "https://takshashila.org.in/content/publications/China-Ga-Ge-Export-Restrictions-29032026.html"
+  categories: [Critical Minerals]
+
+- title: "Karnataka at the 16th Finance Commission: Concerns, Prospects, and a Way Forward"
+  date: 2024-09-06
+  description: "Takshashila Publication · with Sarthak Pradhan"
+  path: "https://takshashila.org.in/content/publications/20240906-Karnataka -16th-Finance-Commission.html"
+  categories: [Public Policy, Public Finance]
+
+- title: "Book Chapter - Neither Guns nor Butter: The Inconvenient Truth of India's Defence Financing"
+  date: 2022-11-07
+  description: "Takshashila Publication"
+  path: "https://takshashila.org.in/content/publications/20221107-Neither-Guns-nor-Butter.html"
+  categories: [Public Policy]
+
+- title: "Takshashila Issue Brief - Killing of al-Zawahiri Raises More Questions than Provides Answers"
+  date: 2022-08-05
+  description: "Takshashila Publication · with Srikrishna Upadhyaya and Anand Arni"
+  path: "https://takshashila.org.in/content/publications/20220805-Killing-of-al-Zawahiri-Raises -More-Questions-than-Provides-Answers.html"
+  categories: [Public Policy]
+
+- title: "Harnessing Trade Policy to Build India's Semiconductor Industry"
+  date: 2022-05-30
+  description: "Takshashila Publication · with Arjun Gargeyas"
+  path: "https://takshashila.org.in/content/publications/20220530-Harnessing Trade Policy to Build Indias-Semiconductor-Industry.html"
+  categories: [Public Policy, Semiconductor Geopolitics]
+
+- title: "A COVID-19 Vaccine Deployment Strategy for India"
+  date: 2020-09-04
+  description: "Takshashila Discussion Slide Doc · with Shambhavi Naik, Ameya Paleja, Mihir Mahajan, Narayan Ramachandran, Sunila Dixit, Rahul Matthan, and Nitin Pai"
+  path: "https://takshashila.org.in/content/publications/20200904-COVID-19-Vaccine-Deployment-Strategy-for-India.html"
+  categories: [Public Policy]
+
+- title: "Takshashila Working Paper - The Regressive Nature of Central Transfers for Health"
+  date: 2018-12-19
+  description: "Takshashila Working Paper 2018-03. · with Devika Kher, Pavan Srinath, and Aashish Chajjer"
+  path: "https://takshashila.org.in/content/publications/20181219-TWP-Central-Transfers-on-Health.html"
+  categories: [Public Policy]
+
+- title: "Takshashila Discussion Document - Deriving India's Strategies for a New World Order"
+  date: 2018-07-09
+  description: "Takshashila Publication · with Anupam Manur and Anirudh KanisettI"
+  path: "https://takshashila.org.in/content/publications/20180709-TDD-Indias-Strategies-New-World-Order-AK-PK-AM-2018-02.html"
+  categories: [Public Policy]
+
 - title: "India Should Double Down on Rare Earth Recycling"
   date: 2026-01-23
   description: "Takshashila Discussion Document · with Tannmay Kumarr Baid and Narayan Ramachandran"

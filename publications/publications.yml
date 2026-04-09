@@ -6,6 +6,42 @@
 #   path:        Full URL to paper/PDF/DOI
 #   categories:  List of tags
 
+- title: "Clingendael Report â Enhancing IndiaâEU Engagement on âMeta-Criticalâ Technologies: A Case for Collaboration on Semiconductors"
+  date: 2023-01-05
+  description: "Takshashila Publication"
+  path: "https://takshashila.org.in/content/publications/20230105-Enhancing-IndiaâEU-Engagement-on-Meta-Critical-Technologies-A-Case-for-Collaboration-on-Semiconductors.html"
+  categories: [Semiconductor Geopolitics, Political Economy]
+
+- title: "Book Chapter - Neither Guns nor Butter: The Inconvenient Truth of Indiaâs Defence Financing"
+  date: 2022-11-07
+  description: "Takshashila Publication"
+  path: "https://takshashila.org.in/content/publications/20221107-Neither-Guns-nor-Butter-The-Inconvenient-Truth-of-Indiaâs-Defence-Financing.html"
+  categories: [Public Policy]
+
+- title: "Takshashila Policy Advisory - Comments on NITI Aayogâs Draft Battery Swapping Policy"
+  date: 2022-06-09
+  description: "Takshashila Publication"
+  path: "https://takshashila.org.in/content/publications/20220609-Comments-on-NITI-Aayogâs-Draft-Battery-Swapping-Policy.html"
+  categories: [Critical Minerals]
+
+- title: "Takshashila Discussion Document - A Human Capital Investment Model for Indiaâs National Security System"
+  date: 2019-09-24
+  description: "Takshashila Publication"
+  path: "https://takshashila.org.in/content/publications/20190924-TDD-Human-Capital-Investment-Model-for-Indiaâs-National-Security-System.html"
+  categories: [Public Policy]
+
+- title: "Takshashila Discussion Document - Sustained Dialogue Process as Indiaâs Pakistan Policy: An assessment"
+  date: 2016-01-09
+  description: "Takshashila Publication"
+  path: "https://takshashila.org.in/content/publications/20160109-Sustained-Dialogue-Process-as-Indiaâs-Pakistan-Policy.html"
+  categories: [India Foreign Policy]
+
+- title: "Takshashila Strategic Assessment - Risks to Indiaâs national security from tensions along the Iran-Pakistan border"
+  date: 2014-11-13
+  description: "Takshashila Publication"
+  path: "https://takshashila.org.in/content/publications/20141113-Risks-to-Indiaâs-national-security-from-tensions-along-the-Iran-Pakistan-border.html"
+  categories: [India Foreign Policy]
+
 - title: "Sand Slipping Through Fingers"
   date: 2026-03-30
   description: "Takshashila Discussion Document 2026-09. · with Amit Kumar"

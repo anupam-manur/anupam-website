@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-sync_takshashila.py — scrape Pranay Kotasthane's content from takshashila.org.in
+sync_takshashila.py — scrape Anupam Manur's content from takshashila.org.in
 and update the YAML listing files on the personal website.
 
 Run locally:   pip install requests beautifulsoup4 && python scripts/sync_takshashila.py
@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 # Config
 # ---------------------------------------------------------------------------
 
-TEAM_PAGE = "https://takshashila.org.in/content/team/pranay-kotasthane.html"
+TEAM_PAGE = "https://takshashila.org.in/content/team/anupam-manur.html"
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PUBS_YAML  = os.path.join(REPO_ROOT, "publications", "publications.yml")
@@ -28,7 +28,7 @@ OPEDS_YAML = os.path.join(REPO_ROOT, "op-eds", "op-eds.yml")
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (compatible; TakshashilaSync/1.0; "
-        "+https://github.com/pranay-website)"
+        "+https://github.com/anupam-website)"
     )
 }
 
@@ -370,7 +370,7 @@ def build_pub_description(pub_type: str, authors: list[str]) -> str:
     Build the 'description' field, e.g.
     'Takshashila Discussion Document · with Co-author A and Co-author B'
     """
-    co_authors = [a for a in authors if "Pranay" not in a]
+    co_authors = [a for a in authors if "Anupam" not in a]
     desc = pub_type if pub_type else "Takshashila Publication"
     if co_authors:
         if len(co_authors) == 1:
@@ -440,11 +440,11 @@ def scrape_blogs(soup: BeautifulSoup, existing_paths: set[str]) -> list[dict]:
         return new_entries
 
     for item in container.select(".listing-item, article, .quarto-post"):
-        # Author filter — only include posts by Pranay
+        # Author filter — only include posts by Anupam
         author_el = item.select_one(".listing-author, .listing-authors")
         if author_el:
             author_text = author_el.get_text()
-            if "Pranay" not in author_text:
+            if "Anupam" not in author_text:
                 continue
 
         link_el = item.select_one(".listing-title a") or item.select_one("a[href]")
@@ -467,7 +467,7 @@ def scrape_blogs(soup: BeautifulSoup, existing_paths: set[str]) -> list[dict]:
         if author_el:
             all_authors = [
                 a.strip() for a in re.split(r",|and", author_el.get_text())
-                if a.strip() and "Pranay" not in a
+                if a.strip() and "Anupam" not in a
             ]
             if all_authors:
                 description += " · with " + ", ".join(all_authors)
@@ -499,7 +499,7 @@ def scrape_opeds(soup: BeautifulSoup, existing_paths: set[str]) -> list[dict]:
         # Author filter
         author_el = item.select_one(".listing-author, .listing-authors")
         if author_el:
-            if "Pranay" not in author_el.get_text():
+            if "Anupam" not in author_el.get_text():
                 continue
 
         link_el = item.select_one(".listing-title a") or item.select_one("a[href]")

@@ -12,7 +12,7 @@ listing:
     filter-ui: true
     page-size: 15
     feed:
-      title: "Pranay Kotasthane — Blog"
+      title: "Anupam Manur — Blog"
       description: "Essays on public policy, technology, and geopolitics"
       items: 20
 ---

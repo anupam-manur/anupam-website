@@ -1,0 +1,15 @@
+---
+title: "Indian Public Policy Review"
+description: "A peer-reviewed, open-access journal on Indian public policy"
+toc: false
+---
+
+## Indian Public Policy Review (IPPR)
+
+I am the Managing Editor of the **Indian Public Policy Review** — a peer-reviewed, open-access journal dedicated to advancing the understanding of public policy in India.
+
+```{=html}
+<div style="display:flex;gap:1rem;flex-wrap:wrap;margin:1.5rem 0;">
+  <a href="https://ippr.in" class="btn btn-primary" target="_blank">Visit IPPR →</a>
+</div>
+```

@@ -1,4 +1,4 @@
-# Pranay Kotasthane — Personal Website
+# Anupam Manur — Personal Website
 
 Built with [Quarto](https://quarto.org). Source lives in this repo; the rendered output goes to `_site/`.
 
@@ -24,23 +24,22 @@ Create a new `.qmd` file in `blog/`. Filename becomes the URL slug.
 title: "Your Title"
 date: "2025-03-01"
 description: "One-line summary shown in the listing"
-author: "Pranay Kotasthane"
+author: "Anupam Manur"
 categories:
-  - Semiconductor Geopolitics   # use one or more from the canonical list below
+  - Economy   # use one or more from the canonical list below
 ---
 
 Your article text here.
 ```
 
 **Canonical categories (use these consistently):**
-- `Semiconductor Geopolitics`
-- `Critical Minerals`
-- `AI Geopolitics`
-- `Technology Policy`
+- `Economy`
+- `Trade`
+- `Platform Economics`
+- `Bioeconomy`
 - `Public Policy`
 - `Public Finance`
 - `Political Economy`
-- `India Foreign Policy`
 
 **Optional: pull quote in right margin**
 ```markdown
@@ -53,7 +52,7 @@ A sentence worth highlighting.
 ```markdown
 ::: {.source-note .column-margin}
 **Mint**
-Originally published as part of [The Intersection](url) column.
+Originally published as part of [column name](url) column.
 :::
 ```
 
@@ -68,7 +67,7 @@ Add 5 lines to `op-eds/op-eds.yml`:
   date: 2025-03-01
   description: "The Hindu"
   path: "https://thehindu.com/..."
-  categories: [Geopolitics]
+  categories: [Economy]
 ```
 
 ---
@@ -82,7 +81,7 @@ Create a new `.qmd` file in `op-eds/`. It will appear in the op-eds listing and 
 title: "Your Article Headline"
 date: "2025-03-01"
 description: "Mint"
-categories: [Geopolitics]
+categories: [Economy]
 ---
 ```
 
@@ -119,7 +118,7 @@ Add to `publications/publications.yml`:
   date: 2025-03-01
   description: "Takshashila Institution · with Co-author Name"
   path: "https://doi.org/..."
-  categories: [Technology Policy]
+  categories: [Economy]
 ```
 
 ---
@@ -167,32 +166,6 @@ Description of the course.
 
 ---
 
-### 7. Project
-
-Edit `projects.qmd`. Each project:
-
-```markdown
-::: {.idea-card}
-### Project Name
-2–3 sentence description of what you're working on.
-:::
-```
-
----
-
-### 8. Big Idea
-
-Edit `big-ideas.qmd`. Same structure as projects:
-
-```markdown
-::: {.idea-card}
-### Idea Name
-2–3 sentence description.
-:::
-```
-
----
-
 ## Site structure
 
 ```
@@ -215,21 +188,8 @@ publications/
 
 books.qmd
 courses.qmd
-projects.qmd
-big-ideas.qmd
-newsletter.qmd
-podcast.qmd
+ippr.qmd
 ```
-
----
-
-## Workflow: Obsidian → personal site → Takshashila
-
-1. Write in Obsidian
-2. Export/convert to `.qmd`
-3. Save to `blog/` (or `op-eds/`) in this repo — this is your **canonical copy**
-4. Copy the same file to `~/OurWebsite/` if it's also going on the Takshashila site
-5. Run `quarto render` and deploy
 
 ---
 
@@ -249,7 +209,7 @@ To change colours, edit the variables at the top of `styles.scss`.
 
 ## Deployment (GitHub Actions)
 
-The site is live at **https://pranaykotas.com**, hosted on GitHub Pages.
+The site is live at **https://anupammanur.com**, hosted on GitHub Pages.
 
 Two workflows in `.github/workflows/`:
 
@@ -285,7 +245,7 @@ Rules for all three YAMLs (`blog/blog.yml`, `op-eds/op-eds.yml`, `publications/p
 
 ## Auto-sync script
 
-`scripts/sync_takshashila.py` — scrapes `takshashila.org.in/content/team/pranay-kotasthane.html` and prepends new entries to the three YAMLs.
+`scripts/sync_takshashila.py` — scrapes `takshashila.org.in/content/team/anupam-manur.html` and prepends new entries to the three YAMLs.
 
 Run locally to test:
 ```bash

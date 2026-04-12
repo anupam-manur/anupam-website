@@ -1,46 +1,18 @@
 ---
 title: "Courses"
-description: "I teach topics in public policy, technology geopolitics, and public finance at Takshashila's programmes"
+description: "I teach economics and public policy at Takshashila's programmes"
 ---
 
-I design and teach courses at the [Takshashila Institution](https://takshashila.org.in) that aim to make policy thinking accessible and practical.
-
-## Current Modules Taught
-
-::: {.course-card}
-### An Introduction to Public Finance
-**Course: **Post Graduate Programme in Public Policy (PGP)
-
-**Institution:** Takshashila Institution
-
-I co-teach a course on public finance with Sarthak Pradhan.
-
-[Learn more →](https://school.takshashila.org.in/)
-:::
-
-::: {.course-card}
-### AI Geopolitics and Semiconductor Geopolitics
-**Course: **Graduate Certificate in Public Policy (GCPP)
-
-**Institution:** Takshashila Institution
-
-Exploring the intersection of emerging technologies and geopolitics, including AI, semiconductors, and critical minerals
-
-[Learn more →](https://school.takshashila.org.in/)
-:::
-
-## Past Modules
-
-I co-taught a course on state budget analysis with Pavan Srinath. Videos available [here](https://www.youtube.com/watch?v=JDJYst6vmO4)
+I teach courses at the [Takshashila Institution](https://takshashila.org.in) on economics and public policy.
 
 ## Guest Lectures
 
 I'm available for guest lectures on:
 
-- High Technology geopolitics
-- India's semiconductor strategy
-- AI Geopolitics
+- Economic Policy
+- Trade Policy
+- Platform Economics
+- Bioeconomy
 - Indian Public Policy
-- Indian Public Finance
 
-[Contact me](mailto:pranay@takshashila.org.in) for speaking engagements.
+[Contact me](mailto:anupam@takshashila.org.in) for speaking engagements.

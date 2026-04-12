@@ -1,27 +1,25 @@
 ---
-title: "Pranay Kotasthane"
-subtitle: "Policy Analyst | Author | Podcaster"
+title: "Anupam Manur"
+subtitle: "Professor | Author | Economist"
 about:
   template: trestles
-  image: images/Pranay-official.jpeg
+  image: images/anupam-profile.jpeg
   image-shape: round
   links:
     - icon: twitter
       text: Twitter
-      href: https://x.com/pranaykotas
+      href: https://x.com/anupammanur
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/pranaykotas/
+      href: https://www.linkedin.com/in/anupam-manur/
     - icon: envelope
       text: Email
-      href: mailto:pranay@takshashila.org.in
+      href: mailto:anupam@takshashila.org.in
 ---
 
 ## About Me
 
-I am a public policy researcher at the [Takshashila Institution](https://takshashila.org.in), where I work on India's public policy puzzles at the intersection of technology, economics, and geopolitics.
-
-I believe in making policy ideas accessible to everyone through writing, teaching, and conversations.
+I am a Professor of Economics at the [Takshashila Institution](https://takshashila.org.in), where I research on various facets of economic policy. I'm also the Managing Editor of the [Indian Public Policy Review](ippr.qmd) and co-author of *We, the Citizens*, a graphic novel on public policy. My personal claim to fame is that I can make almost anyone like economics!
 
 ## What I Do
 
@@ -29,22 +27,22 @@ I believe in making policy ideas accessible to everyone through writing, teachin
 
 ::: {.g-col-6}
 ### Research & Writing
-I write about high-technology geopolitics, Indian public policy, and political economy. My work appears in various publications and on my [blog](blog/).
+I write about economic policy, trade, platform economics, and bioeconomy. My work appears in various newspapers and other publications.
 :::
 
 ::: {.g-col-6}
 ### Teaching
-I design and teach courses on public policy, geopolitics, and strategic affairs at the [Takshashila Institution](courses.qmd).
+I teach economics and public policy at the [Takshashila Institution](courses.qmd).
 :::
 
 ::: {.g-col-6}
-### Podcast
-I co-host [Puliyabaazi](podcast.qmd), a Hindi-Urdu podcast on policy, economics, and technology.
+### Indian Public Policy Review
+I am the Managing Editor of [IPPR](ippr.qmd), a peer-reviewed, open-access journal on Indian public policy.
 :::
 
 ::: {.g-col-6}
-### Newsletter
-I co-write *Anticipating the Unintended*, a thoughtletter that break down complex policy issues into digestible insights. [Subscribe here](newsletter.qmd).
+### Books
+I co-authored [*We, the Citizens*](books.qmd), a graphic novel that decodes public policy in the Indian context.
 :::
 
 :::
@@ -58,7 +56,7 @@ I co-write *Anticipating the Unintended*, a thoughtletter that break down comple
     if (el) { el.click(); }
   ">
     <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16' style='margin-right:0.5rem;vertical-align:-2px'><path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.099zm-5.242 1.156a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11'/></svg>
-    Search posts, op-eds, talks…
+    Search posts, op-eds, publications…
   </button>
 </div>
 ```
@@ -69,5 +67,5 @@ I co-write *Anticipating the Unintended*, a thoughtletter that break down comple
 :::
 
 ```{=html}
-<a href="blog/" class="btn btn-outline-primary">View all posts →</a>
+<a href="op-eds/" class="btn btn-outline-primary">View all op-eds →</a>
 ```

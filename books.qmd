@@ -1,6 +1,5 @@
 ---
 title: "Books"
-description: "Books on public policy and economics"
 ---
 
 ## Published Books

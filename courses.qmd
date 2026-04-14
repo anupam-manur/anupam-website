@@ -1,18 +1,51 @@
 ---
 title: "Courses"
-description: "I teach economics and public policy at Takshashila's programmes"
 ---
 
 I teach courses at the [Takshashila Institution](https://takshashila.org.in) on economics and public policy.
 
+## Current Modules
+
+::: {.course-card}
+### Economic Reasoning for Public Policy
+
+Applying the concepts of economics to analyse and formulate public policy.
+
+**Course:** [GCPP](https://school.takshashila.org.in/gcpp-public-policy), [PGP](https://school.takshashila.org.in/pgp)
+:::
+
+::: {.course-card}
+### Information Economics
+
+A module on the economics of information goods, with a special focus on platform economics.
+
+**Course:** [GCPP - Tech Policy](https://school.takshashila.org.in/gcpp-technology-policy)
+:::
+
+::: {.course-card}
+### Strategic Economics
+
+A module on understanding economics statecraft.
+
+**Course:** [GCPP - Defence & Foreign Affairs](https://school.takshashila.org.in/gcpp-defence-foreign-affairs)
+:::
+
+::: {.course-card}
+### Policy Pathways
+
+A course on fundamentals of economics and public policy to 8th & 9th graders.
+
+**Course:** [GenWise Wizards](https://genwise.in/gsp-2026-may/wizards/)
+:::
+
+::: {.course-card}
+### Nagara
+
+I conduct a 3-hour long role-playing, democracy simulation game called Nagara, which is not only immensely enjoyable by participants, but is also a great teaching device to talk about government, policy, society and markets.
+:::
+
+---
+
 ## Guest Lectures
 
-I'm available for guest lectures on:
-
-- Economic Policy
-- Trade Policy
-- Platform Economics
-- Bioeconomy
-- Indian Public Policy
-
-[Contact me](mailto:anupam@takshashila.org.in) for speaking engagements.
+I'm available for guest lectures on Economic Policy, Trade and Geoeconomics, Platform Economics, Bioeconomy, and to conduct Nagara. [Contact me](mailto:anupam@takshashila.org.in) for speaking engagements.

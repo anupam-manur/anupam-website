@@ -1,21 +1,21 @@
 /*-- scss:defaults --*/
 
 // ── Colour palette ──────────────────────────────────────────────
-$primary:          #0D1F3C;   // deep navy
-$accent:           #B85C00;   // burnt amber (links, highlights)
-$accent-light:     #F5ECE0;   // amber tint (card bg)
-$secondary:        #4A5568;   // mid-slate (secondary text)
-$body-color:       #1A202C;   // near-black
-$headings-color:   #0D1F3C;   // navy
-$link-color:       #B85C00;   // amber
-$body-bg:          #FAFAF7;   // warm off-white
+$primary:          #2E2E2E;   // dark charcoal
+$accent:           #2D5F53;   // deep teal-green
+$accent-light:     #D6E4DF;   // pale minty sage
+$secondary:        #7A7A7A;   // medium grey
+$body-color:       #2E2E2E;   // dark charcoal
+$headings-color:   #2E2E2E;   // dark charcoal
+$link-color:       #2D5F53;   // deep teal-green
+$body-bg:          #E3EDE8;   // lighter minty sage
 
 // ── Typography ───────────────────────────────────────────────────
 $font-family-sans-serif: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-$headings-font-family:   "Playfair Display", Georgia, "Times New Roman", serif;
+$headings-font-family:   "Sorts Mill Goudy", Georgia, "Times New Roman", serif;
 $font-size-base:   1.05rem;
 $line-height-base: 1.8;
-$headings-font-weight: 700;
+$headings-font-weight: 1000;
 
 // ── Bootstrap overrides ──────────────────────────────────────────
 $border-radius:    6px;
@@ -24,7 +24,7 @@ $card-border-radius: 8px;
 /*-- scss:rules --*/
 
 // ── Fonts ─────────────────────────────────────────────────────────
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap');
 
 // ── Base ──────────────────────────────────────────────────────────
 html {
@@ -69,7 +69,7 @@ a {
 // ── Navbar ────────────────────────────────────────────────────────
 .navbar {
   background-color: $body-bg !important;
-  border-bottom: 1px solid #E2DDD6;
+  border-bottom: 1px solid #E8E8E8;
   padding: 0.75rem 1rem;
 
   .navbar-brand {
@@ -98,8 +98,8 @@ a {
 
   // Dropdown
   .dropdown-menu {
-    background: #fff;
-    border: 1px solid #E2DDD6;
+    background: #F0F5F2;
+    border: 1px solid #E8E8E8;
     border-radius: 6px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     padding: 0.4rem 0;
@@ -224,7 +224,7 @@ a {
 
 .quarto-listing-default {
   .listing-item {
-    border-bottom: 1px solid #E8E8E2;
+    border-bottom: 1px solid #E8E8E8;
     padding: 1.5rem 0;
     margin: 0;
 
@@ -301,7 +301,7 @@ a {
   }
 
   tbody tr {
-    border-bottom: 1px solid #EBEBЕ5;
+    border-bottom: 1px solid #E8E8E8;
     transition: background 0.12s;
 
     &:hover { background: $accent-light; }
@@ -403,7 +403,7 @@ a {
   padding: 1.75rem;
   border: 1px solid #E2E8F0;
   border-radius: 8px;
-  background: #fff;
+  background: #F0F5F2;
   transition: box-shadow 0.2s;
 
   &:hover {
@@ -425,7 +425,7 @@ a {
 
 // ── Course cards ──────────────────────────────────────────────────
 .course-card {
-  background: #fff;
+  background: #F0F5F2;
   border: 1px solid #E2E8F0;
   border-top: 3px solid $primary;
   padding: 1.5rem 1.75rem;
@@ -446,7 +446,7 @@ a {
 
 // ── Newsletter card ───────────────────────────────────────────────
 .newsletter-card {
-  background: #fff;
+  background: #F0F5F2;
   border: 1px solid #E2E8F0;
   padding: 2rem;
   border-radius: 8px;
@@ -502,7 +502,7 @@ blockquote {
 // ── Dividers ─────────────────────────────────────────────────────
 hr {
   border: none;
-  border-top: 1px solid #E8E8E2;
+  border-top: 1px solid #E8E8E8;
   margin: 2.5rem 0;
 }
 
@@ -510,7 +510,7 @@ hr {
 .nav-footer {
   background: transparent;
   color: $secondary;
-  border-top: 1px solid #E2DDD6;
+  border-top: 1px solid #E8E8E8;
   padding: 1.5rem 0;
   font-size: 0.83rem;
   margin-top: 5rem;
@@ -528,7 +528,7 @@ hr {
 // Applies on individual blog post pages (not listing pages)
 .quarto-title ~ * p,
 #quarto-document-content p {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Sorts Mill Goudy", Georgia, serif;
   font-size: 1.08rem;
   font-weight: 400;
   line-height: 1.85;
@@ -591,9 +591,9 @@ hr {
 .read-more-box {
   margin-top: 2.5rem;
   padding: 1.25rem 1.5rem;
-  border: 1.5px solid #E2DDD6;
+  border: 1.5px solid #E8E8E8;
   border-radius: 6px;
-  background: #fff;
+  background: #F0F5F2;
   font-family: $font-family-sans-serif;
   font-size: 0.92rem;
   color: $secondary;
@@ -679,7 +679,7 @@ hr {
 // ── TOC ───────────────────────────────────────────────────────────
 #TOC {
   font-size: 0.87rem;
-  border-left: 2px solid #E8E8E2;
+  border-left: 2px solid #E8E8E8;
 
   a {
     color: $secondary;
@@ -712,7 +712,7 @@ hr {
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%230D1F3C' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%232E2E2E' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 // ── Accessibility ────────────────────────────────────────────────
@@ -800,8 +800,8 @@ hr {
   width: 100%;
   max-width: 520px;
   padding: 0.7rem 1.1rem;
-  background: #fff;
-  border: 1.5px solid #D4CECC;
+  background: #F0F5F2;
+  border: 1.5px solid #E8E8E8;
   border-radius: 8px;
   color: $secondary;
   font-size: 0.95rem;
@@ -865,7 +865,7 @@ hr {
 
 .talks-toc {
   + ul {
-    background: #F0EDE8;
+    background: #D6E4DF;
     border-radius: $border-radius;
     padding: 1rem 1rem 1rem 2rem;
     margin-bottom: 2rem;

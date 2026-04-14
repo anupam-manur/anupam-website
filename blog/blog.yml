@@ -1,2 +1,433 @@
 # Blog posts — add new entries at the top
-[]
+- title: "India is the Pharmacy of the World. But We Are Losing the Drug Development Race"
+  date: 2026-03-31
+  description: "Takshashila Institution"
+  path: "https://takshashila.org.in/content/blogs/20260331-india-pharmacy-world-drug-development.html"
+  categories: [Bioeconomy, Economic Policy]
+
+- title: "FTA and Public Health"
+  date: 2025-08-01
+  description: "Takshashila Institution"
+  path: "https://takshashila.org.in/content/blogs/20250801-Ind-UK-FTA-Food.html"
+  categories: [Trade, Bioeconomy]
+
+- title: "India-UK sign FTA"
+  date: 2025-07-25
+  description: "Takshashila Institution"
+  path: "https://takshashila.org.in/content/blogs/2025-07-25-India-UK-FTA.html"
+  categories: [Trade, Geoeconomics]
+
+- title: "What's the point of a trade deal?"
+  date: 2025-05-24
+  description: "Takshashila Institution"
+  path: "https://takshashila.org.in/content/blogs/2025-05-24-Futility-of-Trade-Deals.html"
+  categories: [Trade, Geoeconomics]
+
+- title: "1.5 stars for the rating system — How the rating system is breaking!"
+  date: 2023-08-06
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/1-5-stars-for-the-rating-system-how-the-rating-system-is-breaking-e717137166a7"
+  categories: [Platform Economics]
+
+- title: "How not to Regulate"
+  date: 2023-04-18
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/how-not-to-regulate-27d43b3c6499"
+  categories: [Public Policy]
+
+- title: "Consumer abandonment due to annoying ads"
+  date: 2017-10-13
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/consumer-abandonment-due-to-annoying-ads-23ec29f5f470"
+  categories: [Platform Economics]
+
+- title: "Exclusion through apps"
+  date: 2017-10-03
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/exclusion-through-apps-919fc5fc581b"
+  categories: [Public Policy]
+
+- title: "The Indian (government's) definition of luxury"
+  date: 2017-07-03
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/the-indian-governments-definition-of-luxury-61c5d9272cc2"
+  categories: [Public Policy]
+
+- title: "What will be done with the additional tax revenue?"
+  date: 2017-07-02
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/what-will-be-done-with-the-additional-tax-revenue-866a0e389f25"
+  categories: [Public Finance]
+
+- title: "BRO at your service"
+  date: 2017-06-26
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/bro-at-your-service-be80033614ca"
+  categories: [Public Policy]
+
+- title: "The threat of IT job losses in India"
+  date: 2017-05-29
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/the-threat-of-it-job-losses-in-india-574f9dbe6b9f"
+  categories: [Public Policy]
+
+- title: "You can be pro-poor without resorting to populism"
+  date: 2017-05-24
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/you-can-be-pro-poor-without-resorting-to-populism-e1ddaeed95c9"
+  categories: [Public Policy]
+
+- title: "Do Anti-Poverty Programmes backfire?"
+  date: 2017-04-05
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/do-anti-poverty-programmes-backfire-6a1633e5f03"
+  categories: [Economic Policy]
+
+- title: "Time Lags in Price Mechanism"
+  date: 2017-02-10
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/time-lags-in-price-mechanism-d2252449137e"
+  categories: [Economic Policy]
+
+- title: "Budget 2017 and the Digital Economy"
+  date: 2017-02-08
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/budget-2017-and-the-digital-economy-8b28b9b6bb5b"
+  categories: [Economic Policy, Public Finance]
+
+- title: "Does the Govt. need to go cashless?"
+  date: 2016-12-16
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/does-the-govt-need-to-go-cashless-3e72e5e44e74"
+  categories: [Technology Policy]
+
+- title: "Trump, globalisation, and Indian trade"
+  date: 2016-11-15
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/trump-globalisation-and-indian-trade-c3b55dbc7a14"
+  categories: [Trade, Geoeconomics]
+
+- title: "Aftermath of Venezuelan Socialism"
+  date: 2016-11-02
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/aftermath-of-venezuelan-socialism-a74546ccf97"
+  categories: [Geoeconomics]
+
+- title: "Boycotting Chinese goods: Impractical and harms the national interest"
+  date: 2016-10-13
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/boycotting-chinese-goods-impractical-and-harms-the-national-interest-5f035bec5850"
+  categories: [Geoeconomics]
+
+- title: "Commercial models for Public Wi-Fi"
+  date: 2016-10-12
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/commercial-models-for-public-wi-fi-56e0c5131730"
+  categories: [Technology Policy]
+
+- title: "Structural Reforms: What are they and how do you go about it?"
+  date: 2016-09-06
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/structural-reforms-what-are-they-and-how-do-you-go-about-it-d25d34dd00b7"
+  categories: [Public Policy]
+
+- title: "Problems with Movement of Goods within India"
+  date: 2016-08-04
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/problems-with-movement-of-goods-within-india-a2b538e78401"
+  categories: [Public Policy]
+
+- title: "Karnataka vs. Cab-Aggregators (Part II)"
+  date: 2016-05-30
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/karnataka-vs-cab-aggregators-part-ii-67a8d9ad52d6"
+  categories: [Platform Economics]
+
+- title: "Rent Control in Mumbai"
+  date: 2016-05-19
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/rent-control-in-mumbai-eb2bd14669f6"
+  categories: [Public Policy]
+
+- title: "A Ban on Surge Pricing will Create Shortages"
+  date: 2016-04-13
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/a-ban-on-surge-pricing-will-create-shortages-e6465c9832bb"
+  categories: [Platform Economics]
+
+- title: "Distortionary Public Policy"
+  date: 2016-04-06
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/distortionary-public-policy-275b7ad09f02"
+  categories: [Public Policy]
+
+- title: "8th Standard Pass Yaake?"
+  date: 2016-03-30
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/8th-standard-pass-yaake-f97ae366939"
+  categories: [Public Policy]
+
+- title: "Geoeconomics Round-up"
+  date: 2016-03-18
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/geoeconomics-round-up-5717c94b0496"
+  categories: [Geoeconomics]
+
+- title: "Allocative Efficiency vs. Social welfare"
+  date: 2016-03-18
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/allocative-efficiency-vs-social-welfare-1cd124aadb68"
+  categories: [Public Policy]
+
+- title: "Budgets, Cigarettes, and MRP"
+  date: 2016-02-22
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/budgets-cigarettes-and-mrp-461448e26dd4"
+  categories: [Economic Policy, Public Finance]
+
+- title: "Why are petrol prices not decreasing?"
+  date: 2016-02-20
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/why-are-petrol-prices-not-decreasing-2129ae35422c"
+  categories: [Economic Policy]
+
+- title: "Growth, Urbanisation, and Poverty Reduction in India"
+  date: 2016-02-17
+  description: "Medium"
+  path: "https://medium.com/anupam-logos-archives/growth-urbanisation-and-poverty-reduction-in-india-4d201fa60fbd"
+  categories: [Economic Policy]
+
+- title: "Price of Dosas"
+  date: 2016-02-15
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/price-of-dosas-3d07c602cde5"
+  categories: [Economic Policy]
+
+- title: "Karnataka vs Cab-Aggregators"
+  date: 2016-02-15
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/karnataka-vs-cab-aggregators-4a93447ecc64"
+  categories: [Platform Economics]
+
+- title: "Inflation in India — Part 2"
+  date: 2016-02-13
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/inflation-in-india-part-2-8e0316f2d28d"
+  categories: [Economic Policy]
+
+- title: "Inflation in India — Part 1"
+  date: 2016-02-12
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/inflation-in-india-part-1-1f2bc7e9f1e7"
+  categories: [Economic Policy]
+
+- title: "Aftermath of Venezuelan Socialism"
+  date: 2016-02-07
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/aftermath-of-venezuelan-socialism-b163d7082d9f"
+  categories: [Geoeconomics]
+
+- title: "Changes in FDI Regulation in 2015"
+  date: 2016-01-31
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/changes-in-fdi-regulation-in-2015-8627f9a5c019"
+  categories: [Economic Policy]
+
+- title: "Postcard from Kodaikanal"
+  date: 2016-01-29
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/postcard-from-kodaikanal-6b6da36b8f86"
+  categories: [Public Policy]
+
+- title: "Has Modi lost the Narrative Dominance?"
+  date: 2016-01-21
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/has-modi-lost-the-narrative-dominance-6ae4b03b0eaf"
+  categories: [Geoeconomics]
+
+- title: "Flavoursome Financial Instruments"
+  date: 2016-01-21
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/flavoursome-financial-instruments-b19a7dfab1be"
+  categories: [Public Policy]
+
+- title: "Taking advantage of lower commodity prices"
+  date: 2016-01-13
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/taking-advantage-of-lower-commodity-prices-ea3a76ecfe67"
+  categories: [Economic Policy, Geoeconomics]
+
+- title: "The Chinese Debt Burden"
+  date: 2016-01-08
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/the-chinese-debt-burden-f43aeb3bc27c"
+  categories: [Economic Policy, Geoeconomics]
+
+- title: "Brazilian Economy in the Doldrums"
+  date: 2016-01-07
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/brazilian-economy-in-the-doldrums-a9fd6558ac78"
+  categories: [Economic Policy, Geoeconomics]
+
+- title: "Ministry of Risk Management"
+  date: 2016-01-05
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/ministry-of-risk-management-c8bf7ceddbe7"
+  categories: [Public Policy]
+
+- title: "Karnataka's confounding solar policy"
+  date: 2015-12-02
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/karnatakas-confounding-solar-policy-9d4b20ed13d9"
+  categories: [Technology Policy, Platform Economics]
+
+- title: "Upholding Economic Freedom"
+  date: 2015-11-30
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/upholding-economic-freedom-b881f6b7c295"
+  categories: [Public Policy]
+
+- title: "Costly Holidays"
+  date: 2015-09-26
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/costly-holidays-15629687195b"
+  categories: [Public Policy]
+
+- title: "Glittery Alternatives"
+  date: 2015-09-13
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/glittery-alternatives-b1bbb1d0a13c"
+  categories: [Public Policy]
+
+- title: "The Need for Clarity in the Revised IFC"
+  date: 2015-08-11
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/the-need-for-clarity-in-the-revised-ifc-cc9a5300daa8"
+  categories: [Public Policy]
+
+- title: "A Fiscal Lesson for Monetary Policy"
+  date: 2015-08-05
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/a-fiscal-lesson-for-monetary-policy-d71513f3da2e"
+  categories: [Economic Policy]
+
+- title: "Central Bank Independence — Part II"
+  date: 2015-07-30
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/central-bank-independence-part-ii-2c9e9e65ffa0"
+  categories: [Public Policy]
+
+- title: "The Macroeconomic Case for Central Bank Independence — II"
+  date: 2015-07-30
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/the-macroeconomic-case-for-central-bank-independence-ii-23aa4095ec66"
+  categories: [Economic Policy]
+
+- title: "The Macroeconomic Case for Central Bank Independence — I"
+  date: 2015-07-30
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/the-macroeconomic-case-for-central-bank-independence-i-76755333009e"
+  categories: [Economic Policy]
+
+- title: "Central Bank Independence — Part I"
+  date: 2015-07-21
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/central-bank-independence-part-i-9a4cf9e2001f"
+  categories: [Public Policy]
+
+- title: "Divergence between Wholesale and Retail Inflation"
+  date: 2015-07-15
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/divergence-between-wholesale-and-retail-inflation-b3a2d61b2b43"
+  categories: [Economic Policy]
+
+- title: "Do 'Make in India' and 'Startup India' go together?"
+  date: 2015-07-10
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/do-make-in-india-and-startup-india-go-together-3c4f38a50a79"
+  categories: [Public Policy]
+
+- title: "Snippets from the Greek Crisis"
+  date: 2015-06-30
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/snippets-from-the-greek-crisis-b2bae4adc5ce"
+  categories: [Geoeconomics]
+
+- title: "Deadly Taxes"
+  date: 2015-06-24
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/deadly-taxes-9308e54b3e89"
+  categories: [Public Finance]
+
+- title: "The Economic Consequences of Debt Repayment"
+  date: 2015-06-22
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/the-economic-consequences-of-debt-repayment-3b7e1e113ecb"
+  categories: [Economic Policy, Technology Policy]
+
+- title: "Demonetising a currency"
+  date: 2015-06-17
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/demonetising-a-currency-1e6acb37e2fe"
+  categories: [Economic Policy]
+
+- title: "Narendra Modi's One Year — A review of reviews"
+  date: 2015-06-06
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/narendra-modis-one-year-a-review-of-reviews-3f23f61f8dc2"
+  categories: [Geoeconomics]
+
+- title: "Potential Output — Importance and Estimation"
+  date: 2015-05-23
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/potential-output-importance-and-estimation-1e8e4dc6b4f3"
+  categories: [Trade]
+
+- title: "The Pritchett Test for Evaluating Policy Programs"
+  date: 2015-05-06
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/the-pritchett-test-for-evaluating-policy-programs-66f6b4e8a19b"
+  categories: [Public Policy]
+
+- title: "Why is the Dollar the World's Reserve Currency?"
+  date: 2015-04-24
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/why-is-the-dollar-the-worlds-reserve-currency-96f2d0502fd7"
+  categories: [Geoeconomics]
+
+- title: "The Murky Connections between Trade and Exchange Rate"
+  date: 2015-04-23
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/the-murky-connections-between-trade-and-exchange-rate-d0d12fcc0e54"
+  categories: [Trade]
+
+- title: "Using Price Discrimination to ensure Net Neutrality"
+  date: 2015-04-17
+  description: "Medium"
+  path: "https://medium.com/@anupammanur/using-price-discrimination-to-ensure-net-neutrality-b5dff0e20e49"
+  categories: [Economic Policy, Technology Policy]
+
+- title: "Does a strong currency mean a strong economy?"
+  date: 2015-04-13
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/does-a-strong-currency-mean-a-strong-economy-fcfa2e03f4fc"
+  categories: [Economic Policy]
+
+- title: "Making Sense of India's Latest GDP Figures"
+  date: 2015-02-11
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/making-sense-of-indias-latest-gdp-figures-a0804b3cceaa"
+  categories: [Economic Policy]
+
+- title: "Snapshot of India's Export Industries"
+  date: 2015-02-10
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/snapshot-of-indias-export-industries-aadef124d2d7"
+  categories: [Trade]
+
+- title: "Deflationary trend in the world economy"
+  date: 2015-02-04
+  description: "Medium"
+  path: "https://medium.com/indian-national-interest/deflationary-trend-in-the-world-economy-2e5c19b8e3bc"
+  categories: [Economic Policy]
+

@@ -2,7 +2,7 @@
 title: "Anupam Manur"
 subtitle: "Professor | Author | Economist"
 about:
-  template: trestles
+  template: solana
   image: images/anupam-profile.jpeg
   image-shape: round
   links:

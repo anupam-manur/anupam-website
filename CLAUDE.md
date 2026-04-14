@@ -33,13 +33,14 @@ Your article text here.
 ```
 
 **Canonical categories (use these consistently):**
-- `Economy`
+- `Economic Policy`
 - `Trade`
+- `Geoeconomics`
+- `Public Finance`
+- `Technology Policy`
+- `Public Policy`
 - `Platform Economics`
 - `Bioeconomy`
-- `Public Policy`
-- `Public Finance`
-- `Political Economy`
 
 **Optional: pull quote in right margin**
 ```markdown
@@ -197,11 +198,12 @@ ippr.qmd
 
 | Role | Value |
 |---|---|
-| Primary (navy) | `#0D1F3C` |
-| Accent (amber) | `#B85C00` |
-| Accent light (tint) | `#F5ECE0` |
+| Primary (charcoal) | `#2E2E2E` |
+| Accent (teal-green) | `#7A9E96` |
+| Accent light (sage) | `#D6E4DF` |
+| Background | `#F2F5F2` |
 | Body font | DM Sans (Google Fonts) |
-| Heading / body-text font | Playfair Display (Google Fonts) |
+| Heading / body-text font | Cormorant (Google Fonts) |
 
 To change colours, edit the variables at the top of `styles.scss`.
 

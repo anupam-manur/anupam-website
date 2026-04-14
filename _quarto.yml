@@ -15,7 +15,7 @@ website:
   site-url: https://anupammanur.com
 
   navbar:
-    background: "#1a1a2e"
+    background: "#F2F5F2"
     foreground: "#ffffff"
     left:
       - text: "Home"
@@ -30,6 +30,8 @@ website:
             href: blog/index.qmd
       - text: "Books"
         href: books.qmd
+      - text: "Media"
+        href: media.qmd
       - text: "Courses"
         href: courses.qmd
       - text: "IPPR"

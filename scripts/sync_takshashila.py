@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-sync_takshashila.py — scrape Pranay Kotasthane's content from takshashila.org.in
+sync_takshashila.py — scrape Anupam Manur's content from takshashila.org.in
 and update the YAML listing files on the personal website.
 
 Run locally:   pip install requests beautifulsoup4 && python scripts/sync_takshashila.py
@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 # Config
 # ---------------------------------------------------------------------------
 
-TEAM_PAGE = "https://takshashila.org.in/content/team/pranay-kotasthane.html"
+TEAM_PAGE = "https://takshashila.org.in/content/team/anupam-manur.html"
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PUBS_YAML  = os.path.join(REPO_ROOT, "publications", "publications.yml")
@@ -28,7 +28,7 @@ OPEDS_YAML = os.path.join(REPO_ROOT, "op-eds", "op-eds.yml")
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (compatible; TakshashilaSync/1.0; "
-        "+https://github.com/pranay-website)"
+        "+https://github.com/anupam-website)"
     )
 }
 
@@ -39,96 +39,109 @@ TIMEOUT = 20  # seconds
 # ---------------------------------------------------------------------------
 
 CATEGORY_KEYWORDS: dict[str, list[str]] = {
-    "Semiconductor Geopolitics": [
-        "semiconductor", "chip", "tsmc", "fab", "pax silica", "siliconpolitik",
-        "chipmaking", "wafer", "intel foundry", "samsung foundry",
+    "Economic Policy": [
+        "economy", "gdp", "growth", "inflation", "monetary", "rbi",
+        "interest rate", "fiscal", "demonetis", "recession", "macro",
+        "investment", "capital", "market", "employment", "labour",
+        "labor", "jobs", "wage", "subsidy", "price", "mrp",
     ],
-    "Critical Minerals": [
-        "rare earth", "critical mineral", "lithium", "cobalt", "battery",
-        "graphite", "nickel", "manganese", "tungsten", "gallium", "germanium",
+    "Trade": [
+        "trade", "tariff", "export", "import", "fta", "wto",
+        "supply chain", "protectionism", "dumping", "quota",
+        "trade war", "trade deal", "trade deficit",
     ],
-    "AI Geopolitics": [
-        "artificial intelligence", " ai ", "machine learning", "llm",
-        "open source ai", "h20", "nvidia", "large language model",
-        "generative ai", "openai",
-    ],
-    "Technology Policy": [
-        "technology", "innovation", "digital", "cyber", "open tech",
-        "data centre", "data center", "software", "hardware", "telecom",
-        "5g", "internet", "electronics",
+    "Geoeconomics": [
+        "geopolit", "geoeconom", "sanction", "swift", "indo-pacific",
+        "china", "pakistan", "trump", "g20", "ipef", "quad",
+        "foreign policy", "bilateral", "multilateral",
+        "india-us", "india-eu", "brexit", "diplomac",
     ],
     "Public Finance": [
-        "budget", "fiscal", "finance commission", "tax", "pension",
-        "expenditure", "revenue", "deficit", "subsidy", "gst",
+        "budget", "finance commission", "tax", "gst", "pension",
+        "expenditure", "revenue", "deficit", "public debt",
+        "fiscal policy", "government spend",
     ],
-    "India Foreign Policy": [
-        "pakistan", "china", "afghanistan", "foreign policy", "quad",
-        "taiwan", "iran", "indo-pacific", "geopolit", "diplomac",
-        "bilateral", "multilateral", "india-us", "india-eu", "india-japan",
-        "india-australia", "india-canada", "india-uk",
+    "Technology Policy": [
+        "technology", "digital", "cyber", "fintech", "internet",
+        "data", "electronics", "laptop", "semiconductor", "chip",
+        "5g", "telecom", "software", "cashless", "payment",
+        "artificial intelligence", " ai ",
     ],
-    "Political Economy": [
-        "economy", "trade", "supply chain", "tariff", "market",
-        "gdp", "growth", "inflation", "employment", "labour", "labor",
+    "Platform Economics": [
+        "platform", "uber", "ola", "amazon", "flipkart", "swiggy",
+        "zomato", "gig worker", "gig economy", "e-commerce",
+        "ecommerce", "aggregator", "marketplace", "surge pricing",
+        "food delivery", "ride-hailing", "app-based",
+    ],
+    "Bioeconomy": [
+        "bioeconomy", "pharma", "drug", "medicine", "health",
+        "vaccine", "e-cigarette", "ivf", "stent", "medical",
+        "hospital", "e-pharmacy", "clinical trial",
     ],
     # "Public Policy" is the fallback — no keywords needed
 }
 
 # Takshashila category strings → canonical category names
 TAKS_CATEGORY_MAP: dict[str, str] = {
-    "semiconductor": "Semiconductor Geopolitics",
-    "critical minerals": "Critical Minerals",
-    "artificial intelligence": "AI Geopolitics",
-    "ai": "AI Geopolitics",
-    "technology policy": "Technology Policy",
+    "economic policy": "Economic Policy",
+    "economy": "Economic Policy",
+    "macroeconomics": "Economic Policy",
+    "trade": "Trade",
+    "trade policy": "Trade",
+    "geoeconomics": "Geoeconomics",
+    "geopolitics": "Geoeconomics",
+    "foreign policy": "Geoeconomics",
     "public finance": "Public Finance",
-    "foreign policy": "India Foreign Policy",
-    "india foreign policy": "India Foreign Policy",
-    "political economy": "Political Economy",
+    "technology policy": "Technology Policy",
+    "technology": "Technology Policy",
+    "artificial intelligence": "Technology Policy",
+    "ai": "Technology Policy",
+    "platform economics": "Platform Economics",
+    "digital economy": "Platform Economics",
+    "bioeconomy": "Bioeconomy",
+    "health": "Bioeconomy",
     "public policy": "Public Policy",
 }
 
-# Domain → publication name
+# Domain → publication name (sourced from Anupam's op-eds page)
 DOMAIN_MAP: dict[str, str] = {
-    "hindustantimes.com": "Hindustan Times",
-    "thehindu.com": "The Hindu",
+    # Primary outlets
     "indianexpress.com": "Indian Express",
     "timesofindia.indiatimes.com": "Times of India",
-    "theprint.in": "The Print",
-    "livemint.com": "Mint",
-    "nitinpai.in": "Mint",
     "moneycontrol.com": "Moneycontrol",
-    "scroll.in": "Scroll.in",
-    "thediplomat.com": "The Diplomat",
-    "scmp.com": "South China Morning Post",
-    "asia.nikkei.com": "Nikkei Asia",
-    "nikkei.com": "Nikkei Asia",
-    "theatlantic.com": "The Atlantic",
-    "foreignpolicy.com": "Foreign Policy",
-    "foreignaffairs.com": "Foreign Affairs",
-    "orfonline.org": "ORF",
-    "epw.in": "Economic and Political Weekly",
+    "hindustantimes.com": "Hindustan Times",
+    "thehindu.com": "The Hindu",
+    "livemint.com": "Mint",
     "deccanherald.com": "Deccan Herald",
+    "theprint.in": "The Print",
     "firstpost.com": "Firstpost",
-    "news18.com": "News18",
     "ndtv.com": "NDTV",
-    "telegraphindia.com": "Telegraph India",
+    "news18.com": "News18",
+    # Business / financial
+    "businesstoday.in": "Business Today",
+    "bloombergquint.com": "Bloomberg Quint",
+    "financialexpress.com": "Financial Express",
+    "archive.financialexpress.com": "Financial Express",
+    # Regional / vernacular
+    "prajavani.net": "Prajavani",
+    "deccanchronicle.com": "Deccan Chronicle",
+    "naiduniaepaper.jagran.com": "Naiduniya",
+    "bangalore.citizenmatters.in": "Citizen Matters",
+    "citizenmatters.in": "Citizen Matters",
+    # Digital-native
+    "scroll.in": "Scroll",
+    "thereel.scroll.in": "Scroll",
     "thequint.com": "The Quint",
-    "business-standard.com": "Business Standard",
-    "outlookindia.com": "Outlook India",
-    "thewire.in": "The Wire",
-    "m.thewire.in": "The Wire",
-    "aspistrategist.org.au": "ASPI – The Strategist",
-    "lkyspp.nus.edu.sg": "Centre on Asia and Globalisation, NUS",
-    "indiasworld.in": "India's World",
-    "www.indiasworld.in": "India's World",
-    "casi.sas.upenn.edu": "CASI, University of Pennsylvania",
-    "southasianvoices.org": "South Asian Voices (Stimson Center)",
-    "hinrichfoundation.com": "Hinrich Foundation",
-    "ozy.com": "Ozy",
-    "thinkpragati.com": "ThinkPragati",
-    "isas.nus.edu.sg": "ISAS, National University of Singapore",
-    "www.isas.nus.edu.sg": "ISAS, National University of Singapore",
+    "factordaily.com": "Factor Daily",
+    "thedialogue.co": "The Dialogue",
+    # Policy / opinion platforms
+    "thinkpragati.com": "Pragati",
+    "nationalinterest.in": "Pragati",
+    "pragati.nationalinterest.in": "Pragati",
+    # International
+    "asiaglobalonline.hku.hk": "AsiaGlobal Online",
+    # Blogs
+    "medium.com": "Medium",
 }
 
 
@@ -370,7 +383,7 @@ def build_pub_description(pub_type: str, authors: list[str]) -> str:
     Build the 'description' field, e.g.
     'Takshashila Discussion Document · with Co-author A and Co-author B'
     """
-    co_authors = [a for a in authors if "Pranay" not in a]
+    co_authors = [a for a in authors if "Anupam" not in a]
     desc = pub_type if pub_type else "Takshashila Publication"
     if co_authors:
         if len(co_authors) == 1:
@@ -440,11 +453,11 @@ def scrape_blogs(soup: BeautifulSoup, existing_paths: set[str]) -> list[dict]:
         return new_entries
 
     for item in container.select(".listing-item, article, .quarto-post"):
-        # Author filter — only include posts by Pranay
+        # Author filter — only include posts by Anupam
         author_el = item.select_one(".listing-author, .listing-authors")
         if author_el:
             author_text = author_el.get_text()
-            if "Pranay" not in author_text:
+            if "Anupam" not in author_text:
                 continue
 
         link_el = item.select_one(".listing-title a") or item.select_one("a[href]")
@@ -467,7 +480,7 @@ def scrape_blogs(soup: BeautifulSoup, existing_paths: set[str]) -> list[dict]:
         if author_el:
             all_authors = [
                 a.strip() for a in re.split(r",|and", author_el.get_text())
-                if a.strip() and "Pranay" not in a
+                if a.strip() and "Anupam" not in a
             ]
             if all_authors:
                 description += " · with " + ", ".join(all_authors)
@@ -499,7 +512,7 @@ def scrape_opeds(soup: BeautifulSoup, existing_paths: set[str]) -> list[dict]:
         # Author filter
         author_el = item.select_one(".listing-author, .listing-authors")
         if author_el:
-            if "Pranay" not in author_el.get_text():
+            if "Anupam" not in author_el.get_text():
                 continue
 
         link_el = item.select_one(".listing-title a") or item.select_one("a[href]")

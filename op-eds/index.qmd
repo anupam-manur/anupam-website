@@ -1,6 +1,5 @@
 ---
 title: "Op-eds"
-description: "Opinion pieces I have authored or co-authored in newspapers and magazines"
 listing:
   - id: op-eds-list
     contents:

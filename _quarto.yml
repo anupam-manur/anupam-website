@@ -7,53 +7,49 @@ project:
   resources:
     - robots.txt
     - llms.txt
-    - assets/slides/
+    - CNAME
 
 website:
-  title: "Pranay Kotasthane"
-  description: "Policy researcher, educator, and writer"
-  site-url: https://pranaykotas.com
+  title: "Anupam Manur"
+  description: "Economics professor, author, and policy researcher"
+  site-url: https://anupammanur.com
 
   navbar:
-    background: "#1a1a2e"
+    background: "#F2F5F2"
     foreground: "#ffffff"
     left:
       - text: "Home"
         href: index.qmd
       - text: "Writing"
         menu:
-          - text: "Blog"
-            href: blog/index.qmd
           - text: "Op-eds"
             href: op-eds/index.qmd
           - text: "Publications"
             href: publications/index.qmd
+          - text: "Blog"
+            href: blog/index.qmd
       - text: "Books"
         href: books.qmd
+      - text: "Media"
+        href: media.qmd
       - text: "Courses"
         href: courses.qmd
-      - text: "Talks"
-        href: talks.qmd
-      - text: "Big Ideas"
-        href: big-ideas.qmd
+      - text: "IPPR"
+        href: ippr.qmd
     right:
-      - text: "Newsletter"
-        href: newsletter.qmd
-      - text: "Podcast"
-        href: podcast.qmd
       - icon: rss
         href: blog/index.xml
         aria-label: RSS Feed
       - icon: twitter
-        href: https://twitter.com/pranaykotas
+        href: https://twitter.com/anupammanur
         aria-label: Twitter
       - icon: linkedin
-        href: https://linkedin.com/in/pranaykotasthane
+        href: https://linkedin.com/in/anupam-manur
         aria-label: LinkedIn
 
   page-footer:
     left: |
-      &copy; 2025 Pranay Kotasthane
+      &copy; 2025 Anupam Manur
     center: |
       Made with [Quarto](https://quarto.org)
     right: |
@@ -64,17 +60,17 @@ website:
   search: true
 
   open-graph:
-    title: "Pranay Kotasthane"
-    description: "Policy researcher, educator, and writer at the Takshashila Institution. Writing on semiconductor geopolitics, critical minerals, technology policy, and Indian public finance."
-    image: images/Pranay-official.jpeg
-    site-name: "Pranay Kotasthane"
+    title: "Anupam Manur"
+    description: "Economics professor, author, and policy researcher at the Takshashila Institution. Research on economic policy, trade, platform economics, and bioeconomy."
+    image: images/anupam-profile.jpeg
+    site-name: "Anupam Manur"
 
   twitter-card:
-    title: "Pranay Kotasthane"
-    description: "Policy researcher, educator, and writer at the Takshashila Institution. Writing on semiconductor geopolitics, critical minerals, technology policy, and Indian public finance."
-    image: images/Pranay-official.jpeg
+    title: "Anupam Manur"
+    description: "Economics professor, author, and policy researcher at the Takshashila Institution. Research on economic policy, trade, platform economics, and bioeconomy."
+    image: images/anupam-profile.jpeg
     card-style: summary_large_image
-    creator: "@pranaykotas"
+    creator: "@anupammanur"
 
 format:
   html:

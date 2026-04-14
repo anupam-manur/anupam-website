@@ -7,7 +7,7 @@ toc: false
 ```{=html}
 <div class="not-found-container">
   <div class="not-found-code">404</div>
-  <p class="not-found-tagline">Yogakshema: Strength is power. And well-being is the goal.</p>
+  <p class="not-found-tagline">This page seems to have been lost to a market failure.</p>
   <p class="not-found-sub">The page you're looking for may have moved, been renamed, or never existed — much like several promised reforms.</p>
 
   <div class="not-found-links">
@@ -15,11 +15,9 @@ toc: false
     <a href="/blog/" class="btn btn-outline-primary">Blog</a>
     <a href="/op-eds/" class="btn btn-outline-primary">Op-eds</a>
     <a href="/publications/" class="btn btn-outline-primary">Publications</a>
-    <a href="/talks.html" class="btn btn-outline-primary">Talks</a>
     <a href="/books.html" class="btn btn-outline-primary">Books</a>
     <a href="/courses.html" class="btn btn-outline-primary">Courses</a>
-    <a href="/podcast.html" class="btn btn-outline-primary">Podcast</a>
-    <a href="/newsletter.html" class="btn btn-outline-primary">Newsletter</a>
+    <a href="/ippr.html" class="btn btn-outline-primary">IPPR</a>
   </div>
 
   <p class="not-found-search">Or try searching for what you need:</p>
@@ -31,7 +29,7 @@ toc: false
       if (inp) inp.focus();
     }
   ">
-    🔍 Search this site
+    Search this site
   </button>
 </div>
 ```

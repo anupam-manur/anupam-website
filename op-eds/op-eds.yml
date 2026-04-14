@@ -1,652 +1,631 @@
-# Op-eds listing
-# Add new entries at the top. Fields:
-#   title:       Article headline
-#   date:        YYYY-MM-DD
-#   description: Publication name (shown in the "Publication" column)
-#   path:        Full URL to the published piece
-#   categories:  List of tags, e.g. [Geopolitics, Technology]
-#
-# Note: Mint/"The Intersection" articles link to nitinpai.in (where the column
-# is republished) because livemint.com blocks external access.
+# Op-eds listing — add new entries at the top
 
-- title: "Opening the doors for Chinese investment again, with caution"
-  date: Apr 2, 2026
-  description: "Hindustan Times"
-  path: "https://hindustantimes.com/opinion/opening-the-doors-for-chinese-investment-again-with-caution-101775056465016.html"
-  categories: [Public Policy]
-
-- title: "Rare earths in India, Bridging the gaps to ensure sufficiency"
-  date: 2025-12-02
-  description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/rare-earths-in-india-bridging-the-gaps-to-ensure-sufficiency-101764605571306.html"
-  categories: [Critical Minerals]
-
-- title: "Why India's semiconductor story is a work in progress"
-  date: 2026-02-27
-  description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/why-india-s-semiconductor-story-is-a-work-in-progress-101772205036557.html"
-  categories: [Semiconductor Geopolitics]
-
-- title: "Rare earths sector can do with recycling thrust"
-  date: 2026-02-01
-  description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/rare-earths-sector-can-do-with-recycling-thrust-101769970010181.html"
-  categories: [Critical Minerals]
-
-- title: "India is talking about critical minerals. But do we have a plan?"
-  date: 2026-01-19
+- title: "India is the pharmacy of the world. But we are losing the drug development race"
+  date: 2026-03-30
   description: "Indian Express"
-  path: "https://www.indianexpress.com/article/opinion/columns/critical-minerals-pax-silica-donald-trump-10482197/"
-  categories: [Critical Minerals, Technology Policy]
+  path: "https://indianexpress.com/article/opinion/columns/india-is-pharmacy-of-world-but-losing-drug-development-race-10610013/"
+  categories: [Bioeconomy]
 
-- title: "Inside the Tent: India and the Limits of Pax Sinica"
-  date: 2026-01-16
-  description: "India's World"
-  path: "https://www.indiasworld.in/inside-the-tent-india-and-the-limits-of-pax-silica/"
-  categories: [Technology Geopolitics]
-
-- title: "After Bihar, the vote share vs seat share debate is back again. Here's why this matters"
-  date: 2025-11-19
-  description: "The Print"
-  path: "https://theprint.in/opinion/after-bihar-the-vote-share-vs-seat-share-debate-is-back-again-heres-why-this-matters/2786993/"
-  categories: [Public Policy, Political Economy]
-
-- title: "Pakistan is bluffing. There's no proof for $6 trillion mineral wealth claim"
-  date: 2025-11-10
-  description: "The Print"
-  path: "https://theprint.in/opinion/pakistan-bluffing-6-trillion-mineral-wealth/2780538/"
-  categories: [Critical Minerals, India Foreign Policy]
-
-- title: "Beijing's rare earth playbook is tired. It's time India wrote its own"
-  date: 2025-10-18
+- title: "Telangana Trailblazers"
+  date: 2026-03-05
   description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/beijings-rare-earth-playbook-is-tired-its-time-india-wrote-its-own/"
-  categories: [Critical Minerals]
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/telangana-trailblazers/"
+  categories: [Humour]
 
-- title: "Tracks Without Trains"
-  date: 2025-10-08
-  description: "The Hindu"
-  path: "https://www.thehindu.com/opinion/op-ed/tracks-without-trains/article70134580.ece"
-  categories: [Critical Minerals]
-
-- title: "US, China bully India in global market. Delhi must get its own instruments of leverage"
-  date: 2025-09-26
-  description: "The Print"
-  path: "https://theprint.in/opinion/us-china-india-global-market-delhi-instruments-leverage/2751689/"
-  categories: [Technology Geopolitics, India Foreign Policy]
-
-- title: "Digital Strategic Autonomy: The Case for an EU-India Open Tech Maitri"
-  date: 2025-09-01
-  description: "India's World"
-  path: "https://indiasworld.in/digital-strategic-autonomy-the-case-for-an-eu-india-open-tech-maitri/"
-  categories: [Technology Geopolitics, India Foreign Policy]
-
-- title: "Gaining Leverage: India’s Semiconductor Policy from a Strategic Perspective"
-  date: 2025-07-06
-  description: "India's World"
-  path: "https://indiasworld.in/gaining-leverage-indias-semiconductor-policy-from-a-strategic-perspective/"
-  categories: [Technology Geopolitics]
-
-- title: "What TN case tells us about the need to ease Centre-state friction"
-  date: 2025-05-31
+- title: "The 10-Minute Drama"
+  date: 2026-01-15
   description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/what-tn-case-tells-us-about-the-need-to-ease-centre-state-friction/"
-  categories: [Political Economy]
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/the-10-minute-drama/"
+  categories: [Jobs and Employment]
 
-- title: "Reconfiguring supply chains in a world where trust's eroding"
-  date: 2025-06-30
-  description: "Moneycontrol"
-  path: "https://www.moneycontrol.com/news/opinion/reconfiguring-supply-chains-in-a-world-where-trust-s-eroding-13201132.html"
-  categories: [Semiconductor Geopolitics, Technology Policy]
+- title: "IndiGo collapsed — and we’ll still have to fly it, because we hardly have alternatives"
+  date: 2025-12-06
+  description: "Indian Express"
+  path: "https://indianexpress.com/article/opinion/columns/indigo-meltdown-and-we-still-have-to-fly-it-fdtl-rules-10406170/"
+  categories: [Economic Policy]
 
-- title: "The Way to Break China's Stranglehold on Rare-earths"
-  date: 2025-06-23
-  description: "India's World"
-  path: "https://indiasworld.in/the-way-to-break-chinas-stranglehold-on-rare-earths-2/"
-  categories: [Technology Geopolitics]
+- title: "Rewrite this appy ending"
+  date: 2025-12-03
+  description: "Times of India"
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/rewrite-this-appy-ending/"
+  categories: [Tech Policy]
 
-- title: "Towards techno-strategic autonomy: India should spearhead an Open Technology Maitri"
-  date: 2025-03-06
-  description: "India's World"
-  path: "https://indiasworld.in/towards-techno-strategic-autonomy-india-should-spearhead-an-open-technology-maitri/"
-  categories: [Technology Policy, India Foreign Policy]
-
-- title: "India isn't competing with China. It's up against many city governments"
-  date: 2025-02-27
-  description: "The Print"
-  path: "https://theprint.in/opinion/india-isnt-competing-with-china-its-up-against-many-city-governments/2512907/"
-  categories: [Political Economy, Public Policy]
-
-- title: "China's moves must recast India's critical minerals push"
-  date: 2025-01-23
-  description: "The Hindu"
-  path: "https://www.thehindu.com/opinion/op-ed/chinas-moves-must-recast-indias-critical-minerals-push/article69128387.ece"
-  categories: [Critical Minerals, Semiconductor Geopolitics]
-
-- title: "Why India needs a Techno-strategic Doctrine"
-  date: 2024-12-07
-  description: "India's World"
-  path: "https://indiasworld.in/why-india-needs-a-techno-strategic-doctrine/"
-  categories: [Technology Geopolitics, Indian Foreign Policy]
-
-- title: "Policy tweaks can push private sector R&D"
-  date: 2024-12-06
+- title: "Pakistan’s crypto turn should worry India"
+  date: 2025-11-27
   description: "Deccan Herald"
-  path: "https://www.deccanherald.com/opinion/policy-tweakscan-push-private-sector-rd-3305698"
-  categories: [Technology Policy, Public Policy]
+  path: "https://www.deccanherald.com/opinion/pakistans-crypto-turn-should-worry-india-3811609"
+  categories: [Tech Policy]
 
-- title: "The shifting sands within global supply chains"
-  date: 2024-11-01
-  description: "The Hindu"
-  path: "https://www.thehindu.com/opinion/op-ed/the-shifting-sands-within-global-supply-chains/article68788375.ece"
-  categories: [Semiconductor Geopolitics, Technology Policy]
-
-- title: "Chip-Sourcing: India's Semiconductor Moonshot"
-  date: 2024-10-01
-  description: "The Diplomat"
-  path: "https://thediplomat.com/2024/10/chip-sourcing-indias-semiconductor-moonshot/"
-  categories: [Semiconductor Geopolitics]
-
-- title: "Perils of decentralisation with Chinese characteristics"
-  date: 2024-09-15
-  description: "The Hindu"
-  path: "https://www.thehindu.com/opinion/op-ed/perils-of-decentralisation-with-chinese-characteristics/article68631225.ece"
-  categories: [Technology Policy, Political Economy]
-
-- title: "India's fiscal imbalance isn't a North vs South problem. Here's what lies at the 'centre' of it"
-  date: 2024-09-04
-  description: "The Print"
-  path: "https://theprint.in/opinion/indias-fiscal-imbalance-isnt-a-north-vs-south-problem-heres-what-lies-at-the-centre-of-it/2249684/"
-  categories: [Public Finance, Political Economy]
-
-- title: "Agnipath 2.0: A solution for armed forces and applicants"
-  date: 2024-06-14
-  description: "Indian Express"
-  path: "https://indianexpress.com/article/opinion/columns/agnipath-solution-for-armed-forces-applicants-9392628/"
-  categories: [Public Policy]
-
-- title: "Dr. Jagdish Chandra Asthana Could Have Been a Good Policy Analyst"
-  date: 2024-06-07
-  description: "Outlook"
-  path: "https://business.outlookindia.com/economy-and-policy/dr-jagdish-chandra-asthana-could-have-been-a-good-policy-analyst"
-  categories: [Public Policy]
-
-- title: "How India is moving fast to becoming semiconductor 'aatmanirbhar'"
-  date: 2024-05-29
-  description: "Firstpost"
-  path: "https://www.firstpost.com/opinion/how-india-is-moving-fast-to-becoming-semiconductor-aatmanirbhar-13776367.html"
-  categories: [Semiconductor Geopolitics]
-
-- title: "A self-harming stance on digital trade tariffs"
-  date: 2024-05-09
-  description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/a-self-harming-stance-on-digital-trade-tariffs-101715177245040.html"
-  categories: [Technology Policy, Political Economy]
-
-- title: "A practical agenda for India-Australia semiconductor collaboration"
-  date: 2024-04-05
-  description: "ASPI – The Strategist"
-  path: "https://www.aspistrategist.org.au/a-practical-agenda-for-india-australia-semiconductor-collaboration/"
-  categories: [Semiconductor Geopolitics, India Foreign Policy]
-
-- title: "Why resource distribution is creating a North-South divide"
-  date: 2024-02-17
+- title: "Why Mamdani’s win isn’t a critique of capitalism"
+  date: 2025-11-07
   description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/why-resource-distribution-is-creating-a-north-south-divide/"
-  categories: [Public Finance, Political Economy]
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/why-mamdanis-win-isnt-a-critique-of-capitalism/"
+  categories: [Other]
 
-- title: "Republic Day reminder: Let's reclaim the right to economic freedom"
+- title: "India’s trade talks with the US need a reality check — and a backup plan"
+  date: 2025-07-29
+  description: "Indian Express"
+  path: "https://indianexpress.com/article/opinion/columns/us-india-trade-deal-nato-threat-uk-india-fta-10156634/"
+  categories: [Trade and Geoeconomics]
+
+- title: "Karnataka’s bike ban is a step backward, cities need innovation, not idea bans"
+  date: 2025-06-16
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/karnataka-s-bike-ban-is-a-step-backward-cities-need-innovation-not-idea-bans-13127161.html?utm_medium=social&utm_source=twitter&utm_campaign=regular-editorial"
+  categories: [Price Controls and Bans]
+
+- title: "A protracted battle between Trump and the US courts will only worsen trade uncertainty"
+  date: 2025-06-03
+  description: "Indian Express"
+  path: "https://indianexpress.com/article/opinion/columns/tariffs-a-protracted-battle-between-trump-and-the-us-courts-will-only-worsen-trade-uncertainty-10045329/"
+  categories: [Trade and Geoeconomics]
+
+- title: "For India, the best time for a trade deal was within Trump’s first 100 days, the second-best time is now"
+  date: 2025-05-01
+  description: "Indian Express"
+  path: "https://indianexpress.com/article/opinion/columns/india-us-trade-deal-trump-first-100-days-pm-modi-global-order-9977055/"
+  categories: [Trade and Geoeconomics]
+
+- title: "As Trump tariffs loom, India shouldn’t look a gift horse in the mouth"
+  date: 2025-04-01
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/as-trump-tariffs-loom-india-shouldn-t-look-a-gift-horse-in-the-mouth-12980504.html"
+  categories: [Trade and Geoeconomics]
+
+- title: "The Good News For India Hidden In US Auto Tariffs"
+  date: 2025-03-27
+  description: "Times of India"
+  path: "https://timesofindia.indiatimes.com/toi-plus/business-economy/the-good-news-for-india-hidden-in-us-auto-tariffs/articleshow/119605877.cms"
+  categories: [Trade and Geoeconomics]
+
+- title: "Smokescreen"
+  date: 2025-03-23
+  description: "Times of India"
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/smokescreen/"
+  categories: [Humour]
+
+- title: "Boycott Button"
+  date: 2024-12-10
+  description: "Times of India"
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/boycott-button/"
+  categories: [Humour]
+
+- title: "Consumer @Complaints"
+  date: 2024-09-03
+  description: "Times of India"
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/consumerscomplaints/"
+  categories: [Humour]
+
+- title: "Happiness from Subsidy"
+  date: 2024-04-30
+  description: "Times of India"
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/happiness-from-subsidy-its-complicated-by-factors-such-as-neighbours-envy/"
+  categories: [Humour]
+
+- title: "Supreme Court’s push to fix medical rates is unjustified and counterproductive"
+  date: 2024-03-11
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/supreme-courts-push-to-fix-medical-rates-is-unjustified-and-counterproductive-12436201.html"
+  categories: [Price Controls and Bans]
+
+- title: "Bangalore Water Crisis: Marginal pricing of water, subsidies to poor may curb water woes"
+  date: 2024-03-05
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/bangalore-water-crisis-marginal-pricing-of-water-subsidies-to-poor-may-curb-water-woes-12402681.html"
+  categories: [Economic Policy]
+
+- title: "Un-Fare Policy"
+  date: 2024-03-04
+  description: "Times of India"
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/un-fare-policy/"
+  categories: [Humour]
+
+- title: "Karnataka’s plan to fix prices for Uber-Ola cabs is going to boomerang badly"
+  date: 2024-02-04
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/karnatakas-plan-to-fix-prices-for-uber-ola-cabs-is-going-to-boomerang-badly-12194711.html"
+  categories: [Price Controls and Bans]
+
+- title: "Why Budget 2024 will rank as a good budget"
+  date: 2024-02-01
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/why-budget-2024-will-rank-as-a-good-budget-12172751.html"
+  categories: [Macroeconomics]
+
+- title: "Republic Day reminder: Let’s reclaim the right to economic freedom"
   date: 2024-01-27
   description: "Times of India"
   path: "https://timesofindia.indiatimes.com/blogs/voices/republic-day-reminder-lets-reclaim-the-right-to-economic-freedom/"
-  categories: [Public Policy, Political Economy]
+  categories: [Economic Policy]
 
-- title: "The need to overhaul a semiconductor scheme"
-  date: 2024-01-24
-  description: "The Hindu"
-  path: "https://www.thehindu.com/opinion/op-ed/the-need-to-overhaul-a-semiconductor-scheme/article67768726.ece"
-  categories: [Semiconductor Geopolitics, Technology Policy]
+- title: "Global Economy 2024: Positives in macro outlook outweighing uncertainties, India in a position to dream big"
+  date: 2023-12-29
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/global-economy-2024-positives-in-macro-outlook-outweighing-uncertainties-india-in-a-position-to-dream-big-11969891.html"
+  categories: [Macroeconomics]
 
-- title: "Like Chandrayaan, India's semiconductor push aims for the moon, but success is not guaranteed"
-  date: 2024-01-05
-  description: "Scroll.in"
-  path: "https://scroll.in/article/1060768/like-chandrayaan-indias-semiconductor-push-aims-for-the-moon-but-success-is-not-guaranteed"
-  categories: [Semiconductor Geopolitics]
+- title: "Reservation For Locals: Whither jobs, economic freedoms, and economic unity?"
+  date: 2023-11-24
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/reservation-for-locals-whither-jobs-economic-freedoms-and-economic-unity-11808421.html"
+  categories: [Jobs and Employment]
 
-- title: "Pannun case: Time to reimagine spy agency for Information Age"
-  date: 2023-12-23
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/india/pannun-case-time-to-reimagine-spy-agency-for-information-age/articleshow/106237265.cms"
-  categories: [India Foreign Policy, Public Policy]
+- title: "G20 Summit: India takes its Digital Public Infrastructure success to the world"
+  date: 2023-09-11
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/g20-summit-india-takes-its-digital-public-infrastructure-success-to-the-world-11346651.html"
+  categories: [Tech Policy]
 
-- title: "A new book examines how India can set up new and world-class semiconductor facilities"
-  date: 2023-12-22
-  description: "Scroll.in"
-  path: "https://scroll.in/article/1060814/"
-  categories: [Semiconductor Geopolitics]
+- title: "The many messages from NCAER’s report on food delivery gig workers"
+  date: 2023-09-04
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/the-many-messages-from-ncaers-report-on-food-delivery-gig-workers-11305271.html"
+  categories: [Jobs and Employment]
 
-- title: "Chandrayaan and Chips: Space Lessons for India's Semiconductor Program?"
-  date: 2023-12-18
-  description: "CASI, University of Pennsylvania"
-  path: "https://casi.sas.upenn.edu/iit/pranaykotasthane-abhirammanchi"
-  categories: [Semiconductor Geopolitics]
+- title: "An Echo of license raj in laptop import curbs"
+  date: 2023-08-08
+  description: "Hindustan Times"
+  path: "https://www.hindustantimes.com/opinion/an-echo-of-licence-raj-in-laptop-import-curbs-101691417281870.html"
+  categories: [Trade and Geoeconomics]
 
-- title: "Chipmaking subsidies are not the answer to supply security worries"
-  date: 2023-10-20
-  description: "Nikkei Asia"
-  path: "https://asia.nikkei.com/Opinion/Chipmaking-subsidies-are-not-the-answer-to-supply-security-worries"
-  categories: [Semiconductor Geopolitics, Technology Policy]
-
-- title: "The essence of engineering"
-  date: 2023-09-15
-  description: "Mint"
-  path: "https://www.nitinpai.in/2023/09/15/the-essence-of-engineering"
-  categories: [Technology Policy, Public Policy]
-
-- title: "The Laptop Licence: Why are Failed Policies Being Revived Again?"
-  date: 2023-08-12
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/laptop-licence-why-are-failed-policies-being-revived-again/"
-  categories: [Technology Policy, Public Policy]
-
-- title: "Learning from the CHIPS Act of the U.S."
-  date: 2023-08-09
-  description: "The Hindu"
-  path: "https://www.thehindu.com/opinion/op-ed/learning-from-the-chips-act-of-the-us/article67172378.ece"
-  categories: [Semiconductor Geopolitics, Technology Policy]
-
-- title: "In the Chip War, US Has the Edge Over China"
+- title: "Don’t rush to mimic Rajasthan gig workers law"
   date: 2023-08-01
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/dont-rush-to-mimic-rajasthan-gig-workers-law-11073981.html"
+  categories: [Jobs and Employment]
+
+- title: "India mustn’t miss this chance to supercharge its electronic goods industry"
+  date: 2023-06-26
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/india-mustnt-miss-this-chance-to-supercharge-its-electronic-goods-industry-10855751.html"
+  categories: [Tech Policy]
+
+- title: "Government overreach in digital economy could end up with no commensurate benefit and serious distortions"
+  date: 2023-06-09
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/government-overreach-in-digital-economy-could-end-up-with-no-commensurate-benefit-and-serious-distortions-10769971.html"
+  categories: [Tech Policy]
+
+- title: "Rs 2,000 Note Withdrawal: No demonetisation redux but RBI could have done it better"
+  date: 2023-05-20
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/rs-2000-note-withdrawal-no-demonetisation-redux-but-rbi-could-have-done-it-better-10627841.html"
+  categories: [Macroeconomics]
+
+- title: "Labour Law Reforms: Tamil Nadu reversing flexible work shifts is lost opportunity for business, workers, jobseekers"
+  date: 2023-05-04
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/labour-law-reforms-tamil-nadu-reversing-flexible-work-shifts-is-lost-opportunity-for-business-workers-jobseekers-10523461.html"
+  categories: [Jobs and Employment]
+
+- title: "E-pharmacy regulation needs nuanced policies"
+  date: 2023-04-11
   description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/in-the-chip-war-us-has-the-edge-over-china-101690900110589.html"
-  categories: [Semiconductor Geopolitics]
+  path: "https://www.hindustantimes.com/opinion/indias-e-pharmacies-face-government-crackdown-over-alleged-violations-of-d-c-act-101681134207838.html"
+  categories: [Tech Policy]
 
-- title: "Confronting Trade-offs for India's Electronics Manufacturing Success"
-  date: 2023-07-27
-  description: "Centre on Asia and Globalisation, NUS"
-  path: "https://lkyspp.nus.edu.sg/cag/publications/center-publications/publication-article/detail/cib228-1"
-  categories: [Semiconductor Geopolitics, Technology Policy]
+- title: "Lessons for RBI from its mandate that made recurring payments a nightmare"
+  date: 2023-03-21
+  description: "Money Control"
+  path: "https://www.moneycontrol.com/news/opinion/lessons-for-rbi-from-its-mandate-that-made-recurring-payments-a-nightmare-10284611.html"
+  categories: [Tech Policy]
 
-- title: "Swades sans sacrifice: How to rethink IIT brain drain puzzle"
-  date: 2023-06-24
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/swades-sans-sacrifice-how-to-rethink-iit-brain-drain-puzzle/"
-  categories: [Public Policy]
-
-- title: "A road map to propel US-India chips push"
-  date: 2023-06-13
+- title: "India’s new logistics policy can fix foundational issues"
+  date: 2022-10-04
   description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/a-road-map-to-propel-us-india-chips-push-101686632430523.html"
-  categories: [Semiconductor Geopolitics, India Foreign Policy]
+  path: "https://www.hindustantimes.com/opinion/indias-new-logistics-policy-can-fix-foundational-issues-101664892943834.html"
+  categories: [Economic Policy]
 
-- title: "MEA needs more hands on deck quickly. It must consider surge hiring"
-  date: 2023-05-01
+- title: "Why crisis-hit Pakistan won’t go the Lanka way"
+  date: 2022-07-25
+  description: "Times of India"
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/why-crisis-hit-pakistan-wont-go-the-lanka-way-world-doesnt-want-a-nation-with-nukes-to-collapse-islamabads-middle-east-friends-will-step-in/"
+  categories: [Macroeconomics]
+
+- title: "ಜಿಎಸ್‌ಟಿ- ಗೋಜಲು ಬಿಡಿಸಲು ಸಕಾಲ || Time to untangle the GST mess"
+  date: 2022-06-25
+  description: "Prajavani"
+  path: "https://www.prajavani.net/op-ed/discussion/its-time-to-solve-the-gst-problem-948532.html"
+  categories: [Macroeconomics]
+
+- title: "The US must provide concrete benefits to IPEF signatories"
+  date: 2022-06-07
   description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/indias-foreign-policy-capacity-surge-hiring-strategy-needed-for-a-high-stakes-game-101682946542459.html"
-  categories: [India Foreign Policy, Public Policy]
+  path: "https://www.hindustantimes.com/opinion/the-us-must-provide-concrete-benefits-to-ipef-signatories-101654526815742.html"
+  categories: [Trade and Geoeconomics]
 
-- title: "What the milk shortage saga tells us about letting government control prices"
-  date: 2023-04-15
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/what-the-milk-shortage-saga-tells-us-about-letting-government-control-prices/"
-  categories: [Public Policy, Political Economy]
-
-- title: "India's Defence Budget: As Border Tensions With China Simmer, Can Govt Level Up?"
-  date: 2023-01-22
-  description: "The Quint"
-  path: "https://www.thequint.com/voices/opinion/indias-defence-budget-as-border-tensions-with-china-simmer-can-govt-level-up"
-  categories: [Public Finance, India Foreign Policy]
-
-- title: "Why we shouldn't copy-paste EU's 'one nation, one charger' policy"
-  date: 2022-12-31
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/why-we-shouldnt-copy-paste-eus-one-nation-one-charger-policy/"
-  categories: [Technology Policy, Public Policy]
-
-- title: "The US and China are battling for semiconductor supremacy"
-  date: 2022-10-31
+- title: "Divide Forex reserve into two components"
+  date: 2022-04-18
   description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/the-us-and-china-are-battling-for-semiconductor-supremacy-101666965400761.html"
-  categories: [Semiconductor Geopolitics]
+  path: "https://www.hindustantimes.com/opinion/divide-forex-reserve-into-two-components-101650205275401.html"
+  categories: [Macroeconomics]
 
-- title: "India's Russia problem will grow: Locked out of semiconductor supply, Moscow will be hard-pressed to fulfil New Delhi's military needs"
-  date: 2022-09-26
+- title: "Western Sanctions: Impact and Ways Around Them"
+  date: 2022-02-28
   description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/indias-russia-problem-will-grow-locked-out-of-semiconductor-supply-moscow-will-be-hard-pressed-to-fulfil-new-delhis-military-needs/"
-  categories: [Semiconductor Geopolitics, India Foreign Policy]
+  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/western-sanctions-impact-ways-around-them-india-can-work-around-russias-swift-expulsion-but-there-may-be-geopolitical-costs/"
+  categories: [Trade and Geoeconomics]
 
-- title: "Why liquor reforms in India are so complicated"
-  date: 2022-08-27
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/hic-hic-hiccups-why-liquor-reforms-in-india-are-so-complicated/"
-  categories: [Political Economy]
-
-- title: "Whatever happens with Agnipath scheme, it offers 3 real lessons for future reform"
-  date: 2022-07-23
-  description: "The Print"
-  path: "https://theprint.in/opinion/whatever-happens-with-agnipath-scheme-it-offers-3-real-lessons-for-future-reform/1051195/"
-  categories: [Public Policy]
-
-- title: "India's Semiconductor Push should Focus on Revamping the DLI Scheme"
-  date: 2022-07-16
+- title: "There's a jobs crisis. Acknowledge it."
+  date: 2022-02-23
   description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/indias-semiconductor-push-should-focus-on-revamping-the-dli-scheme-101657959377978.html"
-  categories: [Semiconductor Geopolitics, Technology Policy]
+  path: "https://www.hindustantimes.com/opinion/theres-a-jobs-crisis-acknowledge-it-101645537288817.html"
+  categories: [Jobs and Employment]
 
-- title: "How the Defence Pension Bill became a Big Burden"
-  date: 2022-06-27
+- title: "In a competitive marketplace, protecting India’s gig workers"
+  date: 2021-08-20
   description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/how-the-defence-pension-bill-became-a-big-burden-101656081802755.html"
-  categories: [Public Finance, Public Policy]
+  path: "https://www.hindustantimes.com/opinion/in-a-competitive-marketplace-protecting-india-s-gig-workers-101629372885625.html"
+  categories: [Jobs and Employment]
 
-- title: "Rough Calculations on Agnipath's Pension-Saving Potential show why the Change is Crucial"
-  date: 2022-06-20
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/the-rs-34500-crore-argument-rough-calculations-on-agnipaths-pension-saving-potential-show-why-the-change-is-crucial/"
-  categories: [Public Finance, Public Policy]
-
-- title: "Now that Agnipath is here, it must be made to work"
-  date: 2022-06-19
-  description: "Mint"
-  path: "https://www.nitinpai.in/2022/06/19/now-that-agnipath-is-here-it-must-be-made-to-work"
-  categories: [Public Policy]
-
-- title: "What the Quad must do to build a resilient semiconductor chain"
-  date: 2022-05-23
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/toi-edit-page/3-ideas-for-4-countries-hunting-for-chips-what-the-quad-must-do-to-build-a-resilient-semiconductor-chain/"
-  categories: [Semiconductor Geopolitics, India Foreign Policy]
-
-- title: "Harnessing trade policy to build India's semiconductor industry"
-  date: 2022-05-24
-  description: "Hinrich Foundation"
-  path: "https://www.hinrichfoundation.com/research/wp/tech/trade-policy-build-india-semiconductor-industry/"
-  categories: [Semiconductor Geopolitics, Technology Policy]
-
-- title: "Atmashakti Over Atmanirbharta: Learn Right Lessons from Russia Sanctions"
-  date: 2022-03-27
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/atmashakti-not-atmanirbharta-learn-right-lessons-from-russia-sanctions-attempting-self-reliance-in-technology-is-self-defeating/"
-  categories: [Technology Policy, Political Economy]
-
-- title: "Are Government's New Schemes For Semiconductors Enough To Make India Atmanirbhar?"
-  date: 2022-01-03
-  description: "Outlook India"
-  path: "https://www.outlookindia.com/website/story/business-news-are-governments-new-schemes-for-semiconductors-enough-to-make-india-atmanirbhar/407936"
-  categories: [Semiconductor Geopolitics, Technology Policy]
-
-- title: "In Software-obsessed India, Hardware Finally Gets Place in the Sun"
-  date: 2021-12-17
-  description: "News18"
-  path: "https://www.news18.com/news/opinion/rs-76000-crore-push-to-semiconductors-in-software-obsessed-india-hardware-finally-gets-place-in-the-sun-4563878.html"
-  categories: [Semiconductor Geopolitics]
-
-- title: "India Needs a 20-Year Semiconductor Strategy"
-  date: 2021-12-03
+- title: "E-Commerce: Don't let protectionism drive policy"
+  date: 2021-07-27
   description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/opinion/india-needs-a-20-year-semiconductor-strategy-101638457241356.html"
-  categories: [Semiconductor Geopolitics, Technology Policy]
+  path: "https://www.hindustantimes.com/opinion/ecommerce-don-t-let-protectionism-drive-policy-101627291777824.html"
+  categories: [Trade and Geoeconomics]
 
-- title: "The Quad Makes the First Siliconpolitik Move"
-  date: 2021-10-10
-  description: "ISAS, National University of Singapore"
-  path: "https://www.isas.nus.edu.sg/papers/the-quad-makes-the-first-siliconpolitik-move/"
-  categories: [Semiconductor Geopolitics, India Foreign Policy]
+- title: "ಪೆಟ್ರೋಲ್‌ ಜಿಎಸ್‌ಟಿ ವ್ಯಾಪ್ತಿಗೆ ತಂದರೆ ಜನರಿಗೆ ಲಾಭ"
+  date: 2021-06-19
+  description: "Prajavani"
+  path: "https://www.prajavani.net/business/commerce-news/bringing-petrol-to-gst-will-benefit-the-people-840172.html?fbclid=IwAR1p8OTMwVOvQYZV4t8XHi17SBYH8_ybehF2TbsMI2Ir9phiyYYXf_AcCDE"
+  categories: [Macroeconomics]
 
-- title: "In Quad's Semiconductor Gambit against China, India Stands to Gain"
-  date: 2021-09-25
-  description: "News18"
-  path: "https://news18.com/news/opinion/in-quads-semiconductor-gambit-against-china-india-stands-to-gain-4245311.html"
-  categories: [Semiconductor Geopolitics, India Foreign Policy]
+- title: "Why e-cigarette ban in India will do more harm than good"
+  date: 2021-05-20
+  description: "Business Today"
+  path: "https://www.businesstoday.in/opinion/columns/why-e-cigarette-ban-in-india-will-do-more-harm-than-good/story/439628.html"
+  categories: [Price Controls and Bans]
 
-- title: "The Taliban Government and What it Means for India"
-  date: 2021-09-08
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/pak-run-taliban-can-be-even-worse-this-time-kabuls-new-govt-will-want-to-remake-afghanistan-expect-some-steadfast-domestic-rebellion/"
-  categories: [India Foreign Policy]
+- title: "ಪಿಂಚಣಿ ಸಮಸ್ಯೆಗೆ ಎಫ್‌ಡಿಐ ಮದ್ದು"
+  date: 2021-04-23
+  description: "Prajavani"
+  path: "https://www.prajavani.net/columns/pension-and-fdi-824743.html"
+  categories: [Macroeconomics]
 
-- title: "What Taliban's victory means for Pakistan and therefore India"
-  date: 2021-08-23
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/what-talibans-victory-means-for-pakistan-and-therefore-india/"
-  categories: [India Foreign Policy]
-
-- title: "How to Beat China in the High-Tech Race"
-  date: 2021-06-22
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/how-to-beat-china-in-the-high-tech-race/articleshow/83739897.cms"
-  categories: [Semiconductor Geopolitics, Technology Policy]
-
-- title: "Blaming the government's pandemic response? Do it for the right reasons"
-  date: 2021-05-23
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/blogs/voices/blaming-the-governments-pandemic-response-do-it-for-the-right-reasons/"
-  categories: [Public Policy]
-
-- title: "Making State Finance Commissions work"
-  date: 2021-02-27
-  description: "Deccan Herald"
-  path: "https://www.deccanherald.com/opinion/making-state-finance-commissions-work-955933.html"
-  categories: [Public Finance, Public Policy]
-
-- title: "House defence panel must ask 4 key questions — from lower expenditure to pension bill"
-  date: 2021-02-17
-  description: "The Print"
-  path: "https://theprint.in/opinion/house-defence-panel-must-ask-4-key-questions-from-lower-expenditure-to-pension-bill/606100/"
-  categories: [Public Finance, Public Policy]
-
-- title: "The Next Step for Quad: A Dialogue on High Tech"
-  date: 2020-12-22
+- title: "Flawed regulation can undermine the digital payment ecosystem"
+  date: 2020-11-11
   description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/analysis/the-next-step-for-quad-a-dialogue-on-high-tech/story-zuVC4Xv9axbCKSdRbsFqJL.html"
-  categories: [Technology Policy, India Foreign Policy]
+  path: "https://www.hindustantimes.com/analysis/flawed-regulation-can-undermine-the-digital-payment-ecosystem/story-jVikN3SWxYYRKGZZiO5loL.html"
+  categories: [Tech Policy]
 
-- title: "The world is changing. India needs to get its priorities right"
-  date: 2020-12-14
-  description: "Hindustan Times"
-  path: "https://www.hindustantimes.com/analysis/the-world-is-changing-india-needs-to-get-its-priorities-right/story-efnmKpYckKUMegDkrUzf7M.html"
-  categories: [India Foreign Policy, Public Policy]
-
-- title: "China's Semiconductor Gold Rush: A Reality Check"
-  date: 2020-11-15
-  description: "South China Morning Post"
-  path: "https://www.scmp.com/tech/article/3109569/chinas-semiconductor-gold-rush-reality-check"
-  categories: [Semiconductor Geopolitics]
-
-- title: "Managing India's Defence Expenditure Requires a Whole-of-Government Approach"
-  date: 2020-11-14
-  description: "The Print"
-  path: "https://theprint.in/opinion/not-fair-to-cut-defence-pay-pensions-and-inject-funds-in-airlines-banks/542965/"
-  categories: [Public Finance, Public Policy]
-
-- title: "How Covid-19 Changes the Geopolitics of Semiconductor Supply Chains"
-  date: 2020-06-02
-  description: "South China Morning Post"
-  path: "https://www.scmp.com/tech/enterprises/article/3086998/how-covid-19-changes-geopolitics-semiconductor-supply-chains"
-  categories: [Semiconductor Geopolitics, Technology Policy]
-
-- title: "India's Bargaining Power with China and US will Grow in Post Covid World"
-  date: 2020-05-15
+- title: "India’s bargaining power with China and US will grow in post-Covid world"
+  date: 2020-05-14
   description: "The Print"
   path: "https://theprint.in/opinion/indias-bargaining-power-with-china-and-us-will-grow-in-post-covid-world/420395/"
-  categories: [India Foreign Policy, Political Economy]
+  categories: [Trade and Geoeconomics]
 
-- title: "When Does a Crisis Become a Policy Opportunity?"
-  date: 2020-04-25
-  description: "Deccan Herald"
-  path: "https://www.deccanherald.com/opinion/coronavirus-turning-a-crisis-into-a-policy-opportunity-829310.html"
-  categories: [Public Policy]
-
-- title: "Is India's rising defence pension bill affecting modernisation of military? 5 myths busted"
-  date: 2020-03-12
+- title: "Consumers should get the benefit, lowering fuel prices will increase their disposable income"
+  date: 2020-04-23
   description: "The Print"
-  path: "https://theprint.in/opinion/indias-defence-pension-bill-affecting-military-5-myths-busted/379289/"
-  categories: [Public Finance, Public Policy]
+  path: "https://theprint.in/talk-point/should-modi-govt-let-oil-crash-cushion-finances-or-will-lower-retail-prices-revive-economy/407488/"
+  categories: [Economic Policy]
 
-- title: "Karnataka Budget Could Have Done More to Spur Growth"
-  date: 2020-03-07
-  description: "Deccan Herald"
-  path: "https://www.deccanherald.com/opinion/karnataka-budget-could-have-done-more-to-spur-growth-810873.html"
-  categories: [Public Finance]
+- title: "Use the oil crash to boost India’s strategic reserves"
+  date: 2020-04-22
+  description: "Hindustan Times"
+  path: "https://www.hindustantimes.com/analysis/use-the-oil-crash-to-boost-india-s-strategic-reserves-analysis/story-aECKMfH8mpcEKVCGe2ozJK.html"
+  categories: [Economic Policy]
 
-- title: "On US President Trump's India Visit"
-  date: 2020-02-19
-  description: "The Print"
-  path: "https://theprint.in/talk-point/will-the-spectacle-of-trump-visit-without-a-trade-deal-boost-india-us-ties/367893/"
-  categories: [India Foreign Policy]
-
-- title: "The opinion of Western liberals or conservatives is inconsequential for the J&K situation"
-  date: 2019-10-30
-  description: "The Print"
-  path: "https://theprint.in/talk-point/modi-govt-allows-mostly-far-right-eu-mps-jk-smart-diplomacy-counter-western-liberals/312859/"
-  categories: [India Foreign Policy, Public Policy]
-
-- title: "Howdy Modi: Does it serve India's diplomatic interests?"
-  date: 2019-09-25
-  description: "The Print"
-  path: "https://theprint.in/talk-point/is-it-smart-diplomacy-for-pm-modi-to-align-himself-with-donald-trumps-campaign-in-houston/295582/"
-  categories: [India Foreign Policy]
-
-- title: "Neither is Russia a reliable friend nor is US a fickle one"
-  date: 2019-08-24
-  description: "The Print"
-  path: "https://theprint.in/talk-point/modi-macron-embrace-does-india-have-permanent-friends-or-is-every-alliance-strategic/281108/"
-  categories: [India Foreign Policy]
-
-- title: "Finance Commission's New Problem: A Separate Defence Fund"
-  date: 2019-08-13
-  description: "Deccan Herald"
-  path: "https://www.deccanherald.com/opinion/finance-commission-s-new-problem-separate-defence-fund-753535.html"
-  categories: [Public Finance, Public Policy]
-
-- title: "Equity sans reservations: Imagining alternate ways for affirmative action"
-  date: 2019-05-20
-  description: "Firstpost"
-  path: "https://www.firstpost.com/india/look-beyond-quotas-for-equality-6650451.html"
-  categories: [Public Policy]
-
-- title: "Focus on Voting Security Instead of Just EVM Security"
-  date: 2019-04-13
-  description: "Ozy"
-  path: "https://www.ozy.com/opinion/its-time-to-trust-electronic-voting-in-the-worlds-largest-democracy/93478"
-  categories: [Public Policy]
-
-- title: "Ten Takeaways from the Recent India-Pakistan Escalation"
-  date: 2019-03-05
-  description: "The Print"
-  path: "https://theprint.in/opinion/what-pulwama-balakot-proves-a-third-actor-can-still-push-india-and-pakistan-into-a-war/201095/"
-  categories: [India Foreign Policy]
-
-- title: "Misguided Talks With the Taliban Won't Bring Peace to Afghanistan"
-  date: 2019-05-21
-  description: "The Wire"
-  path: "https://m.thewire.in/article/south-asia/taliban-afghanistan-peace-talks"
-  categories: [India Foreign Policy]
-
-- title: "How India Should Respond to Donald Trump's Barbs on Afghanistan"
-  date: 2019-01-19
-  description: "The Wire"
-  path: "https://m.thewire.in/article/diplomacy/india-donald-trump-barb-afghanistan"
-  categories: [India Foreign Policy]
-
-- title: "We Live in Multiple Neighbourhoods"
-  date: 2019-01-02
-  description: "ThinkPragati"
-  path: "https://www.thinkpragati.com/2018-in-review/6634/we-live-in-multiple-neighbourhoods/"
-  categories: [India Foreign Policy, Public Policy]
-
-- title: "India will stay relevant in Afghanistan, Taliban or no Taliban"
-  date: 2018-11-22
-  description: "Telegraph India"
-  path: "https://www.telegraphindia.com/opinion/india-will-stay-relevant-in-afghanistan-taliban-or-no-taliban/cid/1676150"
-  categories: [India Foreign Policy]
-
-- title: "Why the south-vs-north debate is a flawed way to analyse the 15th Finance Commission formula"
-  date: 2018-03-26
-  description: "The Print"
-  path: "https://theprint.in/opinion/why-the-south-vs-north-debate-is-a-flawed-way-to-analyse-the-15th-finance-commission-formula/44706/"
-  categories: [Public Finance, Political Economy]
-
-- title: "Pakistan's Two-Pronged Game in Kabul"
-  date: 2017-06-12
-  description: "The Wire"
-  path: "https://m.thewire.in/article/news/pakistans-two-pronged-game-in-kabul"
-  categories: [India Foreign Policy]
-
-- title: "Choosing Between Taliban and ISIS: A Dangerous False Dilemma"
-  date: 2017-02-10
-  description: "The Wire"
-  path: "https://m.thewire.in/article/south-asia/choosing-between-taliban-and-isis-a-dangerous-false-dilemma"
-  categories: [India Foreign Policy]
-
-- title: "Are India, Iran and Russia Parting Ways on Afghanistan?"
-  date: 2016-12-27
-  description: "The Wire"
-  path: "https://m.thewire.in/article/news/india-iran-russia-afghanistan"
-  categories: [India Foreign Policy]
-
-- title: "A South Asian Manifesto for the Next U.S. President"
-  date: 2016-11-02
-  description: "South Asian Voices (Stimson Center)"
-  path: "https://southasianvoices.org/south-asian-manifesto-next-u-s-president/"
-  categories: [India Foreign Policy, Public Policy]
-
-- title: "Anticipating Pakistan's Next Moves in Afghanistan"
-  date: 2016-10-14
-  description: "The Wire"
-  path: "https://m.thewire.in/article/news/anticipating-pakistans-next-moves-afghanistan"
-  categories: [India Foreign Policy]
-
-- title: "Balochistan and the 'India' Factor in Pakistan's Civil-Military Equation"
-  date: 2016-09-16
-  description: "The Wire"
-  path: "https://m.thewire.in/article/south-asia/balochistan-india-factor-pakistans-civil-military-equation"
-  categories: [India Foreign Policy]
-
-- title: "The Ins and Outs of the India-US-Afghanistan Trilateral Dialogue"
-  date: 2016-09-13
-  description: "The Wire"
-  path: "https://m.thewire.in/article/news/the-ins-and-outs-of-the-india-us-afghanistan-trilateral-dialogue"
-  categories: [India Foreign Policy]
-
-- title: "India, US Collaboration In Afghanistan Could Herald Change for Region"
-  date: 2016-08-25
-  description: "The Wire"
-  path: "https://m.thewire.in/article/news/india-us-afghanistan"
-  categories: [India Foreign Policy]
-
-- title: "Karnataka's Changing Fiscal Landscape"
-  date: 2016-08-13
-  description: "Economic and Political Weekly"
-  path: "https://www.epw.in/journal/2016/33/commentary/karnatakas-changing-fiscal-landscape.html"
-  categories: [Public Finance]
-
-- title: "Impact of Fourteenth Finance Commission"
-  date: 2015-11-21
-  description: "Economic and Political Weekly"
-  path: "https://www.epw.in/journal/2015/46-47/commentary/impact-fourteenth-finance-commission.html"
-  categories: [Public Finance]
-
-- title: "What Value Does BRICS Really Add to India"
-  date: 2015-07-15
-  description: "NDTV"
-  path: "https://www.ndtv.com/opinion/what-value-does-brics-really-add-to-india-779833"
-  categories: [India Foreign Policy]
-
-- title: "India, and the Taliban's Changing Dynamics"
-  date: 2015-07-14
-  description: "The Hindu"
-  path: "https://www.thehindu.com/opinion/columns/world-view-india-and-the-talibans-changing-dynamics/article7430357.ece"
-  categories: [India Foreign Policy]
-
-- title: "Afghanistan's Quest for Strategic Autonomy"
-  date: 2014-12-24
+- title: "Let's Make the Most of Dirt Cheap Oil"
+  date: 2020-04-21
   description: "Mint"
-  path: "https://www.livemint.com/Opinion/9xAD9GCNG7XlmoLmHbXHLL/Afghanistans-quest-for-strategic-autonomy.html"
-  categories: [India Foreign Policy]
+  path: "https://www.livemint.com/opinion/online-views/opinion-let-s-make-the-most-of-dirt-cheap-oil-11587458681160.html"
+  categories: [Economic Policy]
 
-- title: "The lure of legalising bilateral disputes"
-  date: 2014-07-22
-  description: "Business Standard"
-  path: "https://www.business-standard.com/article/opinion/pranay-kotasthane-the-lure-of-legalising-bilateral-disputes-114072201299_1.html"
-  categories: [Public Policy, India Foreign Policy]
+- title: "COVID-19: Govt must act now to prevent economic disaster"
+  date: 2020-03-24
+  description: "Deccan Herald"
+  path: "https://www.deccanherald.com/opinion/covid-19-govt-must-act-now-to-prevent-economic-disaster-817155.html"
+  categories: [Macroeconomics]
+
+- title: "Bengaluru needs more high-tech companies, not fewer"
+  date: 2019-11-27
+  description: "Deccan Herald"
+  path: "https://www.deccanherald.com/opinion/bengaluru-needs-more-high-tech-companies-not-fewer-780314.html"
+  categories: [Tech Policy]
+
+- title: "Cap on age limit for IVF could be allowed, but only with checks and balances"
+  date: 2019-10-21
+  description: "The Print"
+  path: "https://theprint.in/science/cap-on-age-limit-ivf-allowed-only-with-checks-and-balances/308467/"
+  categories: [Other]
+
+- title: "The Puzzling Ban of E-Cigarettes in India: Restrictions will do more harm than good"
+  date: 2019-09-19
+  description: "First Post"
+  path: "https://www.firstpost.com/tech/science/e-cigarette-ban-india-news-the-puzzling-ban-of-e-cigarettes-in-india-restrictions-will-do-more-harm-than-good-7356771.html"
+  categories: [Price Controls and Bans]
+
+- title: "Need to watch keenly what govt does with RBI bonanza"
+  date: 2019-08-28
+  description: "Deccan Herald"
+  path: "https://www.deccanherald.com/opinion/need-to-watch-keenly-what-govt-does-with-rbi-bonanza-757626.html"
+  categories: [Macroeconomics]
+
+- title: "India needs to urgently address its investment problem"
+  date: 2019-08-07
+  description: "Deccan Herald"
+  path: "https://www.deccanherald.com/opinion/india-needs-to-urgently-address-its-investment-problem-752680.html"
+  categories: [Jobs and Employment]
+
+- title: "Delhi must wake up and smell the opportunity"
+  date: 2019-06-09
+  description: "Deccan Herald"
+  path: "https://www.deccanherald.com/specials/sunday-spotlight/delhi-must-wake-up-and-smell-the-opportunity-739059.html"
+  categories: [Trade and Geoeconomics]
+
+- title: "We Need More Trade, not Trade War with US"
+  date: 2019-03-13
+  description: "Deccan Herald"
+  path: "https://www.deccanherald.com/opinion/panorama/we-need-more-trade-not-a-trade-war-with-us-722934.html"
+  categories: [Trade and Geoeconomics]
+
+- title: "Go Easy on Amazon and Flipkart"
+  date: 2019-01-12
+  description: "Pragati"
+  path: "https://www.thinkpragati.com/opinion/6784/go-easy-on-amazon-and-flipkart/"
+  categories: [Tech Policy]
+
+- title: "How to Regulate Internet Platforms Without Breaking Them"
+  date: 2018-11-14
+  description: "AsiaGlobal Online"
+  path: "https://www.asiaglobalonline.hku.hk/regulate-internet-platforms-antitrust-competition/"
+  categories: [Tech Policy]
+
+- title: "The addictive nature of bad policies"
+  date: 2018-10-28
+  description: "Live Mint"
+  path: "https://www.livemint.com/Opinion/8oyrxSfessjaF3unDptvIP/Opinion--The-addictive-nature-of-bad-policies.html"
+  categories: [Price Controls and Bans]
+
+- title: "The Fallout of US Tariffs"
+  date: 2018-09-11
+  description: "Pragati"
+  path: "https://www.thinkpragati.com/opinion/5522/the-fallout-of-us-tariffs/"
+  categories: [Trade and Geoeconomics]
+
+- title: "Having a minimum wage law is a mistake"
+  date: 2018-08-17
+  description: "Live Mint"
+  path: "https://www.livemint.com/Opinion/WgZM9HZxouo9qiByArRETP/Having-a-minimum-wage-law-is-a-mistake.html"
+  categories: [Jobs and Employment]
+
+- title: "How to fix competition in a market owned by Google, Facebook, Amazon and other digital platforms"
+  date: 2018-03-22
+  description: "Factor Daily"
+  path: "https://factordaily.com/fix-digital-platforms-google-facebook-amazon-uber-ola-for-competition/"
+  categories: [Tech Policy]
+
+- title: "With its Rs 59,000 Crore Budget, Transport Ministry Should now Focus on Safety, Speed Over New Roads"
+  date: 2018-02-02
+  description: "News18"
+  path: "https://www.news18.com/news/opinion/budget-2018-with-its-rs-59000-crore-fund-transport-ministry-should-now-focus-on-safety-speed-over-new-constructions-1648983.html"
+  categories: [Macroeconomics]
+
+- title: "But What About the Jobs Crisis"
+  date: 2018-02-02
+  description: "Pragati"
+  path: "https://www.thinkpragati.com/opinion/3377/but-what-about-the-jobs-crisis/"
+  categories: [Jobs and Employment]
+
+- title: "A Year of Missed Opportunities"
+  date: 2018-01-02
+  description: "Pragati"
+  path: "https://www.thinkpragati.com/2017-in-review/3096/year-missed-opportunities/"
+  categories: [Economic Policy]
+
+- title: "An Unwillingness to Die"
+  date: 2017-11-29
+  description: "Pragati"
+  path: "https://www.thinkpragati.com/2017-in-review/3071/an-unwillingness-to-die/"
+  categories: [Economic Policy]
+
+- title: "This medicine kills the patient"
+  date: 2017-11-21
+  description: "Pragati"
+  path: "https://www.thinkpragati.com/opinion/2688/medicine-kills-patient/"
+  categories: [Economic Policy]
+
+- title: "The irony of Indira"
+  date: 2017-08-21
+  description: "Pragati"
+  path: "https://www.thinkpragati.com/opinion/2065/the-irony-of-indira/"
+  categories: [Economic Policy]
+
+- title: "क्या खतरे की घंटी है आईटी सेक्टर में घंटनी"
+  date: 2017-05-28
+  description: "Naiduniya"
+  path: "http://naiduniaepaper.jagran.com/mpaper/29-may-2017-84-edition-Tarang-Page-1.html"
+  categories: [Jobs and Employment]
+
+- title: "ಬಡವರ ಪರ ಅಂದರೆ ‘ಜನಪ್ರಿಯ’ ಅಲ್ಲ! - ಪ್ರಜಾವಾಣಿ"
+  date: 2017-05-23
+  description: "Prajavani"
+  path: "http://www.prajavani.net/news/article/2017/05/23/493401.html"
+  categories: [Economic Policy]
+
+- title: "Price cap on movies is a bad move. Here's why!"
+  date: 2017-05-17
+  description: "Citizen Matters"
+  path: "http://bangalore.citizenmatters.in/articles/price-cap-on-movies-bangalore-karnataka-negative-consequences"
+  categories: [Price Controls and Bans]
+
+- title: "Don't Stunt the Stent Market"
+  date: 2017-05-01
+  description: "Pragati"
+  path: "https://www.thinkpragati.com/opinion/1323/dont-stunt-stent-market/"
+  categories: [Price Controls and Bans]
+
+- title: "Drivers benefit from Surge Pricing"
+  date: 2017-04-25
+  description: "Kannada Prabha"
+  path: "https://nationalinterest.in/drivers-benefit-from-surge-pricing-b49edf7dc3a7"
+  categories: [Price Controls and Bans]
+
+- title: "Unburden Our Banks"
+  date: 2017-04-21
+  description: "Pragati"
+  path: "https://www.thinkpragati.com/reforms/1181/unburden-our-banks/"
+  categories: [Economic Policy]
+
+- title: "Abolish the MRP"
+  date: 2017-03-08
+  description: "Pragati"
+  path: "https://www.thinkpragati.com/reforms/513/abolish-the-mrp/"
+  categories: [Price Controls and Bans]
+
+- title: "Mr Jaitley’s cashless dreams are a little problematic. Here are the reasons"
+  date: 2017-02-02
+  description: "Factor Daily"
+  path: "https://factordaily.com/budget-2017-digital-push-cashless/"
+  categories: [Economic Policy]
+
+- title: "Why Portugal can be an attractive investment destination for Indians"
+  date: 2017-01-06
+  description: "Live Mint"
+  path: "http://www.livemint.com/Politics/pBTabhwC9CkabhKC9pCMTP/Why-Portugal-can-be-an-attractive-investment-destination-for.html"
+  categories: [Trade and Geoeconomics]
+
+- title: "Where Demonetisation Falls Very Short Of Tackling Black Money"
+  date: 2016-12-01
+  description: "NDTV"
+  path: "http://www.ndtv.com/opinion/what-about-black-money-in-agriculture-and-education-1632525"
+  categories: [Macroeconomics]
+
+- title: "India must seize the small opportunities in a Trump Presidency"
+  date: 2016-11-12
+  description: "Bloomberg Quint"
+  path: "http://www.bloombergquint.com/opinion/2016/11/12/india-must-the-seize-small-opportunities-in-a-trump-presidency"
+  categories: [Trade and Geoeconomics]
+
+- title: "Currency Clean-Up: Will It REALLY Curb Black Money & Other Queries (Q&A)"
+  date: 2016-11-11
+  description: "The Quint"
+  path: "https://www.thequint.com/india/2016/11/11/narendra-modi-notes-ban-rs-500-1000-consequences-corruption-real-estate-tax-gold-banking-black-money-swiss-banks"
+  categories: [Economic Policy]
+
+- title: "Rs 1000, Rs 500 notes scrapped: What it means for you, me, and the guy who sells tea on the pavement"
+  date: 2016-11-09
+  description: "Factor Daily"
+  path: "http://factordaily.com/rs-1000-rs-500-notes-scrapped-analysis-what-it-means/"
+  categories: [Economic Policy]
+
+- title: "How will the US Presidential Elections Outcome impact India"
+  date: 2016-11-01
+  description: "Bloomberg Quint"
+  path: "http://www.bloombergquint.com/uselections/2016/11/01/how-will-the-us-presidential-election-outcome-affect-india"
+  categories: [Trade and Geoeconomics]
+
+- title: "Yes, India is not creating enough jobs. But, it is not apocalyptic - Yet."
+  date: 2016-10-19
+  description: "NDTV"
+  path: "http://www.ndtv.com/opinion/yes-indias-not-creating-enough-jobs-but-its-not-apocalyptic-yet-1475816?site=full"
+  categories: [Jobs and Employment]
+
+- title: "Boycotting Chinese Goods (Republished)"
+  date: 2016-10-18
+  description: "The Dialogue"
+  path: "http://www.thedialogue.co/boycotting-chinese-goods-impractical-harms-national-interest/"
+  categories: [Trade and Geoeconomics]
+
+- title: "When the watchdog didn't just bark: Competition Commission shows the way against cement price fixing"
+  date: 2016-09-16
+  description: "Scroll"
+  path: "http://scroll.in/article/816223/when-the-watchdog-didnt-just-bark-competition-commission-shows-the-way-against-cement-price-fixing"
+  categories: [Economic Policy]
+
+- title: "We are trying to become a cashless society — but is that a great idea?"
+  date: 2016-09-15
+  description: "Factor Daily"
+  path: "http://factordaily.com/digital-payment-cashless-society-good-or-bad/"
+  categories: [Tech Policy]
+
+- title: "By capping movie tickets at Rs 120, Karnataka will stifle the very industry it seeks to revitalise"
+  date: 2016-08-26
+  description: "Scroll"
+  path: "http://thereel.scroll.in/815024/by-capping-movie-tickets-at-rs-120-karnataka-will-stifle-the-very-industry-it-seeks-to-revitalise"
+  categories: [Price Controls and Bans]
+
+- title: "Chronicles of Crises"
+  date: 2016-07-16
+  description: "The Hindu"
+  path: "http://www.thehindu.com/books/literary-review/anupam-manur-and-nitinpai-review-thomas-pikettys-chronicles-on-our-troubled-times/article8859591.ece"
+  categories: [Macroeconomics]
+
+- title: "Of Mountains and Monasteries"
+  date: 2016-07-03
+  description: "Deccan Chronicle"
+  path: "http://www.deccanchronicle.com/sunday-chronicle/triptease/030716/of-mountains-and-monasteries.html"
+  categories: [Other]
+
+- title: "Uber, please don’t pretend hiding the surge is for our benefit"
+  date: 2016-06-26
+  description: "Factor Daily"
+  path: "http://factordaily.com/uber-hiding-surge-us-india/"
+  categories: [Price Controls and Bans]
+
+- title: "Brexit: Bad For Britain, But Potentially Good For India"
+  date: 2016-06-22
+  description: "NDTV"
+  path: "http://www.ndtv.com/opinion/your-guide-to-brexit-and-5-ways-it-will-impact-india-1421554?pfrom=home-lateststories"
+  categories: [Trade and Geoeconomics]
+
+- title: "Why India’s swelling fintech industry has a lot to thank Raghuram Rajan for"
+  date: 2016-06-20
+  description: "Factor Daily"
+  path: "http://factordaily.com/fintech-raghuram-rajan/"
+  categories: [Tech Policy]
+
+- title: "ಸೌರ ವಿದ್ಯುತ್ ಖರೀದಿ ಗೊಂದಲ"
+  date: 2015-12-12
+  description: "Prajavani"
+  path: "https://t.co/sw6LXmKxw3"
+  categories: [Economic Policy]
+
+- title: "Harnessing the Strengths of each State"
+  date: 2015-08-18
+  description: "The Hindu"
+  path: "http://www.thehindu.com/opinion/columns/harnessing-the-strengths-of-each-state/article7550946.ece"
+  categories: [Trade and Geoeconomics]
+
+- title: "Time to Abolish the MRP"
+  date: 2015-07-23
+  description: "The Hindu"
+  path: "http://www.thehindu.com/opinion/op-ed/maximum-retail-price-is-an-archaic-dysfunctional-mechanism/article7452745.ece"
+  categories: [Price Controls and Bans]
+
+- title: "Maximising the Post Office"
+  date: 2015-05-29
+  description: "The Hindu"
+  path: "http://www.thehindu.com/opinion/op-ed/maximising-the-post-office/article7256701.ece"
+  categories: [Economic Policy]
+
+- title: "The Return of the Tantrum"
+  date: 2015-05-24
+  description: "Pragati"
+  path: "http://pragati.nationalinterest.in/2015/05/the-return-of-the-tantrum/"
+  categories: [Macroeconomics]
+
+- title: "On a Mountain high"
+  date: 2015-05-23
+  description: "Deccan Chronicle"
+  path: "http://www.deccanchronicle.com/150523/commentary-sunday-chronicle/article/mountain-high"
+  categories: [Other]
+
+- title: "The Curious Case of the Policy Rate Cut"
+  date: 2015-03-11
+  description: "The Hindu"
+  path: "http://www.thehindu.com/opinion/op-ed/the-curious-case-of-the-policy-rate-cut/article6979062.ece?homepage=true"
+  categories: [Macroeconomics]
+
+- title: "Inflation is High, not just Food"
+  date: 2013-05-14
+  description: "Financial Express"
+  path: "http://archive.financialexpress.com/news/inflation-is-high-not-just-food/1115301"
+  categories: [Macroeconomics]
+
+- title: "Procurement Price Inflation Bogey"
+  date: 2013-03-28
+  description: "Financial Express"
+  path: "http://archive.financialexpress.com/news/column-procurement-price-inflation-bogey/1094175"
+  categories: [Macroeconomics]

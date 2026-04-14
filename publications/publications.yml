@@ -1,421 +1,126 @@
-# Publications listing
-# Add new entries at the top. Fields:
-#   title:       Paper or brief title
-#   date:        YYYY-MM-DD
-#   description: Venue and co-authors, e.g. "Takshashila Discussion Doc · with Nitin Pai"
-#   path:        Full URL to paper/PDF/DOI
-#   categories:  List of tags
+# Publications listing — add new entries at the top
 
-- title: "Clingendael Report â Enhancing IndiaâEU Engagement on âMeta-Criticalâ Technologies: A Case for Collaboration on Semiconductors"
-  date: 2023-01-05
-  description: "Takshashila Publication"
-  path: "https://takshashila.org.in/content/publications/20230105-Enhancing-IndiaâEU-Engagement-on-Meta-Critical-Technologies-A-Case-for-Collaboration-on-Semiconductors.html"
-  categories: [Semiconductor Geopolitics, Political Economy]
+- title: "Geopolitics of Fertiliser Supply in India"
+  date: 2026-04-02
+  path: "https://takshashila.org.in/content/publications/20260402-Fertilizer-Geopolitics.html"
+  categories: [Economic Policy]
 
-- title: "Book Chapter - Neither Guns nor Butter: The Inconvenient Truth of Indiaâs Defence Financing"
-  date: 2022-11-07
-  description: "Takshashila Publication"
-  path: "https://takshashila.org.in/content/publications/20221107-Neither-Guns-nor-Butter-The-Inconvenient-Truth-of-Indiaâs-Defence-Financing.html"
-  categories: [Public Policy]
+- title: "Proposal for a Right-Based Seaweed Cultivation System in India"
+  date: 2026-04-01
+  path: "https://takshashila.org.in/content/publications/20260401-India-seaweed-opportunity.html"
+  categories: [Bioeconomy]
 
-- title: "Takshashila Policy Advisory - Comments on NITI Aayogâs Draft Battery Swapping Policy"
-  date: 2022-06-09
-  description: "Takshashila Publication"
-  path: "https://takshashila.org.in/content/publications/20220609-Comments-on-NITI-Aayogâs-Draft-Battery-Swapping-Policy.html"
-  categories: [Critical Minerals]
+- title: "Turbulence Ahead for the Indian Airline Industry"
+  date: 2026-03-27
+  path: "https://takshashila.org.in/content/publications/20260327-Turbulence-Ahead-Indian-Airline-Industry.html"
+  categories: [Economic Policy]
 
-- title: "Takshashila Discussion Document - A Human Capital Investment Model for Indiaâs National Security System"
-  date: 2019-09-24
-  description: "Takshashila Publication"
-  path: "https://takshashila.org.in/content/publications/20190924-TDD-Human-Capital-Investment-Model-for-Indiaâs-National-Security-System.html"
-  categories: [Public Policy]
+- title: "Policy Responses to India’s LPG Supply Crisis"
+  date: 2026-03-18
+  path: "https://takshashila.org.in/content/publications/20260318-Policy-Responses-to-India-LPG-Supply-Crisis.html"
+  categories: [Economic Policy]
 
-- title: "Takshashila Discussion Document - Sustained Dialogue Process as Indiaâs Pakistan Policy: An assessment"
-  date: 2016-01-09
-  description: "Takshashila Publication"
-  path: "https://takshashila.org.in/content/publications/20160109-Sustained-Dialogue-Process-as-Indiaâs-Pakistan-Policy.html"
-  categories: [India Foreign Policy]
+- title: "Regionalisation of the Indian Rupee"
+  date: 2025-12-12
+  path: "https://takshashila.org.in/content/publications/20251215-regionalisation-of-the-indian-rupee.html"
+  categories: [Trade and Geoeconomics]
 
-- title: "Takshashila Strategic Assessment - Risks to Indiaâs national security from tensions along the Iran-Pakistan border"
-  date: 2014-11-13
-  description: "Takshashila Publication"
-  path: "https://takshashila.org.in/content/publications/20141113-Risks-to-Indiaâs-national-security-from-tensions-along-the-Iran-Pakistan-border.html"
-  categories: [India Foreign Policy]
+- title: "Economic and Security Implications of Pakistan’s Cryptocurrency Push"
+  date: 2025-10-15
+  path: "https://takshashila.org.in/content/publications/20251015-Pak-Crypto-Implications.html"
+  categories: [Macroeconomics]
 
-- title: "Sand Slipping Through Fingers"
-  date: 2026-03-30
-  description: "Takshashila Discussion Document 2026-09. · with Amit Kumar"
-  path: "https://takshashila.org.in/content/publications/China-Ga-Ge-Export-Restrictions-29032026.html"
-  categories: [Critical Minerals]
+- title: "The Future of India-US Trade: India’s Strategic Choices Against Trump’s Trade Pressures"
+  date: 2025-03-30
+  path: "https://takshashila.org.in/content/publications/20250330-future-of-india-us-trade.html"
+  categories: [Trade and Geoeconomics]
 
-- title: "Karnataka at the 16th Finance Commission: Concerns, Prospects, and a Way Forward"
-  date: 2024-09-06
-  description: "Takshashila Publication · with Sarthak Pradhan"
-  path: "https://takshashila.org.in/content/publications/20240906-Karnataka -16th-Finance-Commission.html"
-  categories: [Public Policy, Public Finance]
+- title: "US-India Economic Ties: To the Next Level and Beyond"
+  date: 2024-09-09
+  path: "https://takshashila.org.in/content/publications/20240909-us-india-economic-ties-recommendations.html"
+  categories: [Trade and Geoeconomics]
 
-- title: "Book Chapter - Neither Guns nor Butter: The Inconvenient Truth of India's Defence Financing"
-  date: 2022-11-07
-  description: "Takshashila Publication"
-  path: "https://takshashila.org.in/content/publications/20221107-Neither-Guns-nor-Butter.html"
-  categories: [Public Policy]
-
-- title: "Takshashila Issue Brief - Killing of al-Zawahiri Raises More Questions than Provides Answers"
-  date: 2022-08-05
-  description: "Takshashila Publication · with Srikrishna Upadhyaya and Anand Arni"
-  path: "https://takshashila.org.in/content/publications/20220805-Killing-of-al-Zawahiri-Raises -More-Questions-than-Provides-Answers.html"
-  categories: [Public Policy]
-
-- title: "Harnessing Trade Policy to Build India's Semiconductor Industry"
-  date: 2022-05-30
-  description: "Takshashila Publication · with Arjun Gargeyas"
-  path: "https://takshashila.org.in/content/publications/20220530-Harnessing Trade Policy to Build Indias-Semiconductor-Industry.html"
-  categories: [Public Policy, Semiconductor Geopolitics]
-
-- title: "A COVID-19 Vaccine Deployment Strategy for India"
-  date: 2020-09-04
-  description: "Takshashila Discussion Slide Doc · with Shambhavi Naik, Ameya Paleja, Mihir Mahajan, Narayan Ramachandran, Sunila Dixit, Rahul Matthan, and Nitin Pai"
-  path: "https://takshashila.org.in/content/publications/20200904-COVID-19-Vaccine-Deployment-Strategy-for-India.html"
-  categories: [Public Policy]
-
-- title: "Takshashila Working Paper - The Regressive Nature of Central Transfers for Health"
-  date: 2018-12-19
-  description: "Takshashila Working Paper 2018-03. · with Devika Kher, Pavan Srinath, and Aashish Chajjer"
-  path: "https://takshashila.org.in/content/publications/20181219-TWP-Central-Transfers-on-Health.html"
-  categories: [Public Policy]
-
-- title: "Takshashila Discussion Document - Deriving India's Strategies for a New World Order"
-  date: 2018-07-09
-  description: "Takshashila Publication · with Anupam Manur and Anirudh KanisettI"
-  path: "https://takshashila.org.in/content/publications/20180709-TDD-Indias-Strategies-New-World-Order-AK-PK-AM-2018-02.html"
-  categories: [Public Policy]
-
-- title: "India Should Double Down on Rare Earth Recycling"
-  date: 2026-01-23
-  description: "Takshashila Discussion Document · with Tannmay Kumarr Baid and Narayan Ramachandran"
-  path: "https://takshashila.org.in/content/publications/20260123-India-Should-Double-Down-On-Rare-Earth-Recycling.html"
-  categories: [Critical Minerals, Technology Policy]
-
-- title: "Juggernaut or Embers of a Dying Fire: China's Technology Landscape and Its Implications for India"
-  date: 2025-11-21
-  description: "Book Chapter · with Shobhankita Reddy"
-  path: "https://takshashila.org.in/content/publications/20251121-juggernaut-or-embers-of-a-dying-fire.html"
-  categories: [AI Geopolitics, Technology Policy]
-
-- title: "Geopolitics of Bengaluru's Yellow Metro Line"
-  date: 2025-09-09
-  description: "Takshashila Discussion Document · with Tannmay Kumarr Baid"
-  path: "https://takshashila.org.in/content/publications/20250909-Geopolitics-of-Bengalurus-Yellow-Metro-Line.html"
-  categories: [Technology Policy, Public Policy]
-
-- title: "Environmental Cooperation: An Imperative for Subcontinental Thinking"
-  date: 2024-10-23
-  description: "Takshashila Discussion Document · with Adya Madhavan, Nitin Pai, Anand Arni, Y. Nithiyanandam"
-  path: "https://takshashila.org.in/content/publications/20241023-environmental-cooperation.html"
-  categories: [India Foreign Policy, Public Policy]
-
-- title: "Karnataka at the 16th Finance Commission: Concerns, Prospects, and a Way Forward"
-  date: 2024-09-06
-  description: "Takshashila Discussion Document · with Sarthak Pradhan"
-  path: "https://takshashila.org.in/content/publications/20240906-Karnataka-16th-Finance-Commission.html"
-  categories: [Public Finance, Political Economy]
-
-- title: "India's Climb up the Innovation Ladder: Policy Enablers and Impediments"
-  date: 2024-08-05
-  description: "Takshashila Discussion Document · with Sarthak Pradhan"
-  path: "https://takshashila.org.in/content/publications/20240805-Indias-Climb-up-the-Innovation-Ladder.html"
-  categories: [Technology Policy, Public Policy]
-
-- title: "The Techno-Economic Impact of the Israel-Hamas War"
-  date: 2023-12-06
-  description: "Takshashila Working Paper · with Aditya Ramanathan, Sarthak Pradhan, Satya Shoova Sahu"
-  path: "https://takshashila.org.in/content/publications/20231206-The-Techno-Economic-Impact-of-the-Israel-Hamas-war.html"
-  categories: [Technology Policy, India Foreign Policy]
-
-- title: "Interrogating Power and Legitimacy in the Information Age from an Indian Perspective"
-  date: 2023-05-15
-  description: "Book Chapter · with Nitin Pai"
-  path: "https://takshashila.org.in/content/publications/20230515-Interrogating-Power-and-Legitimacy-in-the-Information-Age-from-an-Indian-Perspective.html"
-  categories: [Technology Policy, India Foreign Policy]
+- title: "De-dollarisation: Temporary blip, prolonged dip, or inevitable demise?"
+  date: 2024-07-16
+  path: "https://takshashila.org.in/content/publications/20240716-De-Dollarisation-Trends-Discussion-Document.html"
+  categories: [Trade and Geoeconomics]
 
 - title: "Time to Launch the US-India Trade Relationship into Another Orbit"
   date: 2023-05-15
-  description: "Takshashila Publication"
   path: "https://takshashila.org.in/content/publications/20230515-time-to-launch-the-us-india-trade-relationship-into-another-orbit.html"
-  categories: [India Foreign Policy, Technology Policy]
+  categories: [Trade and Geoeconomics]
 
-- title: "The Case for a G20-Led Climate Change Relocation Insurance System"
-  date: 2023-05-03
-  description: "Think20 Policy Brief"
-  path: "https://takshashila.org.in/content/publications/20230503-T20PB.html"
-  categories: [Public Policy]
+- title: "Dominant Economic Narratives in the Post-Pandemic World"
+  date: 2023-02-14
+  path: "https://takshashila.org.in/content/publications/20230210-Dominant-Economic-Narratives-in-the-Post-Pandemic-World.html"
+  categories: [Trade and Geoeconomics]
 
-- title: "AI Race Must Not Overlook AI Hardware"
-  date: 2023-03-20
-  description: "Takshashila Issue Brief · with Shrikrishna Upadhyaya"
-  path: "https://takshashila.org.in/content/publications/20230320-AI-Race-AI-Hardware.html"
-  categories: [AI Geopolitics, Semiconductor Geopolitics]
+- title: "Sri Lanka's Economic Crisis"
+  date: 2022-09-02
+  path: "https://takshashila.org.in/content/publications/20220828-Sri-Lankas-Economic-Crisis.html"
+  categories: [Macroeconomics]
 
-- title: "Rebooting AI in India"
-  date: 2023-03-14
-  description: "Clingendael Report"
-  path: "https://takshashila.org.in/content/publications/20230314-Rebooting-AI-in-India.html"
-  categories: [AI Geopolitics, Technology Policy]
+- title: "From Protectionism to Global Integration: India's Trade Policy Before and After 1991"
+  date: 2022-05-18
+  path: "https://the1991project.com/essays/protectionism-global-integration-indias-trade-policy-and-after-1991"
+  categories: [Trade and Geoeconomics]
 
-- title: "High-Technology Geopolitics in the Post-Pandemic World"
-  date: 2023-02-10
-  description: "Takshashila Working Paper"
-  path: "https://takshashila.org.in/content/publications/20230210-High-Technology-Geopolitics-in-the-Post-Pandemic-World.html"
-  categories: [Technology Policy]
+- title: "De-Dollarising Nexus: A Mirage"
+  date: 2022-03-15
+  path: "https://takshashila.org.in/content/publications/20220315-De-Dollarising-V1.0.pdf.html"
+  categories: [Trade and Geoeconomics]
 
-- title: "The Rare Earth Elements Opportunity for India"
-  date: 2023-01-31
-  description: "Takshashila Issue Brief · with Shrikrishna Upadhyaya"
-  path: "https://takshashila.org.in/content/publications/20230131-The-Rare-Earth-Elements-Opportunity-for-India.html"
-  categories: [Critical Minerals, Technology Policy]
+- title: "India’s Opportunity to Displace China in Global Supply Chains"
+  date: 2021-01-13
+  path: "https://takshashila.org.in/content/publications/20210113-Indias-Opportunity-to-Displace-China-in-Global-Supply-Chains_TDD_V1.0-2.html"
+  categories: [Trade and Geoeconomics]
 
-- title: "Enhancing India–EU Engagement on 'Meta-Critical' Technologies: A Case for Collaboration on Semiconductors"
-  date: 2023-01-05
-  description: "Clingendael Report"
-  path: "https://takshashila.org.in/content/publications/20230105-Enhancing-India%E2%80%93EU-Engagement-on-Meta-Critical-Technologies-A-Case-for-Collaboration-on-Semiconductors.html"
-  categories: [Semiconductor Geopolitics, Technology Policy]
-
-- title: "An Open Tech Strategy for India"
-  date: 2022-12-23
-  description: "Takshashila Report · with Nitin Pai"
-  path: "https://takshashila.org.in/content/publications/20221223-open-tech-strategy-for-india.html"
-  categories: [Technology Policy, Public Policy]
-
-- title: "Neither Guns nor Butter: The Inconvenient Truth of India's Defence Financing"
-  date: 2022-11-07
-  description: "Book Chapter"
-  path: "https://takshashila.org.in/content/publications/20221107-Neither-Guns-nor-Butter-The-Inconvenient-Truth-of-India's-Defence-Financing.html"
-  categories: [Public Finance, Public Policy]
-
-- title: "Restarting the Post-Pandemic Indian Economy"
-  date: 2022-07-22
-  description: "Takshashila–Hudson Institute Blue Paper"
-  path: "https://takshashila.org.in/content/publications/20220722-Restarting-the-Post-Pandemic-Indian-Economy.html"
-  categories: [Public Policy, Political Economy]
-
-- title: "Comments on NITI Aayog's Draft Battery Swapping Policy"
-  date: 2022-06-09
-  description: "Takshashila Policy Advisory"
-  path: "https://takshashila.org.in/content/publications/20220609-Comments-on-NITI-Aayog's-Draft-Battery-Swapping-Policy.html"
-  categories: [Technology Policy, Public Policy]
-
-- title: "Harnessing Trade Policy to Build India's Semiconductor Industry"
-  date: 2022-05-30
-  description: "Hinrich Foundation Report · with Arjun Gargeyas"
-  path: "https://takshashila.org.in/content/publications/20220503-Harnessing-trade-policies-to-build-Indias-semiconductor-industry.html"
-  categories: [Semiconductor Geopolitics, Technology Policy]
-
-- title: "Complement to Succeed: A Case for India-Taiwan Collaboration on Semiconductors"
-  date: 2022-05-03
-  description: "Taiwan Asia Exchange Foundation · with Arjun Gargeyas"
-  path: "https://takshashila.org.in/content/publications/20220503-A-Case-for-India-Taiwan-Collaboration-on-Semiconductors.html"
-  categories: [Semiconductor Geopolitics, India Foreign Policy]
-
-- title: "The Semiconductor Question in the Russia-Ukraine Conflict"
-  date: 2022-03-24
-  description: "Takshashila Discussion Document · with Arjun Gargeyas and Aditya Prateek"
-  path: "https://takshashila.org.in/content/publications/20220324-The-Semiconductor-Question-in-the-Russia-Ukraine-Conflict.html"
-  categories: [Semiconductor Geopolitics, India Foreign Policy]
-
-- title: "Comments to Parliamentary Standing Committee on Science & Technology (FY 2022-23)"
-  date: 2022-02-14
-  description: "Takshashila Policy Advisory"
-  path: "https://takshashila.org.in/content/publications/20220214-Policy-advisory-on-Demand-for-grants-Union-Budget-FY22-23.html"
-  categories: [Technology Policy, Public Policy]
-
-- title: "India's Semiconductor Ecosystem: A SWOT Analysis"
-  date: 2021-08-09
-  description: "Takshashila Discussion SlideDoc · with Anup Rajput, Samparna Tripathy, Amol Sarin"
-  path: "https://takshashila.org.in/content/publications/20210809-indias-semiconductor-ecosystem-swot-analysis.html"
-  categories: [Semiconductor Geopolitics, Technology Policy]
-
-- title: "Managed Reopening After Lockdown: Recommendations for State Governments"
-  date: 2021-06-14
-  description: "Takshashila Policy Advisory"
-  path: "https://takshashila.org.in/content/publications/20210614-Managed-Reopening-After-Lockdown.html"
-  categories: [Public Policy]
-
-- title: "Siliconpolitik: The Case for a Quad Semiconductor Partnership"
-  date: 2021-04-27
-  description: "ISAS Working Paper"
-  path: "https://takshashila.org.in/content/publications/20210427-Siliconpolitik-The-Case-for-a-Quad-Semiconductor-Partnership.html"
-  categories: [Semiconductor Geopolitics, India Foreign Policy]
-
-- title: "Comments to Parliamentary Standing Committee on Science and Technology (FY 2021-22)"
-  date: 2021-03-11
-  description: "Takshashila Policy Advisory"
-  path: "https://takshashila.org.in/content/publications/20210311-comments-to-parliamentary-standing-committee-on-science-and-technology-environment-forests-and-climate-change-on-demand-for-grants-dfgs-in-the-budget-for-fy-2021-22.html"
-  categories: [Technology Policy, Public Policy]
-
-- title: "A COVID-19 Vaccine Deployment Strategy for India"
-  date: 2020-11-05
-  description: "IPPR Journal Article"
-  path: "https://takshashila.org.in/content/publications/20201105-A-COVID-19-Vaccine-Deployment-Strategy-For-India.html"
-  categories: [Public Policy]
-
-- title: "Constraining the Pakistani Military-Jihadi Complex in a Post-COVID World"
-  date: 2020-10-05
-  description: "CLAWS Journal Article"
-  path: "https://takshashila.org.in/content/publications/20201005-Constraining-the-Pakistani-Military-Jihadi-Complex-In-a-Post-COVID-World.html"
-  categories: [India Foreign Policy]
-
-- title: "COVID-19 Warrants Long Overdue Doctrinal Shifts in Military Planning"
-  date: 2020-09-02
-  description: "IPPR Journal Article"
-  path: "https://takshashila.org.in/content/publications/20200902-COVID-19-Warrants-Long-Overdue-Doctrinal-Shifts-in-Military-Planning.html"
-  categories: [Public Policy, India Foreign Policy]
-
-- title: "Supplementing State Policing Capacity for COVID-19 Duties"
-  date: 2020-09-03
-  description: "Takshashila Policy Advisory"
-  path: "https://takshashila.org.in/content/publications/20200903-Supplementing-Policing-Capacity-for-COVID-19-Duties.html"
-  categories: [Public Policy]
-
-- title: "National Security Preparedness & Planning for COVID-19"
-  date: 2020-06-16
-  description: "Takshashila Discussion SlideDoc"
-  path: "https://takshashila.org.in/content/publications/20200616-National-Security-Plan-for-COVID19.html"
-  categories: [Public Policy, India Foreign Policy]
+- title: "A Liberal Trade Regime in an Uncertain World"
+  date: 2020-11-11
+  path: "https://www.amazon.in/dp/B08NC125Q6/"
+  categories: [Trade and Geoeconomics]
 
 - title: "India in the Post COVID-19 World Order"
   date: 2020-05-07
-  description: "Takshashila Discussion SlideDoc"
   path: "https://takshashila.org.in/content/publications/20200507-India-post-Covid-World-Order.html"
-  categories: [India Foreign Policy, Public Policy]
+  categories: [Economic Policy]
 
-- title: "China's Foreign Policy in the Post-Covid World Order: An Assessment"
-  date: 2020-04-29
-  description: "Takshashila Discussion Document"
-  path: "https://takshashila.org.in/content/publications/20200429-China-Foreign-Policy-in-the-Post-Covid-World-Order.html"
-  categories: [India Foreign Policy]
+- title: "A Pathway for Post-Pandemic Economic Reconstruction"
+  date: 2020-04-21
+  path: "https://takshashila.org.in/content/publications/20200527-a-pathway-for-post-pandemic-economic-reconstruction.html"
+  categories: [Economic Policy]
 
-- title: "The Economics and Politics of Pakistan's COVID-19 Response"
-  date: 2020-03-28
-  description: "Takshashila Strategic Assessment"
-  path: "https://takshashila.org.in/content/publications/20200328-TSA-Pakistan-Covid19.html"
-  categories: [India Foreign Policy, Political Economy]
+- title: "India and the Saudi-Russia Oil Price War"
+  date: 2020-04-09
+  path: "https://takshashila.org.in/content/publications/20200409-India-and-the-Saudi-Russia-Oil-Price-War.html"
+  categories: [Trade and Geoeconomics]
 
-- title: "The Regressive Nature of Central Transfers for Health"
-  date: 2019-12-19
-  description: "Takshashila Working Paper"
-  path: "https://takshashila.org.in/content/publications/20191219-TWP-Central-Transfers-on-Health-PK-DK-PS-AC-2018-03.html"
-  categories: [Public Finance, Public Policy]
+- title: "An Indian Approach Towards Strategic Petroleum Reserves"
+  date: 2020-03-26
+  path: "https://takshashila.org.in/content/publications/20200317-TDD_SPRBackground_AM_RS_NR_V2_2020-02.html"
+  categories: [Economic Policy]
 
-- title: "A Human Capital Investment Model for India's National Security System"
-  date: 2019-09-24
-  description: "Takshashila Discussion Document"
-  path: "https://takshashila.org.in/content/publications/20190924-TDD-Human-Capital-Investment-Model-for-India's-National-Security-System.html"
-  categories: [Public Policy, India Foreign Policy]
+- title: "Governing Tech Platforms in India"
+  date: 2020-02-07
+  path: "https://takshashila.org.in/content/publications/20200207-Governing-Tech-Platforms-in-India.html"
+  categories: [Tech Policy]
 
-- title: "Quality of Service Based Differential Pricing for Data Services"
-  date: 2019-08-01
-  description: "Takshashila Policy Advisory"
-  path: "https://takshashila.org.in/content/publications/20190801-Quality-of-Service-Based-Differential-Pricing-for-Data-Services.html"
-  categories: [Technology Policy, Public Policy]
-
-- title: "India's External Intelligence Agency: Managing the Human Resources Challenge"
-  date: 2019-01-17
-  description: "Takshashila Discussion Document"
-  path: "https://takshashila.org.in/content/publications/20190117-TDD-Managing-the-HR-Challenge.html"
-  categories: [Public Policy, India Foreign Policy]
-
-- title: "A Qualitative and Quantitative Analysis of Public Health Expenditure in India"
-  date: 2018-07-05
-  description: "Takshashila Working Paper"
-  path: "https://takshashila.org.in/content/publications/20180705-A-Qualitative-and-Quantitative-Analysis-of-Public-Health-Expenditure-in-India.html"
-  categories: [Public Finance, Public Policy]
-
-- title: "Deriving India's Strategies for a New World Order"
-  date: 2018-07-09
-  description: "Takshashila Discussion Document"
+- title: "Deriving India’s Strategies for a New World Order"
+  date: 2019-07-09
   path: "https://takshashila.org.in/content/publications/20180709-TDD-Indias-Strategies-New-World-Order.html"
-  categories: [India Foreign Policy]
+  categories: [Trade and Geoeconomics]
 
-- title: "Differentiating Unintended Consequences from Unanticipated Ones: A Policy Framework"
-  date: 2017-12-19
-  description: "Takshashila Working Paper"
-  path: "https://takshashila.org.in/content/publications/20171219-TWP-Differentiating-Unintended-Consequences-From-Unanticipated-Ones-A-Policy-Framework-VKS-PK-2017-02.html"
-  categories: [Public Policy]
+- title: "Regulating Multi-Sided Platforms – Challenges in the Indian Context"
+  date: 2018-07-31
+  path: "https://takshashila.org.in/content/publications/20180801-regulating-multi-sided-platforms-challenges-in-the-indian-context.html"
+  categories: [Tech Policy]
 
-- title: "The Other Pakistan: Understanding the Military-Jihadi Complex"
-  date: 2017-09-17
-  description: "Book Chapter"
-  path: "https://takshashila.org.in/content/publications/20170917-TDC-The-other-Pakistan.html"
-  categories: [India Foreign Policy]
+- title: "An Account of Unaccounted Money"
+  date: 2016-11-30
+  path: "https://takshashila.org.in/content/publications/20161130-TDD-Unaccounted-Income-AM-MV-2016-05-29-Nov1.html"
+  categories: [Macroeconomics]
 
-- title: "A Framework to Model the India-Pakistan Conflict Escalation"
-  date: 2017-06-14
-  description: "Takshashila Working Paper"
-  path: "https://takshashila.org.in/content/publications/20170614-The-India-Pakistan-conflict-escalation-framework.html"
-  categories: [India Foreign Policy]
-
-- title: "Individual Liberty vs Public Security in a Radically Networked Society"
-  date: 2017-01-17
-  description: "Book Chapter"
-  path: "https://takshashila.org.in/content/publications/20170117-Individual-Liberty-vs-Public-Security-in-a-RNS.html"
-  categories: [Technology Policy, Public Policy]
-
-- title: "Analysing India Post-Uri Through a Conflict Escalation Framework"
-  date: 2016-12-01
-  description: "Takshashila Discussion SlideDoc"
-  path: "https://takshashila.org.in/content/publications/20161201-Analysing-India-Post-Uri-Through-a-Conflict-Escalation-Framework.html"
-  categories: [India Foreign Policy]
-
-- title: "Karnataka's Changing Fiscal Landscape after the 14th Finance Commission"
-  date: 2016-08-09
-  description: "Economic and Political Weekly"
-  path: "https://takshashila.org.in/content/publications/20160809-Karnataka-Changing-Fiscal-Landscape-after-FFC.html"
-  categories: [Public Finance, Political Economy]
-
-- title: "Sustained Dialogue Process as India's Pakistan Policy: An Assessment"
-  date: 2016-01-09
-  description: "Takshashila Discussion Document"
-  path: "https://takshashila.org.in/content/publications/20160109-Sustained-Dialogue-Process-as-India's-Pakistan-Policy.html"
-  categories: [India Foreign Policy]
-
-- title: "A Global Climate Change Relocation Insurance Framework"
-  date: 2015-12-10
-  description: "Takshashila Policy Brief"
-  path: "https://takshashila.org.in/content/publications/20151210-A-Global-Climate-Change-Relocation-Insurance-Framework.html"
-  categories: [Public Policy]
-
-- title: "The Looming United States Pivot Towards Containing China's Influence"
-  date: 2015-08-24
-  description: "Takshashila Discussion Document"
-  path: "https://takshashila.org.in/content/publications/20150824-US-containment-of-China's-influence.html"
-  categories: [India Foreign Policy]
-
-- title: "The India-Pakistan Conflict Escalation Framework"
-  date: 2015-07-26
-  description: "Takshashila Discussion Document"
-  path: "https://takshashila.org.in/content/publications/20150726-India-Pakistan-conflict-escalation-framework.html"
-  categories: [India Foreign Policy]
-
-- title: "ICT Governance Agenda for BRICS: An Eightfold Path"
-  date: 2015-05-31
-  description: "Takshashila Working Paper"
-  path: "https://takshashila.org.in/content/publications/20150531-ICT-Governance-Agenda-For-BRICS.html"
-  categories: [Technology Policy, India Foreign Policy]
-
-- title: "The Eightfold Path to India's Nuclear Fuel Supply Security"
-  date: 2015-05-20
-  description: "Takshashila Discussion Document"
-  path: "https://takshashila.org.in/content/publications/20150520-The-Eightfold-Path-to-Indias-Nuclear-Fuel-Supply-Security.html"
-  categories: [India Foreign Policy, Public Policy]
-
-- title: "Risks to India's National Security from Tensions Along the Iran-Pakistan Border"
-  date: 2014-11-13
-  description: "Takshashila Strategic Assessment"
-  path: "https://takshashila.org.in/content/publications/20141113-Risks-to-India's-national-security-from-tensions-along-the-Iran-Pakistan-border.html"
-  categories: [India Foreign Policy]
-
-- title: "Resolving the Indo-Bangladesh Maritime Dispute"
-  date: 2014-06-29
-  description: "Takshashila Discussion Document"
-  path: "https://takshashila.org.in/content/publications/20140629-TDD-Resolving-Indo-Bangladesh-Maritime-Dispute.html"
-  categories: [India Foreign Policy]
+- title: "India's currency Reform 2016"
+  date: 2016-11-23
+  path: "https://takshashila.org.in/content/publications/20161123-Slidedoc-Currency-Reform-Analysis.html"
+  categories: [Macroeconomics]

@@ -1,0 +1,189 @@
+---
+title: "Media"
+toc: true
+---
+
+## Select Videos
+
+::: {.grid}
+
+::: {.g-col-6}
+::: {.course-card}
+### Should India Ban Social Media For Children
+A Purva Paksha debate held at BIC, Bangalore.
+
+{{< video https://youtu.be/l0KvawP5eco width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### The Iran Brief: Theory of Victory and Global Energy Anxieties
+All Things Policy Video Podcast about the Iran war.
+
+{{< video https://www.youtube.com/watch?v=lxWsxTOHPQs width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Pakistan's Crypto Adoption & Implications for India
+All Things Policy Video Podcast.
+
+{{< video https://www.youtube.com/watch?v=P98JMQYYlhQ width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### India's Reform Journey Revisited: Need for Fiscal Council
+The 1991 Project by Mercatus Centre.
+
+{{< video https://www.youtube.com/watch?v=Rjd2jvrM_98 width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Can India-Pakistan backdoor trade be stopped?
+TRT World Appearance.
+
+{{< video https://www.youtube.com/watch?v=tnNfRbe3t_g width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### How are Indian markets reacting to US-China trade war?
+TRT World.
+
+{{< video https://www.youtube.com/watch?v=I27Kzp2ttZg width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Is Minimum Support Prices partially responsible for Delhi's smog?
+Video on Open Takshashila.
+
+{{< video https://www.youtube.com/watch?v=-BCx1GCQbcU width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Why e-cigarette ban in India will do more harm than good
+Video based on my article.
+
+{{< video https://www.youtube.com/watch?v=lpxDx1A5eTM width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Deep Dive: 30% Cap On UPI Transactions Justified?
+Appearance on ET Now.
+
+{{< video https://www.youtube.com/watch?v=-fla-LORc5Q width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Strengthening the Indian Republic: Lee in conversation with the authors of 'We the Citizens'
+A radio conversation about our book.
+
+{{< video https://www.youtube.com/watch?v=Mgsc5QHZstQ width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Indigo grounds flyers
+Newslaundry Hafta appearance to talk about Indigo Fiasco.
+
+{{< video https://www.youtube.com/watch?v=2IkjZFsx4tQ width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### We, The Citizens: Strengthening the Indian Republic
+Bangalore Lit Fest Panel.
+
+{{< video https://www.youtube.com/watch?v=ZKLvzNfq_Zk width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### How does this year's budget impact the Indian Economy?
+A Panel Discussion for Deccan Herald.
+
+{{< video https://www.youtube.com/watch?v=TC-anH_pfuo width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### How Do We Reduce Dependence On China?
+ET Now Panel Discussion.
+
+{{< video https://www.youtube.com/watch?v=5rJtocUEQ_o width="100%" height="225" >}}
+:::
+:::
+
+:::
+
+---
+
+## Select Podcasts
+
+::: {.grid}
+
+::: {.g-col-6}
+::: {.course-card}
+### The relentless rise of "government" as a competitor
+The Ken Two by Two Podcast.
+
+{{< video https://www.youtube.com/watch?v=bTxdnH6CVsE width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Making Policy Fun with Khyati Pathak and Friends
+The Seen and the Unseen Podcast.
+
+{{< video https://www.youtube.com/watch?v=cNpI9WQ3_2c width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Protectionism
+The Seen and the Unseen Podcast.
+
+{{< video https://www.youtube.com/watch?v=HfULOd7rtl8 width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### The Fall of Homo Economicus?
+All Things Policy Podcast with Ashish Kulkarni.
+
+{{< video https://www.youtube.com/watch?v=oBHJVX8xsLE width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Creating Safety Nets for Gig Workers
+All Things Policy Podcast.
+
+{{< video https://www.youtube.com/watch?v=NLFzbtaWmKY width="100%" height="225" >}}
+:::
+:::
+
+:::

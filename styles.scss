@@ -723,15 +723,28 @@ hr {
 
 // ── Responsive ───────────────────────────────────────────────────
 .grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  display: grid !important;
+  grid-template-columns: repeat(12, 1fr) !important;
   gap: 1.5rem;
   margin: 2rem 0;
 }
 
 .g-col-6 {
   grid-column: span 6;
-  @media (max-width: 768px) { grid-column: span 12; }
+  @media (max-width: 768px) { grid-column: span 12 !important; }
+}
+
+// ── Media page video responsiveness ─────────────────────────────
+@media (max-width: 768px) {
+  .grid > .g-col-6 {
+    grid-column: span 12 !important;
+  }
+  .course-card iframe,
+  .course-card video {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9;
+  }
 }
 
 .g-col-3 {

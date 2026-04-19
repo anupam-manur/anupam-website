@@ -59,6 +59,8 @@ website:
 
   search: true
 
+  google-analytics: "G-LBS91V0JQH"
+
   open-graph:
     title: "Anupam Manur"
     description: "Economics professor, author, and policy researcher at the Takshashila Institution. Research on economic policy, trade, platform economics, and bioeconomy."

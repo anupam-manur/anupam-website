@@ -196,11 +196,31 @@ def normalize_url(url: str) -> str:
     url = re.sub(r"^http://", "https://", url)
     # Remove -amp before .html
     url = re.sub(r"-amp(\.html)$", r"\1", url)
+    # Collapse .pdf.html → .html
+    url = re.sub(r"\.pdf(\.html)$", r"\1", url)
     # Remove www.
     url = re.sub(r"^(https://)www\.", r"\1", url)
     # Remove trailing slash
     url = url.rstrip("/")
     return url
+
+
+def _slug_key(url: str) -> str:
+    """Return a normalised slug for near-duplicate detection (strips extensions, lowercased)."""
+    path = urlparse(url).path.rstrip("/")
+    slug = path.split("/")[-1] if path else ""
+    # Strip .pdf and/or .html suffixes (handles .pdf, .html, .pdf.html)
+    slug = re.sub(r"\.(pdf|html)$", "", slug, flags=re.IGNORECASE)
+    slug = re.sub(r"\.(pdf|html)$", "", slug, flags=re.IGNORECASE)
+    return slug.lower()
+
+
+def is_near_duplicate(href: str, existing_paths: set[str]) -> bool:
+    """True if href shares a normalised slug with any URL in existing_paths."""
+    key = _slug_key(href)
+    if not key:
+        return False
+    return any(_slug_key(ep) == key for ep in existing_paths)
 
 
 def read_existing_paths(yaml_path: str) -> set[str]:
@@ -419,8 +439,8 @@ def scrape_publications(soup: BeautifulSoup, existing_paths: set[str]) -> list[d
         href = urljoin(TEAM_PAGE, parent.get("href", ""))
         href = normalize_url(href)
 
-        if href in existing_paths:
-            continue  # already known
+        if href in existing_paths or is_near_duplicate(href, existing_paths):
+            continue  # already known (exact or near-duplicate slug)
 
         print(f"  [PUB] New: {href}")
         meta = scrape_pub_page(href)
@@ -533,7 +553,7 @@ def scrape_opeds(soup: BeautifulSoup, existing_paths: set[str]) -> list[dict]:
             continue
         href = normalize_url(urljoin(TEAM_PAGE, link_el.get("href", "")))
 
-        if href in existing_paths:
+        if href in existing_paths or is_near_duplicate(href, existing_paths):
             continue
 
         title_el = item.select_one(".listing-title")

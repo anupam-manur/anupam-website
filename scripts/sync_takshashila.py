@@ -6,6 +6,8 @@ and update the YAML listing files on the personal website.
 Run locally:   pip install requests beautifulsoup4 && python scripts/sync_takshashila.py
 """
 
+from __future__ import annotations
+
 import os
 import re
 import sys
@@ -447,12 +449,23 @@ def scrape_blogs(soup: BeautifulSoup, existing_paths: set[str]) -> list[dict]:
     """Extract new blog posts from the team page listing."""
     new_entries: list[dict] = []
 
-    container = soup.select_one("#listing-recent-blogs")
+    # Try multiple container selectors (Takshashila may change structure)
+    container = (
+        soup.select_one("#listing-recent-blogs")
+        or soup.select_one("#recent-blogs")
+        or soup.select_one(".recent-blogs")
+    )
     if not container:
-        print("  [WARN] Could not find #listing-recent-blogs on team page")
+        # Fallback: find by heading text
+        for heading in soup.find_all(["h2", "h3", "h4"]):
+            if "blog" in heading.get_text().lower():
+                container = heading.find_next_sibling() or heading.parent
+                break
+    if not container:
+        print("  [WARN] Could not find blogs section on team page")
         return new_entries
 
-    for item in container.select(".listing-item, article, .quarto-post"):
+    for item in container.select(".listing-item, article, .quarto-post, .content-card"):
         # Author filter — only include posts by Anupam
         author_el = item.select_one(".listing-author, .listing-authors")
         if author_el:

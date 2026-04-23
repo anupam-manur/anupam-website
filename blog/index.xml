@@ -10,7 +10,16 @@
 <atom:link href="https://anupammanur.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on public policy, technology, and geopolitics</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Tue, 31 Mar 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 22 Apr 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Introduce MDR and Make UPI Sustainable</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Technology Policy</category>
+  <category>Platform Economics</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>India is the Pharmacy of the World. But We Are Losing the Drug Development Race</title>
   <link>https://anupammanur.com/</link>
@@ -168,14 +177,6 @@
   <category>Geoeconomics</category>
   <guid>https://anupammanur.com/</guid>
   <pubDate>Wed, 02 Nov 2016 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Boycotting Chinese goods: Impractical and harms the national interest</title>
-  <link>https://anupammanur.com/</link>
-  <description>Medium</description>
-  <category>Geoeconomics</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Thu, 13 Oct 2016 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

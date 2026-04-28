@@ -301,11 +301,21 @@ def prepend_entries(yaml_path: str, new_entries: list[dict]) -> int:
 # HTTP helpers
 # ---------------------------------------------------------------------------
 
+def fix_encoding(text: str) -> str:
+    """Fix double-encoded UTF-8 strings (latin-1 bytes re-encoded as utf-8)."""
+    try:
+        return text.encode("latin-1").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return text
+
+
 def get_soup(url: str) -> BeautifulSoup | None:
     """Fetch a URL and return a BeautifulSoup, or None on error."""
     try:
         resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
         resp.raise_for_status()
+        # Force UTF-8 decoding — Takshashila pages sometimes misreport encoding
+        resp.encoding = "utf-8"
         return BeautifulSoup(resp.text, "html.parser")
     except Exception as exc:
         print(f"  [WARN] Could not fetch {url}: {exc}")

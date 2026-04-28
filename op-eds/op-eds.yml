@@ -1,19 +1,7 @@
 # Op-eds listing — add new entries at the top
 
-- title: "10 Minute Drama"
-  date: Jan 15, 2026
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/toi-plus/business-economy/the-10-minute-drama/articleshow/126529804.cms"
-  categories: [Public Policy]
-
-- title: "Rewrite this Appy Ending"
-  date: Dec 3, 2025
-  description: "Times of India"
-  path: "https://timesofindia.indiatimes.com/technology/rewrite-this-appy-ending/articleshow/125722017.cms"
-  categories: [Public Policy]
-
-- title: "The Strait of Hormuz and the âtadkaâ of geopolitics"
-  date: Apr 26, 2026
+- title: "The Strait of Hormuz and the ‘tadka’ of geopolitics"
+  date: 2026-04-26
   description: "Indian Express"
   path: "https://indianexpress.com/article/opinion/columns/the-strait-of-hormuz-lpg-condom-coke-cooking-urea-war-iran-10656739"
   categories: [Geoeconomics]

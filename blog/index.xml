@@ -10,7 +10,23 @@
 <atom:link href="https://anupammanur.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on public policy, technology, and geopolitics</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 22 Apr 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 27 Apr 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Indiaâs inflation blindspot</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Economic Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>State of the Economy</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Economic Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Introduce MDR and Make UPI Sustainable</title>
   <link>https://anupammanur.com/</link>
@@ -160,23 +176,6 @@
   <category>Technology Policy</category>
   <guid>https://anupammanur.com/</guid>
   <pubDate>Fri, 16 Dec 2016 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Trump, globalisation, and Indian trade</title>
-  <link>https://anupammanur.com/</link>
-  <description>Medium</description>
-  <category>Trade</category>
-  <category>Geoeconomics</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Tue, 15 Nov 2016 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Aftermath of Venezuelan Socialism</title>
-  <link>https://anupammanur.com/</link>
-  <description>Medium</description>
-  <category>Geoeconomics</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Wed, 02 Nov 2016 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -2,7 +2,7 @@ name: Sync Takshashila Content
 
 on:
   schedule:
-    - cron: '0 6 * * 1,4'   # Monday + Thursday, 6 am UTC (11:30 am IST)
+    - cron: '0 6 * * 1,3,6'   # Monday + Thursday, 6 am UTC (11:30 am IST)
   workflow_dispatch:          # manual trigger button in GitHub Actions UI
 
 jobs:

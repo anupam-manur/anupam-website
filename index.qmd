@@ -15,6 +15,20 @@ about:
     - icon: envelope
       text: Email
       href: mailto:anupam@takshashila.org.in
+listing:
+  - id: recent-writings
+    contents: op-eds/op-eds.yml
+    type: table
+    sort: "date desc"
+    max-items: 5
+    fields: [date, title, description]
+    field-display-names:
+      description: "Publication"
+      title: "Article"
+    date-format: "MMM YYYY"
+    filter-ui: false
+    sort-ui: false
+    categories: false
 ---
 
 ## About Me
@@ -26,23 +40,23 @@ I am a Professor of Economics at the [Takshashila Institution](https://takshashi
 ::: {.grid}
 
 ::: {.g-col-6}
-### Research & Writing
+### [Research & Writing](publications/)
 I write about economic policy, trade, platform economics, and bioeconomy. My work appears in various newspapers and other publications.
 :::
 
 ::: {.g-col-6}
-### Teaching
-I teach economics and public policy at the [Takshashila Institution](courses.qmd).
+### [Teaching](courses.qmd)
+I teach economics and public policy at the Takshashila Institution.
 :::
 
 ::: {.g-col-6}
-### Indian Public Policy Review
-I am the Managing Editor of [IPPR](ippr.qmd), a peer-reviewed, open-access journal on Indian public policy.
+### [Indian Public Policy Review](ippr.qmd)
+I am the Managing Editor of IPPR, a peer-reviewed, open-access journal on Indian public policy.
 :::
 
 ::: {.g-col-6}
-### Books
-I co-authored [*We, the Citizens*](books.qmd), a graphic novel that decodes public policy in the Indian context.
+### [Books](books.qmd)
+I co-authored *We, the Citizens*, a graphic novel that decodes public policy in the Indian context.
 :::
 
 :::

@@ -34,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -70,6 +72,36 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-writings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      page: 30,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-date","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-writings'] = new List('listing-recent-writings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LBS91V0JQH"></script>
 
 <script type="text/javascript">
@@ -81,6 +113,35 @@ gtag('config', 'G-LBS91V0JQH', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Anupam Manur">
 <meta property="og:description" content="Economics professor, author, and policy researcher at the Takshashila Institution. Research on economic policy, trade, platform economics, and bioeconomy.">
@@ -222,20 +283,20 @@ gtag('config', 'G-LBS91V0JQH', { 'anonymize_ip': true});
 <h2 data-anchor-id="what-i-do">What I Do</h2>
 <div class="grid">
 <section id="research-writing" class="level3 g-col-6">
-<h3 data-anchor-id="research-writing">Research &amp; Writing</h3>
+<h3 data-anchor-id="research-writing"><a href="publications/">Research &amp; Writing</a></h3>
 <p>I write about economic policy, trade, platform economics, and bioeconomy. My work appears in various newspapers and other publications.</p>
 </section>
 <section id="teaching" class="level3 g-col-6">
-<h3 data-anchor-id="teaching">Teaching</h3>
-<p>I teach economics and public policy at the <a href="./courses.html">Takshashila Institution</a>.</p>
+<h3 data-anchor-id="teaching"><a href="./courses.html">Teaching</a></h3>
+<p>I teach economics and public policy at the Takshashila Institution.</p>
 </section>
 <section id="indian-public-policy-review" class="level3 g-col-6">
-<h3 data-anchor-id="indian-public-policy-review">Indian Public Policy Review</h3>
-<p>I am the Managing Editor of <a href="./ippr.html">IPPR</a>, a peer-reviewed, open-access journal on Indian public policy.</p>
+<h3 data-anchor-id="indian-public-policy-review"><a href="./ippr.html">Indian Public Policy Review</a></h3>
+<p>I am the Managing Editor of IPPR, a peer-reviewed, open-access journal on Indian public policy.</p>
 </section>
 <section id="books" class="level3 g-col-6">
-<h3 data-anchor-id="books">Books</h3>
-<p>I co-authored <a href="./books.html"><em>We, the Citizens</em></a>, a graphic novel that decodes public policy in the Indian context.</p>
+<h3 data-anchor-id="books"><a href="./books.html">Books</a></h3>
+<p>I co-authored <em>We, the Citizens</em>, a graphic novel that decodes public policy in the Indian context.</p>
 </section>
 </div>
 <div class="home-search-bar">
@@ -252,7 +313,80 @@ gtag('config', 'G-LBS91V0JQH', { 'anonymize_ip': true});
 </section>
 <section id="recent-writings" class="level2">
 <h2 data-anchor-id="recent-writings">Recent Writings</h2>
-<div id="recent-writings">
+<div id="listing-recent-writings" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Date
+</th>
+<th>
+Article
+</th>
+<th>
+Publication
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="R2VvZWNvbm9taWNz" data-listing-date-sort="1777161600000" data-listing-title-sort="The Strait of Hormuz and the ‘tadka’ of geopolitics">
+<td>
+<span class="listing-date">Apr 2026</span>
+</td>
+<td>
+<a href="https://indianexpress.com/article/opinion/columns/the-strait-of-hormuz-lpg-condom-coke-cooking-urea-war-iran-10656739" class="title listing-title">The Strait of Hormuz and the ‘tadka’ of geopolitics</a>
+</td>
+<td>
+<span class="listing-description">Indian Express</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="QmlvZWNvbm9teQ==" data-listing-date-sort="1774828800000" data-listing-title-sort="India is the pharmacy of the world. But we are losing the drug development race">
+<td>
+<span class="listing-date">Mar 2026</span>
+</td>
+<td>
+<a href="https://indianexpress.com/article/opinion/columns/india-is-pharmacy-of-world-but-losing-drug-development-race-10610013/" class="title listing-title">India is the pharmacy of the world. But we are losing the drug development race</a>
+</td>
+<td>
+<span class="listing-description">Indian Express</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="SHVtb3Vy" data-listing-date-sort="1772668800000" data-listing-title-sort="Telangana Trailblazers">
+<td>
+<span class="listing-date">Mar 2026</span>
+</td>
+<td>
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/telangana-trailblazers/" class="title listing-title">Telangana Trailblazers</a>
+</td>
+<td>
+<span class="listing-description">Times of India</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1768435200000" data-listing-title-sort="10 Minute Drama">
+<td>
+<span class="listing-date">Jan 2026</span>
+</td>
+<td>
+<a href="https://timesofindia.indiatimes.com/toi-plus/business-economy/the-10-minute-drama/articleshow/126529804.cms" class="title listing-title">10 Minute Drama</a>
+</td>
+<td>
+<span class="listing-description">Times of India</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1764979200000" data-listing-title-sort="IndiGo collapsed — and we’ll still have to fly it, because we hardly have alternatives">
+<td>
+<span class="listing-date">Dec 2025</span>
+</td>
+<td>
+<a href="https://indianexpress.com/article/opinion/columns/indigo-meltdown-and-we-still-have-to-fly-it-fdtl-rules-10406170/" class="title listing-title">IndiGo collapsed — and we’ll still have to fly it, because we hardly have alternatives</a>
+</td>
+<td>
+<span class="listing-description">Indian Express</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 <a href="op-eds/" class="btn btn-outline-primary">View all op-eds →</a>
 

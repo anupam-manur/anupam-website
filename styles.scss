@@ -344,6 +344,62 @@ a {
   }
 }
 
+// ── Homepage op-ed feed ─────────────────────────────────────────
+.oped-home-item {
+  border-bottom: 1px solid #E8E8E8;
+  &:last-child { border-bottom: none; }
+
+  // Quarto wraps EJS inline content in <p> — strip its margin
+  p { margin: 0; }
+}
+
+.oped-home-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 0;
+  color: $primary;
+  text-decoration: none;
+
+  &:hover .oped-title {
+    color: $accent;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}
+
+.oped-pub-icon-wrap {
+  flex-shrink: 0;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oped-pub-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  display: block;
+}
+
+.oped-title {
+  flex: 1;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  color: $primary;
+  transition: color 0.12s;
+}
+
+.oped-date {
+  flex-shrink: 0;
+  font-size: 0.82rem;
+  color: #9CA3AF;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 // ── Idea & Project cards ─────────────────────────────────────────
 .idea-card {
   position: relative;

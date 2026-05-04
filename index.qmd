@@ -18,14 +18,9 @@ about:
 listing:
   - id: recent-writings
     contents: op-eds/op-eds.yml
-    type: table
+    template: _listing-opeds-home.ejs
     sort: "date desc"
     max-items: 5
-    fields: [date, title, description]
-    field-display-names:
-      description: "Publication"
-      title: "Article"
-    date-format: "MMM YYYY"
     filter-ui: false
     sort-ui: false
     categories: false

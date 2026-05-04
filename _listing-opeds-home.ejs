@@ -1,0 +1,18 @@
+<% for (const item of items) { %>
+<%
+  const rawUrl = item.path || '';
+  const domain = rawUrl.replace(/^https?:\/\//, '').split('/')[0];
+  const faviconUrl = 'https://www.google.com/s2/favicons?sz=32&domain=' + domain;
+  const d = new Date(item.date);
+  const formattedDate = d.toLocaleDateString('en-GB', { month: 'short', year: 'numeric' });
+%>
+<div class="oped-home-item">
+  <a href="<%= rawUrl %>" target="_blank" rel="noopener noreferrer" class="oped-home-link">
+    <span class="oped-pub-icon-wrap">
+      <img src="<%= faviconUrl %>" class="oped-pub-icon" alt="<%= item.description %>" width="16" height="16" onerror="this.style.display='none'">
+    </span>
+    <span class="oped-title"><%= item.title %></span>
+    <span class="oped-date"><%= formattedDate %></span>
+  </a>
+</div>
+<% } %>

@@ -10,7 +10,15 @@
 <atom:link href="https://anupammanur.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on public policy, technology, and geopolitics</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Tue, 05 May 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 May 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Why trucks stick to the right?</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Making better environmental trade-offs</title>
   <link>https://anupammanur.com/</link>
@@ -167,14 +175,6 @@
   <category>Public Policy</category>
   <guid>https://anupammanur.com/</guid>
   <pubDate>Wed, 24 May 2017 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Do Anti-Poverty Programmes backfire?</title>
-  <link>https://anupammanur.com/</link>
-  <description>Medium</description>
-  <category>Economic Policy</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Wed, 05 Apr 2017 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

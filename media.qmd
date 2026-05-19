@@ -10,7 +10,7 @@ toc: true
 ::: {.g-col-6}
 ::: {.course-card}
 ### Impact of Samsung's labour strike on the AI economy
-Appeared on TRT World (Turkish international news) to talk about the potential impact of a labour strike in Samsung's chip division
+TRT World interview on impact of a labour strike in Samsung's chip division
 
 {{< video https://youtu.be/RtY1_0amh2M width="100%" height="225" >}}
 :::

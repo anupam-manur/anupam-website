@@ -9,6 +9,15 @@ toc: true
 
 ::: {.g-col-6}
 ::: {.course-card}
+### Impact of Samsung's labour strike on the AI economy
+Appeared on TRT World (Turkish international news) to talk about the potential impact of a labour strike in Samsung's chip division
+
+{{< video https://youtu.be/RtY1_0amh2M width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
 ### Indian airline industry suffers due to high crack spread
 Appeared on Newlaundry's Hafta Podcast to talk about high ATF cost
 

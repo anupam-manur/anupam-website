@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-975513e292b2e3bbb4519098851bad3e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-18e1247d1e7b77fc28ad78b19e338b05.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,8 +83,8 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
-      page: 30,
+      valueNames: ['listing-title','listing-date','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-date","listing-description","listing-categories"],
     };
@@ -239,9 +239,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(108)</span></div><div class="category" data-category="QmlvZWNvbm9teQ==">Bioeconomy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWNvbm9taWMlMjBQb2xpY3k=">Economic Policy <span class="quarto-category-count">(20)</span></div><div class="category" data-category="R2VvZWNvbm9taWNz">Geoeconomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SHVtb3Vy">Humour <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=">Jobs and Employment <span class="quarto-category-count">(11)</span></div><div class="category" data-category="TWFjcm9lY29ub21pY3M=">Macroeconomics <span class="quarto-category-count">(17)</span></div><div class="category" data-category="T3RoZXI=">Other <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=">Price Controls and Bans <span class="quarto-category-count">(13)</span></div><div class="category" data-category="UHVibGljJTIwRmluYW5jZQ==">Public Finance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGljJTIwUG9saWN5">Public Policy <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VGVjaCUyMFBvbGljeQ==">Tech Policy <span class="quarto-category-count">(13)</span></div><div class="category" data-category="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=">Trade and Geoeconomics <span class="quarto-category-count">(19)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -265,1458 +265,936 @@ window.Quarto = {
 
 
 <p>Opinion pieces published in newspapers, magazines, and online outlets. Titles link to the original publication.</p>
-<div id="listing-op-eds-list" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-op-eds-list-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-op-eds-list'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Article
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-description" data-direction="asc">
-        Publication
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div id="listing-op-eds-list" class="quarto-listing quarto-listing-container-custom">
+<h2 class="listing-year-header anchored" id="year-2026">
+2026
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2026 — Times of India
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Article</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Publication</a>
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="RWNvbm9taWMlMjBQb2xpY3klMkNQdWJsaWMlMjBGaW5hbmNl" data-listing-date-sort="1780272000000" data-listing-title-sort="2 Tax Tweaks To Secure Growth Story">
-<td>
-<span class="listing-date">Jun 2026</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/toi-plus/business-economy/2-tax-tweaks-to-secure-growth-story/articleshow/131424878.cms" class="title listing-title">2 Tax Tweaks To Secure Growth Story</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1778198400000" data-listing-title-sort="On ATF, Don’t Miss The Plane Truth">
-<td>
-<span class="listing-date">May 2026</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/on-atf-dont-miss-the-plane-truth" class="title listing-title">On ATF, Don’t Miss The Plane Truth</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-categories="R2VvZWNvbm9taWNz" data-listing-date-sort="1777161600000" data-listing-title-sort="The Strait of Hormuz and the ‘tadka’ of geopolitics">
-<td>
-<span class="listing-date">Apr 2026</span>
-</td>
-<td>
-<a href="https://indianexpress.com/article/opinion/columns/the-strait-of-hormuz-lpg-condom-coke-cooking-urea-war-iran-10656739" class="title listing-title">The Strait of Hormuz and the ‘tadka’ of geopolitics</a>
-</td>
-<td>
-<span class="listing-description">Indian Express</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-categories="QmlvZWNvbm9teQ==" data-listing-date-sort="1774828800000" data-listing-title-sort="India is the pharmacy of the world. But we are losing the drug development race">
-<td>
-<span class="listing-date">Mar 2026</span>
-</td>
-<td>
-<a href="https://indianexpress.com/article/opinion/columns/india-is-pharmacy-of-world-but-losing-drug-development-race-10610013/" class="title listing-title">India is the pharmacy of the world. But we are losing the drug development race</a>
-</td>
-<td>
-<span class="listing-description">Indian Express</span>
-</td>
-
-</tr>
-
-<tr data-index="4" data-categories="SHVtb3Vy" data-listing-date-sort="1772668800000" data-listing-title-sort="Telangana Trailblazers">
-<td>
-<span class="listing-date">Mar 2026</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/telangana-trailblazers/" class="title listing-title">Telangana Trailblazers</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="5" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1768435200000" data-listing-title-sort="10 Minute Drama">
-<td>
-<span class="listing-date">Jan 2026</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/toi-plus/business-economy/the-10-minute-drama/articleshow/126529804.cms" class="title listing-title">10 Minute Drama</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="6" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1764979200000" data-listing-title-sort="IndiGo collapsed — and we’ll still have to fly it, because we hardly have alternatives">
-<td>
-<span class="listing-date">Dec 2025</span>
-</td>
-<td>
-<a href="https://indianexpress.com/article/opinion/columns/indigo-meltdown-and-we-still-have-to-fly-it-fdtl-rules-10406170/" class="title listing-title">IndiGo collapsed — and we’ll still have to fly it, because we hardly have alternatives</a>
-</td>
-<td>
-<span class="listing-description">Indian Express</span>
-</td>
-
-</tr>
-
-<tr data-index="7" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1764720000000" data-listing-title-sort="Rewrite this Appy Ending">
-<td>
-<span class="listing-date">Dec 2025</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/technology/rewrite-this-appy-ending/articleshow/125722017.cms" class="title listing-title">Rewrite this Appy Ending</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="8" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1764201600000" data-listing-title-sort="Pakistan’s crypto turn should worry India">
-<td>
-<span class="listing-date">Nov 2025</span>
-</td>
-<td>
-<a href="https://www.deccanherald.com/opinion/pakistans-crypto-turn-should-worry-india-3811609" class="title listing-title">Pakistan’s crypto turn should worry India</a>
-</td>
-<td>
-<span class="listing-description">Deccan Herald</span>
-</td>
-
-</tr>
-
-<tr data-index="9" data-categories="T3RoZXI=" data-listing-date-sort="1762473600000" data-listing-title-sort="Why Mamdani’s win isn’t a critique of capitalism">
-<td>
-<span class="listing-date">Nov 2025</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/why-mamdanis-win-isnt-a-critique-of-capitalism/" class="title listing-title">Why Mamdani’s win isn’t a critique of capitalism</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="10" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1753747200000" data-listing-title-sort="India’s trade talks with the US need a reality check — and a backup plan">
-<td>
-<span class="listing-date">Jul 2025</span>
-</td>
-<td>
-<a href="https://indianexpress.com/article/opinion/columns/us-india-trade-deal-nato-threat-uk-india-fta-10156634/" class="title listing-title">India’s trade talks with the US need a reality check — and a backup plan</a>
-</td>
-<td>
-<span class="listing-description">Indian Express</span>
-</td>
-
-</tr>
-
-<tr data-index="11" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1750032000000" data-listing-title-sort="Karnataka’s bike ban is a step backward, cities need innovation, not idea bans">
-<td>
-<span class="listing-date">Jun 2025</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/karnataka-s-bike-ban-is-a-step-backward-cities-need-innovation-not-idea-bans-13127161.html?utm_medium=social&amp;utm_source=twitter&amp;utm_campaign=regular-editorial" class="title listing-title">Karnataka’s bike ban is a step backward, cities need innovation, not idea bans</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="12" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1748908800000" data-listing-title-sort="A protracted battle between Trump and the US courts will only worsen trade uncertainty">
-<td>
-<span class="listing-date">Jun 2025</span>
-</td>
-<td>
-<a href="https://indianexpress.com/article/opinion/columns/tariffs-a-protracted-battle-between-trump-and-the-us-courts-will-only-worsen-trade-uncertainty-10045329/" class="title listing-title">A protracted battle between Trump and the US courts will only worsen trade uncertainty</a>
-</td>
-<td>
-<span class="listing-description">Indian Express</span>
-</td>
-
-</tr>
-
-<tr data-index="13" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1746057600000" data-listing-title-sort="For India, the best time for a trade deal was within Trump’s first 100 days, the second-best time is now">
-<td>
-<span class="listing-date">May 2025</span>
-</td>
-<td>
-<a href="https://indianexpress.com/article/opinion/columns/india-us-trade-deal-trump-first-100-days-pm-modi-global-order-9977055/" class="title listing-title">For India, the best time for a trade deal was within Trump’s first 100 days, the second-best time is now</a>
-</td>
-<td>
-<span class="listing-description">Indian Express</span>
-</td>
-
-</tr>
-
-<tr data-index="14" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1743465600000" data-listing-title-sort="As Trump tariffs loom, India shouldn’t look a gift horse in the mouth">
-<td>
-<span class="listing-date">Apr 2025</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/as-trump-tariffs-loom-india-shouldn-t-look-a-gift-horse-in-the-mouth-12980504.html" class="title listing-title">As Trump tariffs loom, India shouldn’t look a gift horse in the mouth</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="15" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1743033600000" data-listing-title-sort="The Good News For India Hidden In US Auto Tariffs">
-<td>
-<span class="listing-date">Mar 2025</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/toi-plus/business-economy/the-good-news-for-india-hidden-in-us-auto-tariffs/articleshow/119605877.cms" class="title listing-title">The Good News For India Hidden In US Auto Tariffs</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="16" data-categories="SHVtb3Vy" data-listing-date-sort="1742688000000" data-listing-title-sort="Smokescreen">
-<td>
-<span class="listing-date">Mar 2025</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/smokescreen/" class="title listing-title">Smokescreen</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="17" data-categories="SHVtb3Vy" data-listing-date-sort="1733788800000" data-listing-title-sort="Boycott Button">
-<td>
-<span class="listing-date">Dec 2024</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/boycott-button/" class="title listing-title">Boycott Button</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="18" data-categories="SHVtb3Vy" data-listing-date-sort="1725321600000" data-listing-title-sort="Consumer @Complaints">
-<td>
-<span class="listing-date">Sep 2024</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/consumerscomplaints/" class="title listing-title">Consumer <span class="citation" data-cites="Complaints">@Complaints</span></a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="19" data-categories="SHVtb3Vy" data-listing-date-sort="1714435200000" data-listing-title-sort="Happiness from Subsidy">
-<td>
-<span class="listing-date">Apr 2024</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/happiness-from-subsidy-its-complicated-by-factors-such-as-neighbours-envy/" class="title listing-title">Happiness from Subsidy</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="20" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1710115200000" data-listing-title-sort="Supreme Court’s push to fix medical rates is unjustified and counterproductive">
-<td>
-<span class="listing-date">Mar 2024</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/supreme-courts-push-to-fix-medical-rates-is-unjustified-and-counterproductive-12436201.html" class="title listing-title">Supreme Court’s push to fix medical rates is unjustified and counterproductive</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="21" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1709596800000" data-listing-title-sort="Bangalore Water Crisis: Marginal pricing of water, subsidies to poor may curb water woes">
-<td>
-<span class="listing-date">Mar 2024</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/bangalore-water-crisis-marginal-pricing-of-water-subsidies-to-poor-may-curb-water-woes-12402681.html" class="title listing-title">Bangalore Water Crisis: Marginal pricing of water, subsidies to poor may curb water woes</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="22" data-categories="SHVtb3Vy" data-listing-date-sort="1709510400000" data-listing-title-sort="Un-Fare Policy">
-<td>
-<span class="listing-date">Mar 2024</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/un-fare-policy/" class="title listing-title">Un-Fare Policy</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="23" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1707004800000" data-listing-title-sort="Karnataka’s plan to fix prices for Uber-Ola cabs is going to boomerang badly">
-<td>
-<span class="listing-date">Feb 2024</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/karnatakas-plan-to-fix-prices-for-uber-ola-cabs-is-going-to-boomerang-badly-12194711.html" class="title listing-title">Karnataka’s plan to fix prices for Uber-Ola cabs is going to boomerang badly</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="24" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1706745600000" data-listing-title-sort="Why Budget 2024 will rank as a good budget">
-<td>
-<span class="listing-date">Feb 2024</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/why-budget-2024-will-rank-as-a-good-budget-12172751.html" class="title listing-title">Why Budget 2024 will rank as a good budget</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="25" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1706313600000" data-listing-title-sort="Republic Day reminder: Let’s reclaim the right to economic freedom">
-<td>
-<span class="listing-date">Jan 2024</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/voices/republic-day-reminder-lets-reclaim-the-right-to-economic-freedom/" class="title listing-title">Republic Day reminder: Let’s reclaim the right to economic freedom</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="26" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1703808000000" data-listing-title-sort="Global Economy 2024: Positives in macro outlook outweighing uncertainties, India in a position to dream big">
-<td>
-<span class="listing-date">Dec 2023</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/global-economy-2024-positives-in-macro-outlook-outweighing-uncertainties-india-in-a-position-to-dream-big-11969891.html" class="title listing-title">Global Economy 2024: Positives in macro outlook outweighing uncertainties, India in a position to dream big</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="27" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1700784000000" data-listing-title-sort="Reservation For Locals: Whither jobs, economic freedoms, and economic unity?">
-<td>
-<span class="listing-date">Nov 2023</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/reservation-for-locals-whither-jobs-economic-freedoms-and-economic-unity-11808421.html" class="title listing-title">Reservation For Locals: Whither jobs, economic freedoms, and economic unity?</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="28" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1694390400000" data-listing-title-sort="G20 Summit: India takes its Digital Public Infrastructure success to the world">
-<td>
-<span class="listing-date">Sep 2023</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/g20-summit-india-takes-its-digital-public-infrastructure-success-to-the-world-11346651.html" class="title listing-title">G20 Summit: India takes its Digital Public Infrastructure success to the world</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="29" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1693785600000" data-listing-title-sort="The many messages from NCAER’s report on food delivery gig workers">
-<td>
-<span class="listing-date">Sep 2023</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/the-many-messages-from-ncaers-report-on-food-delivery-gig-workers-11305271.html" class="title listing-title">The many messages from NCAER’s report on food delivery gig workers</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="30" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1691452800000" data-listing-title-sort="An Echo of license raj in laptop import curbs">
-<td>
-<span class="listing-date">Aug 2023</span>
-</td>
-<td>
-<a href="https://www.hindustantimes.com/opinion/an-echo-of-licence-raj-in-laptop-import-curbs-101691417281870.html" class="title listing-title">An Echo of license raj in laptop import curbs</a>
-</td>
-<td>
-<span class="listing-description">Hindustan Times</span>
-</td>
-
-</tr>
-
-<tr data-index="31" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1690848000000" data-listing-title-sort="Don’t rush to mimic Rajasthan gig workers law">
-<td>
-<span class="listing-date">Aug 2023</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/dont-rush-to-mimic-rajasthan-gig-workers-law-11073981.html" class="title listing-title">Don’t rush to mimic Rajasthan gig workers law</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="32" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1687737600000" data-listing-title-sort="India mustn’t miss this chance to supercharge its electronic goods industry">
-<td>
-<span class="listing-date">Jun 2023</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/india-mustnt-miss-this-chance-to-supercharge-its-electronic-goods-industry-10855751.html" class="title listing-title">India mustn’t miss this chance to supercharge its electronic goods industry</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="33" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1686268800000" data-listing-title-sort="Government overreach in digital economy could end up with no commensurate benefit and serious distortions">
-<td>
-<span class="listing-date">Jun 2023</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/government-overreach-in-digital-economy-could-end-up-with-no-commensurate-benefit-and-serious-distortions-10769971.html" class="title listing-title">Government overreach in digital economy could end up with no commensurate benefit and serious distortions</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="34" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1684540800000" data-listing-title-sort="Rs 2,000 Note Withdrawal: No demonetisation redux but RBI could have done it better">
-<td>
-<span class="listing-date">May 2023</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/rs-2000-note-withdrawal-no-demonetisation-redux-but-rbi-could-have-done-it-better-10627841.html" class="title listing-title">Rs 2,000 Note Withdrawal: No demonetisation redux but RBI could have done it better</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="35" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1683158400000" data-listing-title-sort="Labour Law Reforms: Tamil Nadu reversing flexible work shifts is lost opportunity for business, workers, jobseekers">
-<td>
-<span class="listing-date">May 2023</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/labour-law-reforms-tamil-nadu-reversing-flexible-work-shifts-is-lost-opportunity-for-business-workers-jobseekers-10523461.html" class="title listing-title">Labour Law Reforms: Tamil Nadu reversing flexible work shifts is lost opportunity for business, workers, jobseekers</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="36" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1681171200000" data-listing-title-sort="E-pharmacy regulation needs nuanced policies">
-<td>
-<span class="listing-date">Apr 2023</span>
-</td>
-<td>
-<a href="https://www.hindustantimes.com/opinion/indias-e-pharmacies-face-government-crackdown-over-alleged-violations-of-d-c-act-101681134207838.html" class="title listing-title">E-pharmacy regulation needs nuanced policies</a>
-</td>
-<td>
-<span class="listing-description">Hindustan Times</span>
-</td>
-
-</tr>
-
-<tr data-index="37" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1679356800000" data-listing-title-sort="Lessons for RBI from its mandate that made recurring payments a nightmare">
-<td>
-<span class="listing-date">Mar 2023</span>
-</td>
-<td>
-<a href="https://www.moneycontrol.com/news/opinion/lessons-for-rbi-from-its-mandate-that-made-recurring-payments-a-nightmare-10284611.html" class="title listing-title">Lessons for RBI from its mandate that made recurring payments a nightmare</a>
-</td>
-<td>
-<span class="listing-description">Money Control</span>
-</td>
-
-</tr>
-
-<tr data-index="38" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1664841600000" data-listing-title-sort="India’s new logistics policy can fix foundational issues">
-<td>
-<span class="listing-date">Oct 2022</span>
-</td>
-<td>
-<a href="https://www.hindustantimes.com/opinion/indias-new-logistics-policy-can-fix-foundational-issues-101664892943834.html" class="title listing-title">India’s new logistics policy can fix foundational issues</a>
-</td>
-<td>
-<span class="listing-description">Hindustan Times</span>
-</td>
-
-</tr>
-
-<tr data-index="39" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1658707200000" data-listing-title-sort="Why crisis-hit Pakistan won’t go the Lanka way">
-<td>
-<span class="listing-date">Jul 2022</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/why-crisis-hit-pakistan-wont-go-the-lanka-way-world-doesnt-want-a-nation-with-nukes-to-collapse-islamabads-middle-east-friends-will-step-in/" class="title listing-title">Why crisis-hit Pakistan won’t go the Lanka way</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="40" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1656115200000" data-listing-title-sort="ಜಿಎಸ್‌ಟಿ- ಗೋಜಲು ಬಿಡಿಸಲು ಸಕಾಲ || Time to untangle the GST mess">
-<td>
-<span class="listing-date">Jun 2022</span>
-</td>
-<td>
-<a href="https://www.prajavani.net/op-ed/discussion/its-time-to-solve-the-gst-problem-948532.html" class="title listing-title">ಜಿಎಸ್‌ಟಿ- ಗೋಜಲು ಬಿಡಿಸಲು ಸಕಾಲ || Time to untangle the GST mess</a>
-</td>
-<td>
-<span class="listing-description">Prajavani</span>
-</td>
-
-</tr>
-
-<tr data-index="41" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1654560000000" data-listing-title-sort="The US must provide concrete benefits to IPEF signatories">
-<td>
-<span class="listing-date">Jun 2022</span>
-</td>
-<td>
-<a href="https://www.hindustantimes.com/opinion/the-us-must-provide-concrete-benefits-to-ipef-signatories-101654526815742.html" class="title listing-title">The US must provide concrete benefits to IPEF signatories</a>
-</td>
-<td>
-<span class="listing-description">Hindustan Times</span>
-</td>
-
-</tr>
-
-<tr data-index="42" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1650240000000" data-listing-title-sort="Divide Forex reserve into two components">
-<td>
-<span class="listing-date">Apr 2022</span>
-</td>
-<td>
-<a href="https://www.hindustantimes.com/opinion/divide-forex-reserve-into-two-components-101650205275401.html" class="title listing-title">Divide Forex reserve into two components</a>
-</td>
-<td>
-<span class="listing-description">Hindustan Times</span>
-</td>
-
-</tr>
-
-<tr data-index="43" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1646006400000" data-listing-title-sort="Western Sanctions: Impact and Ways Around Them">
-<td>
-<span class="listing-date">Feb 2022</span>
-</td>
-<td>
-<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/western-sanctions-impact-ways-around-them-india-can-work-around-russias-swift-expulsion-but-there-may-be-geopolitical-costs/" class="title listing-title">Western Sanctions: Impact and Ways Around Them</a>
-</td>
-<td>
-<span class="listing-description">Times of India</span>
-</td>
-
-</tr>
-
-<tr data-index="44" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1645574400000" data-listing-title-sort="There's a jobs crisis. Acknowledge it.">
-<td>
-<span class="listing-date">Feb 2022</span>
-</td>
-<td>
-<a href="https://www.hindustantimes.com/opinion/theres-a-jobs-crisis-acknowledge-it-101645537288817.html" class="title listing-title">There’s a jobs crisis. Acknowledge it.</a>
-</td>
-<td>
-<span class="listing-description">Hindustan Times</span>
-</td>
-
-</tr>
-
-<tr data-index="45" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1629417600000" data-listing-title-sort="In a competitive marketplace, protecting India’s gig workers">
-<td>
-<span class="listing-date">Aug 2021</span>
-</td>
-<td>
-<a href="https://www.hindustantimes.com/opinion/in-a-competitive-marketplace-protecting-india-s-gig-workers-101629372885625.html" class="title listing-title">In a competitive marketplace, protecting India’s gig workers</a>
-</td>
-<td>
-<span class="listing-description">Hindustan Times</span>
-</td>
-
-</tr>
-
-<tr data-index="46" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1627344000000" data-listing-title-sort="E-Commerce: Don't let protectionism drive policy">
-<td>
-<span class="listing-date">Jul 2021</span>
-</td>
-<td>
-<a href="https://www.hindustantimes.com/opinion/ecommerce-don-t-let-protectionism-drive-policy-101627291777824.html" class="title listing-title">E-Commerce: Don’t let protectionism drive policy</a>
-</td>
-<td>
-<span class="listing-description">Hindustan Times</span>
-</td>
-
-</tr>
-
-<tr data-index="47" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1624060800000" data-listing-title-sort="ಪೆಟ್ರೋಲ್‌ ಜಿಎಸ್‌ಟಿ ವ್ಯಾಪ್ತಿಗೆ ತಂದರೆ ಜನರಿಗೆ ಲಾಭ">
-<td>
-<span class="listing-date">Jun 2021</span>
-</td>
-<td>
-<a href="https://www.prajavani.net/business/commerce-news/bringing-petrol-to-gst-will-benefit-the-people-840172.html?fbclid=IwAR1p8OTMwVOvQYZV4t8XHi17SBYH8_ybehF2TbsMI2Ir9phiyYYXf_AcCDE" class="title listing-title">ಪೆಟ್ರೋಲ್‌ ಜಿಎಸ್‌ಟಿ ವ್ಯಾಪ್ತಿಗೆ ತಂದರೆ ಜನರಿಗೆ ಲಾಭ</a>
-</td>
-<td>
-<span class="listing-description">Prajavani</span>
-</td>
-
-</tr>
-
-<tr data-index="48" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1621468800000" data-listing-title-sort="Why e-cigarette ban in India will do more harm than good">
-<td>
-<span class="listing-date">May 2021</span>
-</td>
-<td>
-<a href="https://www.businesstoday.in/opinion/columns/why-e-cigarette-ban-in-india-will-do-more-harm-than-good/story/439628.html" class="title listing-title">Why e-cigarette ban in India will do more harm than good</a>
-</td>
-<td>
-<span class="listing-description">Business Today</span>
-</td>
-
-</tr>
-
-<tr data-index="49" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1619136000000" data-listing-title-sort="ಪಿಂಚಣಿ ಸಮಸ್ಯೆಗೆ ಎಫ್‌ಡಿಐ ಮದ್ದು">
-<td>
-<span class="listing-date">Apr 2021</span>
-</td>
-<td>
-<a href="https://www.prajavani.net/columns/pension-and-fdi-824743.html" class="title listing-title">ಪಿಂಚಣಿ ಸಮಸ್ಯೆಗೆ ಎಫ್‌ಡಿಐ ಮದ್ದು</a>
-</td>
-<td>
-<span class="listing-description">Prajavani</span>
-</td>
-
-</tr>
-
-<tr data-index="50" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1605052800000" data-listing-title-sort="Flawed regulation can undermine the digital payment ecosystem">
-<td>
-<span class="listing-date">Nov 2020</span>
-</td>
-<td>
-<a href="https://www.hindustantimes.com/analysis/flawed-regulation-can-undermine-the-digital-payment-ecosystem/story-jVikN3SWxYYRKGZZiO5loL.html" class="title listing-title">Flawed regulation can undermine the digital payment ecosystem</a>
-</td>
-<td>
-<span class="listing-description">Hindustan Times</span>
-</td>
-
-</tr>
-
-<tr data-index="51" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1589414400000" data-listing-title-sort="India’s bargaining power with China and US will grow in post-Covid world">
-<td>
-<span class="listing-date">May 2020</span>
-</td>
-<td>
-<a href="https://theprint.in/opinion/indias-bargaining-power-with-china-and-us-will-grow-in-post-covid-world/420395/" class="title listing-title">India’s bargaining power with China and US will grow in post-Covid world</a>
-</td>
-<td>
-<span class="listing-description">The Print</span>
-</td>
-
-</tr>
-
-<tr data-index="52" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1587600000000" data-listing-title-sort="Consumers should get the benefit, lowering fuel prices will increase their disposable income">
-<td>
-<span class="listing-date">Apr 2020</span>
-</td>
-<td>
-<a href="https://theprint.in/talk-point/should-modi-govt-let-oil-crash-cushion-finances-or-will-lower-retail-prices-revive-economy/407488/" class="title listing-title">Consumers should get the benefit, lowering fuel prices will increase their disposable income</a>
-</td>
-<td>
-<span class="listing-description">The Print</span>
-</td>
-
-</tr>
-
-<tr data-index="53" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1587513600000" data-listing-title-sort="Use the oil crash to boost India’s strategic reserves">
-<td>
-<span class="listing-date">Apr 2020</span>
-</td>
-<td>
-<a href="https://www.hindustantimes.com/analysis/use-the-oil-crash-to-boost-india-s-strategic-reserves-analysis/story-aECKMfH8mpcEKVCGe2ozJK.html" class="title listing-title">Use the oil crash to boost India’s strategic reserves</a>
-</td>
-<td>
-<span class="listing-description">Hindustan Times</span>
-</td>
-
-</tr>
-
-<tr data-index="54" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1587427200000" data-listing-title-sort="Let's Make the Most of Dirt Cheap Oil">
-<td>
-<span class="listing-date">Apr 2020</span>
-</td>
-<td>
-<a href="https://www.livemint.com/opinion/online-views/opinion-let-s-make-the-most-of-dirt-cheap-oil-11587458681160.html" class="title listing-title">Let’s Make the Most of Dirt Cheap Oil</a>
-</td>
-<td>
-<span class="listing-description">Mint</span>
-</td>
-
-</tr>
-
-<tr data-index="55" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1585008000000" data-listing-title-sort="COVID-19: Govt must act now to prevent economic disaster">
-<td>
-<span class="listing-date">Mar 2020</span>
-</td>
-<td>
-<a href="https://www.deccanherald.com/opinion/covid-19-govt-must-act-now-to-prevent-economic-disaster-817155.html" class="title listing-title">COVID-19: Govt must act now to prevent economic disaster</a>
-</td>
-<td>
-<span class="listing-description">Deccan Herald</span>
-</td>
-
-</tr>
-
-<tr data-index="56" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1574812800000" data-listing-title-sort="Bengaluru needs more high-tech companies, not fewer">
-<td>
-<span class="listing-date">Nov 2019</span>
-</td>
-<td>
-<a href="https://www.deccanherald.com/opinion/bengaluru-needs-more-high-tech-companies-not-fewer-780314.html" class="title listing-title">Bengaluru needs more high-tech companies, not fewer</a>
-</td>
-<td>
-<span class="listing-description">Deccan Herald</span>
-</td>
-
-</tr>
-
-<tr data-index="57" data-categories="T3RoZXI=" data-listing-date-sort="1571616000000" data-listing-title-sort="Cap on age limit for IVF could be allowed, but only with checks and balances">
-<td>
-<span class="listing-date">Oct 2019</span>
-</td>
-<td>
-<a href="https://theprint.in/science/cap-on-age-limit-ivf-allowed-only-with-checks-and-balances/308467/" class="title listing-title">Cap on age limit for IVF could be allowed, but only with checks and balances</a>
-</td>
-<td>
-<span class="listing-description">The Print</span>
-</td>
-
-</tr>
-
-<tr data-index="58" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1568851200000" data-listing-title-sort="The Puzzling Ban of E-Cigarettes in India: Restrictions will do more harm than good">
-<td>
-<span class="listing-date">Sep 2019</span>
-</td>
-<td>
-<a href="https://www.firstpost.com/tech/science/e-cigarette-ban-india-news-the-puzzling-ban-of-e-cigarettes-in-india-restrictions-will-do-more-harm-than-good-7356771.html" class="title listing-title">The Puzzling Ban of E-Cigarettes in India: Restrictions will do more harm than good</a>
-</td>
-<td>
-<span class="listing-description">First Post</span>
-</td>
-
-</tr>
-
-<tr data-index="59" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1566950400000" data-listing-title-sort="Need to watch keenly what govt does with RBI bonanza">
-<td>
-<span class="listing-date">Aug 2019</span>
-</td>
-<td>
-<a href="https://www.deccanherald.com/opinion/need-to-watch-keenly-what-govt-does-with-rbi-bonanza-757626.html" class="title listing-title">Need to watch keenly what govt does with RBI bonanza</a>
-</td>
-<td>
-<span class="listing-description">Deccan Herald</span>
-</td>
-
-</tr>
-
-<tr data-index="60" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1565136000000" data-listing-title-sort="India needs to urgently address its investment problem">
-<td>
-<span class="listing-date">Aug 2019</span>
-</td>
-<td>
-<a href="https://www.deccanherald.com/opinion/india-needs-to-urgently-address-its-investment-problem-752680.html" class="title listing-title">India needs to urgently address its investment problem</a>
-</td>
-<td>
-<span class="listing-description">Deccan Herald</span>
-</td>
-
-</tr>
-
-<tr data-index="61" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1560038400000" data-listing-title-sort="Delhi must wake up and smell the opportunity">
-<td>
-<span class="listing-date">Jun 2019</span>
-</td>
-<td>
-<a href="https://www.deccanherald.com/specials/sunday-spotlight/delhi-must-wake-up-and-smell-the-opportunity-739059.html" class="title listing-title">Delhi must wake up and smell the opportunity</a>
-</td>
-<td>
-<span class="listing-description">Deccan Herald</span>
-</td>
-
-</tr>
-
-<tr data-index="62" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1552435200000" data-listing-title-sort="We Need More Trade, not Trade War with US">
-<td>
-<span class="listing-date">Mar 2019</span>
-</td>
-<td>
-<a href="https://www.deccanherald.com/opinion/panorama/we-need-more-trade-not-a-trade-war-with-us-722934.html" class="title listing-title">We Need More Trade, not Trade War with US</a>
-</td>
-<td>
-<span class="listing-description">Deccan Herald</span>
-</td>
-
-</tr>
-
-<tr data-index="63" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1547251200000" data-listing-title-sort="Go Easy on Amazon and Flipkart">
-<td>
-<span class="listing-date">Jan 2019</span>
-</td>
-<td>
-<a href="https://www.thinkpragati.com/opinion/6784/go-easy-on-amazon-and-flipkart/" class="title listing-title">Go Easy on Amazon and Flipkart</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="64" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1542153600000" data-listing-title-sort="How to Regulate Internet Platforms Without Breaking Them">
-<td>
-<span class="listing-date">Nov 2018</span>
-</td>
-<td>
-<a href="https://www.asiaglobalonline.hku.hk/regulate-internet-platforms-antitrust-competition/" class="title listing-title">How to Regulate Internet Platforms Without Breaking Them</a>
-</td>
-<td>
-<span class="listing-description">AsiaGlobal Online</span>
-</td>
-
-</tr>
-
-<tr data-index="65" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1540684800000" data-listing-title-sort="The addictive nature of bad policies">
-<td>
-<span class="listing-date">Oct 2018</span>
-</td>
-<td>
-<a href="https://www.livemint.com/Opinion/8oyrxSfessjaF3unDptvIP/Opinion--The-addictive-nature-of-bad-policies.html" class="title listing-title">The addictive nature of bad policies</a>
-</td>
-<td>
-<span class="listing-description">Live Mint</span>
-</td>
-
-</tr>
-
-<tr data-index="66" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1536624000000" data-listing-title-sort="The Fallout of US Tariffs">
-<td>
-<span class="listing-date">Sep 2018</span>
-</td>
-<td>
-<a href="https://www.thinkpragati.com/opinion/5522/the-fallout-of-us-tariffs/" class="title listing-title">The Fallout of US Tariffs</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="67" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1534464000000" data-listing-title-sort="Having a minimum wage law is a mistake">
-<td>
-<span class="listing-date">Aug 2018</span>
-</td>
-<td>
-<a href="https://www.livemint.com/Opinion/WgZM9HZxouo9qiByArRETP/Having-a-minimum-wage-law-is-a-mistake.html" class="title listing-title">Having a minimum wage law is a mistake</a>
-</td>
-<td>
-<span class="listing-description">Live Mint</span>
-</td>
-
-</tr>
-
-<tr data-index="68" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1521676800000" data-listing-title-sort="How to fix competition in a market owned by Google, Facebook, Amazon and other digital platforms">
-<td>
-<span class="listing-date">Mar 2018</span>
-</td>
-<td>
-<a href="https://factordaily.com/fix-digital-platforms-google-facebook-amazon-uber-ola-for-competition/" class="title listing-title">How to fix competition in a market owned by Google, Facebook, Amazon and other digital platforms</a>
-</td>
-<td>
-<span class="listing-description">Factor Daily</span>
-</td>
-
-</tr>
-
-<tr data-index="69" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1517529600000" data-listing-title-sort="With its Rs 59,000 Crore Budget, Transport Ministry Should now Focus on Safety, Speed Over New Roads">
-<td>
-<span class="listing-date">Feb 2018</span>
-</td>
-<td>
-<a href="https://www.news18.com/news/opinion/budget-2018-with-its-rs-59000-crore-fund-transport-ministry-should-now-focus-on-safety-speed-over-new-constructions-1648983.html" class="title listing-title">With its Rs 59,000 Crore Budget, Transport Ministry Should now Focus on Safety, Speed Over New Roads</a>
-</td>
-<td>
-<span class="listing-description">News18</span>
-</td>
-
-</tr>
-
-<tr data-index="70" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1517529600000" data-listing-title-sort="But What About the Jobs Crisis">
-<td>
-<span class="listing-date">Feb 2018</span>
-</td>
-<td>
-<a href="https://www.thinkpragati.com/opinion/3377/but-what-about-the-jobs-crisis/" class="title listing-title">But What About the Jobs Crisis</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="71" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1514851200000" data-listing-title-sort="A Year of Missed Opportunities">
-<td>
-<span class="listing-date">Jan 2018</span>
-</td>
-<td>
-<a href="https://www.thinkpragati.com/2017-in-review/3096/year-missed-opportunities/" class="title listing-title">A Year of Missed Opportunities</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="72" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1511913600000" data-listing-title-sort="An Unwillingness to Die">
-<td>
-<span class="listing-date">Nov 2017</span>
-</td>
-<td>
-<a href="https://www.thinkpragati.com/2017-in-review/3071/an-unwillingness-to-die/" class="title listing-title">An Unwillingness to Die</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="73" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1511222400000" data-listing-title-sort="This medicine kills the patient">
-<td>
-<span class="listing-date">Nov 2017</span>
-</td>
-<td>
-<a href="https://www.thinkpragati.com/opinion/2688/medicine-kills-patient/" class="title listing-title">This medicine kills the patient</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="74" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1503273600000" data-listing-title-sort="The irony of Indira">
-<td>
-<span class="listing-date">Aug 2017</span>
-</td>
-<td>
-<a href="https://www.thinkpragati.com/opinion/2065/the-irony-of-indira/" class="title listing-title">The irony of Indira</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="75" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1495929600000" data-listing-title-sort="क्या खतरे की घंटी है आईटी सेक्टर में घंटनी">
-<td>
-<span class="listing-date">May 2017</span>
-</td>
-<td>
-<a href="http://naiduniaepaper.jagran.com/mpaper/29-may-2017-84-edition-Tarang-Page-1.html" class="title listing-title">क्या खतरे की घंटी है आईटी सेक्टर में घंटनी</a>
-</td>
-<td>
-<span class="listing-description">Naiduniya</span>
-</td>
-
-</tr>
-
-<tr data-index="76" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1495497600000" data-listing-title-sort="ಬಡವರ ಪರ ಅಂದರೆ ‘ಜನಪ್ರಿಯ’ ಅಲ್ಲ! - ಪ್ರಜಾವಾಣಿ">
-<td>
-<span class="listing-date">May 2017</span>
-</td>
-<td>
-<a href="http://www.prajavani.net/news/article/2017/05/23/493401.html" class="title listing-title">ಬಡವರ ಪರ ಅಂದರೆ ‘ಜನಪ್ರಿಯ’ ಅಲ್ಲ! - ಪ್ರಜಾವಾಣಿ</a>
-</td>
-<td>
-<span class="listing-description">Prajavani</span>
-</td>
-
-</tr>
-
-<tr data-index="77" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1494979200000" data-listing-title-sort="Price cap on movies is a bad move. Here's why!">
-<td>
-<span class="listing-date">May 2017</span>
-</td>
-<td>
-<a href="http://bangalore.citizenmatters.in/articles/price-cap-on-movies-bangalore-karnataka-negative-consequences" class="title listing-title">Price cap on movies is a bad move. Here’s why!</a>
-</td>
-<td>
-<span class="listing-description">Citizen Matters</span>
-</td>
-
-</tr>
-
-<tr data-index="78" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1493596800000" data-listing-title-sort="Don't Stunt the Stent Market">
-<td>
-<span class="listing-date">May 2017</span>
-</td>
-<td>
-<a href="https://www.thinkpragati.com/opinion/1323/dont-stunt-stent-market/" class="title listing-title">Don’t Stunt the Stent Market</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="79" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1493078400000" data-listing-title-sort="Drivers benefit from Surge Pricing">
-<td>
-<span class="listing-date">Apr 2017</span>
-</td>
-<td>
-<a href="https://nationalinterest.in/drivers-benefit-from-surge-pricing-b49edf7dc3a7" class="title listing-title">Drivers benefit from Surge Pricing</a>
-</td>
-<td>
-<span class="listing-description">Kannada Prabha</span>
-</td>
-
-</tr>
-
-<tr data-index="80" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1492732800000" data-listing-title-sort="Unburden Our Banks">
-<td>
-<span class="listing-date">Apr 2017</span>
-</td>
-<td>
-<a href="https://www.thinkpragati.com/reforms/1181/unburden-our-banks/" class="title listing-title">Unburden Our Banks</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="81" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1488931200000" data-listing-title-sort="Abolish the MRP">
-<td>
-<span class="listing-date">Mar 2017</span>
-</td>
-<td>
-<a href="https://www.thinkpragati.com/reforms/513/abolish-the-mrp/" class="title listing-title">Abolish the MRP</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="82" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1485993600000" data-listing-title-sort="Mr Jaitley’s cashless dreams are a little problematic. Here are the reasons">
-<td>
-<span class="listing-date">Feb 2017</span>
-</td>
-<td>
-<a href="https://factordaily.com/budget-2017-digital-push-cashless/" class="title listing-title">Mr Jaitley’s cashless dreams are a little problematic. Here are the reasons</a>
-</td>
-<td>
-<span class="listing-description">Factor Daily</span>
-</td>
-
-</tr>
-
-<tr data-index="83" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1483660800000" data-listing-title-sort="Why Portugal can be an attractive investment destination for Indians">
-<td>
-<span class="listing-date">Jan 2017</span>
-</td>
-<td>
-<a href="http://www.livemint.com/Politics/pBTabhwC9CkabhKC9pCMTP/Why-Portugal-can-be-an-attractive-investment-destination-for.html" class="title listing-title">Why Portugal can be an attractive investment destination for Indians</a>
-</td>
-<td>
-<span class="listing-description">Live Mint</span>
-</td>
-
-</tr>
-
-<tr data-index="84" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1480550400000" data-listing-title-sort="Where Demonetisation Falls Very Short Of Tackling Black Money">
-<td>
-<span class="listing-date">Dec 2016</span>
-</td>
-<td>
-<a href="http://www.ndtv.com/opinion/what-about-black-money-in-agriculture-and-education-1632525" class="title listing-title">Where Demonetisation Falls Very Short Of Tackling Black Money</a>
-</td>
-<td>
-<span class="listing-description">NDTV</span>
-</td>
-
-</tr>
-
-<tr data-index="85" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1478908800000" data-listing-title-sort="India must seize the small opportunities in a Trump Presidency">
-<td>
-<span class="listing-date">Nov 2016</span>
-</td>
-<td>
-<a href="http://www.bloombergquint.com/opinion/2016/11/12/india-must-the-seize-small-opportunities-in-a-trump-presidency" class="title listing-title">India must seize the small opportunities in a Trump Presidency</a>
-</td>
-<td>
-<span class="listing-description">Bloomberg Quint</span>
-</td>
-
-</tr>
-
-<tr data-index="86" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1478822400000" data-listing-title-sort="Currency Clean-Up: Will It REALLY Curb Black Money &amp; Other Queries (Q&amp;A)">
-<td>
-<span class="listing-date">Nov 2016</span>
-</td>
-<td>
-<a href="https://www.thequint.com/india/2016/11/11/narendra-modi-notes-ban-rs-500-1000-consequences-corruption-real-estate-tax-gold-banking-black-money-swiss-banks" class="title listing-title">Currency Clean-Up: Will It REALLY Curb Black Money &amp; Other Queries (Q&amp;A)</a>
-</td>
-<td>
-<span class="listing-description">The Quint</span>
-</td>
-
-</tr>
-
-<tr data-index="87" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1478649600000" data-listing-title-sort="Rs 1000, Rs 500 notes scrapped: What it means for you, me, and the guy who sells tea on the pavement">
-<td>
-<span class="listing-date">Nov 2016</span>
-</td>
-<td>
-<a href="http://factordaily.com/rs-1000-rs-500-notes-scrapped-analysis-what-it-means/" class="title listing-title">Rs 1000, Rs 500 notes scrapped: What it means for you, me, and the guy who sells tea on the pavement</a>
-</td>
-<td>
-<span class="listing-description">Factor Daily</span>
-</td>
-
-</tr>
-
-<tr data-index="88" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1477958400000" data-listing-title-sort="How will the US Presidential Elections Outcome impact India">
-<td>
-<span class="listing-date">Nov 2016</span>
-</td>
-<td>
-<a href="http://www.bloombergquint.com/uselections/2016/11/01/how-will-the-us-presidential-election-outcome-affect-india" class="title listing-title">How will the US Presidential Elections Outcome impact India</a>
-</td>
-<td>
-<span class="listing-description">Bloomberg Quint</span>
-</td>
-
-</tr>
-
-<tr data-index="89" data-categories="Sm9icyUyMGFuZCUyMEVtcGxveW1lbnQ=" data-listing-date-sort="1476835200000" data-listing-title-sort="Yes, India is not creating enough jobs. But, it is not apocalyptic - Yet.">
-<td>
-<span class="listing-date">Oct 2016</span>
-</td>
-<td>
-<a href="http://www.ndtv.com/opinion/yes-indias-not-creating-enough-jobs-but-its-not-apocalyptic-yet-1475816?site=full" class="title listing-title">Yes, India is not creating enough jobs. But, it is not apocalyptic - Yet.</a>
-</td>
-<td>
-<span class="listing-description">NDTV</span>
-</td>
-
-</tr>
-
-<tr data-index="90" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1476748800000" data-listing-title-sort="Boycotting Chinese Goods (Republished)">
-<td>
-<span class="listing-date">Oct 2016</span>
-</td>
-<td>
-<a href="http://www.thedialogue.co/boycotting-chinese-goods-impractical-harms-national-interest/" class="title listing-title">Boycotting Chinese Goods (Republished)</a>
-</td>
-<td>
-<span class="listing-description">The Dialogue</span>
-</td>
-
-</tr>
-
-<tr data-index="91" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1473984000000" data-listing-title-sort="When the watchdog didn't just bark: Competition Commission shows the way against cement price fixing">
-<td>
-<span class="listing-date">Sep 2016</span>
-</td>
-<td>
-<a href="http://scroll.in/article/816223/when-the-watchdog-didnt-just-bark-competition-commission-shows-the-way-against-cement-price-fixing" class="title listing-title">When the watchdog didn’t just bark: Competition Commission shows the way against cement price fixing</a>
-</td>
-<td>
-<span class="listing-description">Scroll</span>
-</td>
-
-</tr>
-
-<tr data-index="92" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1473897600000" data-listing-title-sort="We are trying to become a cashless society — but is that a great idea?">
-<td>
-<span class="listing-date">Sep 2016</span>
-</td>
-<td>
-<a href="http://factordaily.com/digital-payment-cashless-society-good-or-bad/" class="title listing-title">We are trying to become a cashless society — but is that a great idea?</a>
-</td>
-<td>
-<span class="listing-description">Factor Daily</span>
-</td>
-
-</tr>
-
-<tr data-index="93" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1472169600000" data-listing-title-sort="By capping movie tickets at Rs 120, Karnataka will stifle the very industry it seeks to revitalise">
-<td>
-<span class="listing-date">Aug 2016</span>
-</td>
-<td>
-<a href="http://thereel.scroll.in/815024/by-capping-movie-tickets-at-rs-120-karnataka-will-stifle-the-very-industry-it-seeks-to-revitalise" class="title listing-title">By capping movie tickets at Rs 120, Karnataka will stifle the very industry it seeks to revitalise</a>
-</td>
-<td>
-<span class="listing-description">Scroll</span>
-</td>
-
-</tr>
-
-<tr data-index="94" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1468627200000" data-listing-title-sort="Chronicles of Crises">
-<td>
-<span class="listing-date">Jul 2016</span>
-</td>
-<td>
-<a href="http://www.thehindu.com/books/literary-review/anupam-manur-and-nitinpai-review-thomas-pikettys-chronicles-on-our-troubled-times/article8859591.ece" class="title listing-title">Chronicles of Crises</a>
-</td>
-<td>
-<span class="listing-description">The Hindu</span>
-</td>
-
-</tr>
-
-<tr data-index="95" data-categories="T3RoZXI=" data-listing-date-sort="1467504000000" data-listing-title-sort="Of Mountains and Monasteries">
-<td>
-<span class="listing-date">Jul 2016</span>
-</td>
-<td>
-<a href="http://www.deccanchronicle.com/sunday-chronicle/triptease/030716/of-mountains-and-monasteries.html" class="title listing-title">Of Mountains and Monasteries</a>
-</td>
-<td>
-<span class="listing-description">Deccan Chronicle</span>
-</td>
-
-</tr>
-
-<tr data-index="96" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1466899200000" data-listing-title-sort="Uber, please don’t pretend hiding the surge is for our benefit">
-<td>
-<span class="listing-date">Jun 2016</span>
-</td>
-<td>
-<a href="http://factordaily.com/uber-hiding-surge-us-india/" class="title listing-title">Uber, please don’t pretend hiding the surge is for our benefit</a>
-</td>
-<td>
-<span class="listing-description">Factor Daily</span>
-</td>
-
-</tr>
-
-<tr data-index="97" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1466553600000" data-listing-title-sort="Brexit: Bad For Britain, But Potentially Good For India">
-<td>
-<span class="listing-date">Jun 2016</span>
-</td>
-<td>
-<a href="http://www.ndtv.com/opinion/your-guide-to-brexit-and-5-ways-it-will-impact-india-1421554?pfrom=home-lateststories" class="title listing-title">Brexit: Bad For Britain, But Potentially Good For India</a>
-</td>
-<td>
-<span class="listing-description">NDTV</span>
-</td>
-
-</tr>
-
-<tr data-index="98" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1466380800000" data-listing-title-sort="Why India’s swelling fintech industry has a lot to thank Raghuram Rajan for">
-<td>
-<span class="listing-date">Jun 2016</span>
-</td>
-<td>
-<a href="http://factordaily.com/fintech-raghuram-rajan/" class="title listing-title">Why India’s swelling fintech industry has a lot to thank Raghuram Rajan for</a>
-</td>
-<td>
-<span class="listing-description">Factor Daily</span>
-</td>
-
-</tr>
-
-<tr data-index="99" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1449878400000" data-listing-title-sort="ಸೌರ ವಿದ್ಯುತ್ ಖರೀದಿ ಗೊಂದಲ">
-<td>
-<span class="listing-date">Dec 2015</span>
-</td>
-<td>
-<a href="https://t.co/sw6LXmKxw3" class="title listing-title">ಸೌರ ವಿದ್ಯುತ್ ಖರೀದಿ ಗೊಂದಲ</a>
-</td>
-<td>
-<span class="listing-description">Prajavani</span>
-</td>
-
-</tr>
-
-<tr data-index="100" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1439856000000" data-listing-title-sort="Harnessing the Strengths of each State">
-<td>
-<span class="listing-date">Aug 2015</span>
-</td>
-<td>
-<a href="http://www.thehindu.com/opinion/columns/harnessing-the-strengths-of-each-state/article7550946.ece" class="title listing-title">Harnessing the Strengths of each State</a>
-</td>
-<td>
-<span class="listing-description">The Hindu</span>
-</td>
-
-</tr>
-
-<tr data-index="101" data-categories="UHJpY2UlMjBDb250cm9scyUyMGFuZCUyMEJhbnM=" data-listing-date-sort="1437609600000" data-listing-title-sort="Time to Abolish the MRP">
-<td>
-<span class="listing-date">Jul 2015</span>
-</td>
-<td>
-<a href="http://www.thehindu.com/opinion/op-ed/maximum-retail-price-is-an-archaic-dysfunctional-mechanism/article7452745.ece" class="title listing-title">Time to Abolish the MRP</a>
-</td>
-<td>
-<span class="listing-description">The Hindu</span>
-</td>
-
-</tr>
-
-<tr data-index="102" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1432857600000" data-listing-title-sort="Maximising the Post Office">
-<td>
-<span class="listing-date">May 2015</span>
-</td>
-<td>
-<a href="http://www.thehindu.com/opinion/op-ed/maximising-the-post-office/article7256701.ece" class="title listing-title">Maximising the Post Office</a>
-</td>
-<td>
-<span class="listing-description">The Hindu</span>
-</td>
-
-</tr>
-
-<tr data-index="103" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1432425600000" data-listing-title-sort="The Return of the Tantrum">
-<td>
-<span class="listing-date">May 2015</span>
-</td>
-<td>
-<a href="http://pragati.nationalinterest.in/2015/05/the-return-of-the-tantrum/" class="title listing-title">The Return of the Tantrum</a>
-</td>
-<td>
-<span class="listing-description">Pragati</span>
-</td>
-
-</tr>
-
-<tr data-index="104" data-categories="T3RoZXI=" data-listing-date-sort="1432339200000" data-listing-title-sort="On a Mountain high">
-<td>
-<span class="listing-date">May 2015</span>
-</td>
-<td>
-<a href="http://www.deccanchronicle.com/150523/commentary-sunday-chronicle/article/mountain-high" class="title listing-title">On a Mountain high</a>
-</td>
-<td>
-<span class="listing-description">Deccan Chronicle</span>
-</td>
-
-</tr>
-
-<tr data-index="105" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1426032000000" data-listing-title-sort="The Curious Case of the Policy Rate Cut">
-<td>
-<span class="listing-date">Mar 2015</span>
-</td>
-<td>
-<a href="http://www.thehindu.com/opinion/op-ed/the-curious-case-of-the-policy-rate-cut/article6979062.ece?homepage=true" class="title listing-title">The Curious Case of the Policy Rate Cut</a>
-</td>
-<td>
-<span class="listing-description">The Hindu</span>
-</td>
-
-</tr>
-
-<tr data-index="106" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1368489600000" data-listing-title-sort="Inflation is High, not just Food">
-<td>
-<span class="listing-date">May 2013</span>
-</td>
-<td>
-<a href="http://archive.financialexpress.com/news/inflation-is-high-not-just-food/1115301" class="title listing-title">Inflation is High, not just Food</a>
-</td>
-<td>
-<span class="listing-description">Financial Express</span>
-</td>
-
-</tr>
-
-<tr data-index="107" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1364428800000" data-listing-title-sort="Procurement Price Inflation Bogey">
-<td>
-<span class="listing-date">Mar 2013</span>
-</td>
-<td>
-<a href="http://archive.financialexpress.com/news/column-procurement-price-inflation-bogey/1094175" class="title listing-title">Procurement Price Inflation Bogey</a>
-</td>
-<td>
-<span class="listing-description">Financial Express</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/toi-plus/business-economy/2-tax-tweaks-to-secure-growth-story/articleshow/131424878.cms" target="_blank" rel="noopener noreferrer">2 Tax Tweaks To Secure Growth Story</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2026 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/on-atf-dont-miss-the-plane-truth" target="_blank" rel="noopener noreferrer">On ATF, Don’t Miss The Plane Truth</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=indianexpress.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2026 — Indian Express
+</div>
+<div class="listing-item-title">
+<a href="https://indianexpress.com/article/opinion/columns/the-strait-of-hormuz-lpg-condom-coke-cooking-urea-war-iran-10656739" target="_blank" rel="noopener noreferrer">The Strait of Hormuz and the ‘tadka’ of geopolitics</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=indianexpress.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2026 — Indian Express
+</div>
+<div class="listing-item-title">
+<a href="https://indianexpress.com/article/opinion/columns/india-is-pharmacy-of-world-but-losing-drug-development-race-10610013/" target="_blank" rel="noopener noreferrer">India is the pharmacy of the world. But we are losing the drug development race</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2026 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/telangana-trailblazers/" target="_blank" rel="noopener noreferrer">Telangana Trailblazers</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> January 2026 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/toi-plus/business-economy/the-10-minute-drama/articleshow/126529804.cms" target="_blank" rel="noopener noreferrer">10 Minute Drama</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2025">
+2025
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=indianexpress.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> December 2025 — Indian Express
+</div>
+<div class="listing-item-title">
+<a href="https://indianexpress.com/article/opinion/columns/indigo-meltdown-and-we-still-have-to-fly-it-fdtl-rules-10406170/" target="_blank" rel="noopener noreferrer">IndiGo collapsed — and we’ll still have to fly it, because we hardly have alternatives</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> December 2025 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/technology/rewrite-this-appy-ending/articleshow/125722017.cms" target="_blank" rel="noopener noreferrer">Rewrite this Appy Ending</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.deccanherald.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2025 — Deccan Herald
+</div>
+<div class="listing-item-title">
+<a href="https://www.deccanherald.com/opinion/pakistans-crypto-turn-should-worry-india-3811609" target="_blank" rel="noopener noreferrer">Pakistan’s crypto turn should worry India</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2025 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/why-mamdanis-win-isnt-a-critique-of-capitalism/" target="_blank" rel="noopener noreferrer">Why Mamdani’s win isn’t a critique of capitalism</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=indianexpress.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> July 2025 — Indian Express
+</div>
+<div class="listing-item-title">
+<a href="https://indianexpress.com/article/opinion/columns/us-india-trade-deal-nato-threat-uk-india-fta-10156634/" target="_blank" rel="noopener noreferrer">India’s trade talks with the US need a reality check — and a backup plan</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2025 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/karnataka-s-bike-ban-is-a-step-backward-cities-need-innovation-not-idea-bans-13127161.html?utm_medium=social&amp;utm_source=twitter&amp;utm_campaign=regular-editorial" target="_blank" rel="noopener noreferrer">Karnataka’s bike ban is a step backward, cities need innovation, not idea bans</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=indianexpress.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2025 — Indian Express
+</div>
+<div class="listing-item-title">
+<a href="https://indianexpress.com/article/opinion/columns/tariffs-a-protracted-battle-between-trump-and-the-us-courts-will-only-worsen-trade-uncertainty-10045329/" target="_blank" rel="noopener noreferrer">A protracted battle between Trump and the US courts will only worsen trade uncertainty</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=indianexpress.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2025 — Indian Express
+</div>
+<div class="listing-item-title">
+<a href="https://indianexpress.com/article/opinion/columns/india-us-trade-deal-trump-first-100-days-pm-modi-global-order-9977055/" target="_blank" rel="noopener noreferrer">For India, the best time for a trade deal was within Trump’s first 100 days, the second-best time is now</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2025 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/as-trump-tariffs-loom-india-shouldn-t-look-a-gift-horse-in-the-mouth-12980504.html" target="_blank" rel="noopener noreferrer">As Trump tariffs loom, India shouldn’t look a gift horse in the mouth</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2025 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/toi-plus/business-economy/the-good-news-for-india-hidden-in-us-auto-tariffs/articleshow/119605877.cms" target="_blank" rel="noopener noreferrer">The Good News For India Hidden In US Auto Tariffs</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2025 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/smokescreen/" target="_blank" rel="noopener noreferrer">Smokescreen</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2024">
+2024
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> December 2024 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/boycott-button/" target="_blank" rel="noopener noreferrer">Boycott Button</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> September 2024 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/consumerscomplaints/" target="_blank" rel="noopener noreferrer">Consumer <span class="citation" data-cites="Complaints">@Complaints</span></a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2024 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/happiness-from-subsidy-its-complicated-by-factors-such-as-neighbours-envy/" target="_blank" rel="noopener noreferrer">Happiness from Subsidy</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2024 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/supreme-courts-push-to-fix-medical-rates-is-unjustified-and-counterproductive-12436201.html" target="_blank" rel="noopener noreferrer">Supreme Court’s push to fix medical rates is unjustified and counterproductive</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2024 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/bangalore-water-crisis-marginal-pricing-of-water-subsidies-to-poor-may-curb-water-woes-12402681.html" target="_blank" rel="noopener noreferrer">Bangalore Water Crisis: Marginal pricing of water, subsidies to poor may curb water woes</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2024 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/un-fare-policy/" target="_blank" rel="noopener noreferrer">Un-Fare Policy</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> February 2024 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/karnatakas-plan-to-fix-prices-for-uber-ola-cabs-is-going-to-boomerang-badly-12194711.html" target="_blank" rel="noopener noreferrer">Karnataka’s plan to fix prices for Uber-Ola cabs is going to boomerang badly</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> February 2024 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/why-budget-2024-will-rank-as-a-good-budget-12172751.html" target="_blank" rel="noopener noreferrer">Why Budget 2024 will rank as a good budget</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> January 2024 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/voices/republic-day-reminder-lets-reclaim-the-right-to-economic-freedom/" target="_blank" rel="noopener noreferrer">Republic Day reminder: Let’s reclaim the right to economic freedom</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2023">
+2023
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> December 2023 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/global-economy-2024-positives-in-macro-outlook-outweighing-uncertainties-india-in-a-position-to-dream-big-11969891.html" target="_blank" rel="noopener noreferrer">Global Economy 2024: Positives in macro outlook outweighing uncertainties, India in a position to dream big</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2023 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/reservation-for-locals-whither-jobs-economic-freedoms-and-economic-unity-11808421.html" target="_blank" rel="noopener noreferrer">Reservation For Locals: Whither jobs, economic freedoms, and economic unity?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> September 2023 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/g20-summit-india-takes-its-digital-public-infrastructure-success-to-the-world-11346651.html" target="_blank" rel="noopener noreferrer">G20 Summit: India takes its Digital Public Infrastructure success to the world</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> September 2023 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/the-many-messages-from-ncaers-report-on-food-delivery-gig-workers-11305271.html" target="_blank" rel="noopener noreferrer">The many messages from NCAER’s report on food delivery gig workers</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.hindustantimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> August 2023 — Hindustan Times
+</div>
+<div class="listing-item-title">
+<a href="https://www.hindustantimes.com/opinion/an-echo-of-licence-raj-in-laptop-import-curbs-101691417281870.html" target="_blank" rel="noopener noreferrer">An Echo of license raj in laptop import curbs</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> August 2023 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/dont-rush-to-mimic-rajasthan-gig-workers-law-11073981.html" target="_blank" rel="noopener noreferrer">Don’t rush to mimic Rajasthan gig workers law</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2023 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/india-mustnt-miss-this-chance-to-supercharge-its-electronic-goods-industry-10855751.html" target="_blank" rel="noopener noreferrer">India mustn’t miss this chance to supercharge its electronic goods industry</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2023 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/government-overreach-in-digital-economy-could-end-up-with-no-commensurate-benefit-and-serious-distortions-10769971.html" target="_blank" rel="noopener noreferrer">Government overreach in digital economy could end up with no commensurate benefit and serious distortions</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2023 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/rs-2000-note-withdrawal-no-demonetisation-redux-but-rbi-could-have-done-it-better-10627841.html" target="_blank" rel="noopener noreferrer">Rs 2,000 Note Withdrawal: No demonetisation redux but RBI could have done it better</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2023 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/labour-law-reforms-tamil-nadu-reversing-flexible-work-shifts-is-lost-opportunity-for-business-workers-jobseekers-10523461.html" target="_blank" rel="noopener noreferrer">Labour Law Reforms: Tamil Nadu reversing flexible work shifts is lost opportunity for business, workers, jobseekers</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.hindustantimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2023 — Hindustan Times
+</div>
+<div class="listing-item-title">
+<a href="https://www.hindustantimes.com/opinion/indias-e-pharmacies-face-government-crackdown-over-alleged-violations-of-d-c-act-101681134207838.html" target="_blank" rel="noopener noreferrer">E-pharmacy regulation needs nuanced policies</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.moneycontrol.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2023 — Money Control
+</div>
+<div class="listing-item-title">
+<a href="https://www.moneycontrol.com/news/opinion/lessons-for-rbi-from-its-mandate-that-made-recurring-payments-a-nightmare-10284611.html" target="_blank" rel="noopener noreferrer">Lessons for RBI from its mandate that made recurring payments a nightmare</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2022">
+2022
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.hindustantimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> October 2022 — Hindustan Times
+</div>
+<div class="listing-item-title">
+<a href="https://www.hindustantimes.com/opinion/indias-new-logistics-policy-can-fix-foundational-issues-101664892943834.html" target="_blank" rel="noopener noreferrer">India’s new logistics policy can fix foundational issues</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> July 2022 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/why-crisis-hit-pakistan-wont-go-the-lanka-way-world-doesnt-want-a-nation-with-nukes-to-collapse-islamabads-middle-east-friends-will-step-in/" target="_blank" rel="noopener noreferrer">Why crisis-hit Pakistan won’t go the Lanka way</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.prajavani.net" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2022 — Prajavani
+</div>
+<div class="listing-item-title">
+<a href="https://www.prajavani.net/op-ed/discussion/its-time-to-solve-the-gst-problem-948532.html" target="_blank" rel="noopener noreferrer">ಜಿಎಸ್‌ಟಿ- ಗೋಜಲು ಬಿಡಿಸಲು ಸಕಾಲ || Time to untangle the GST mess</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.hindustantimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2022 — Hindustan Times
+</div>
+<div class="listing-item-title">
+<a href="https://www.hindustantimes.com/opinion/the-us-must-provide-concrete-benefits-to-ipef-signatories-101654526815742.html" target="_blank" rel="noopener noreferrer">The US must provide concrete benefits to IPEF signatories</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.hindustantimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2022 — Hindustan Times
+</div>
+<div class="listing-item-title">
+<a href="https://www.hindustantimes.com/opinion/divide-forex-reserve-into-two-components-101650205275401.html" target="_blank" rel="noopener noreferrer">Divide Forex reserve into two components</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=timesofindia.indiatimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> February 2022 — Times of India
+</div>
+<div class="listing-item-title">
+<a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/western-sanctions-impact-ways-around-them-india-can-work-around-russias-swift-expulsion-but-there-may-be-geopolitical-costs/" target="_blank" rel="noopener noreferrer">Western Sanctions: Impact and Ways Around Them</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.hindustantimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> February 2022 — Hindustan Times
+</div>
+<div class="listing-item-title">
+<a href="https://www.hindustantimes.com/opinion/theres-a-jobs-crisis-acknowledge-it-101645537288817.html" target="_blank" rel="noopener noreferrer">There’s a jobs crisis. Acknowledge it.</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2021">
+2021
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.hindustantimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> August 2021 — Hindustan Times
+</div>
+<div class="listing-item-title">
+<a href="https://www.hindustantimes.com/opinion/in-a-competitive-marketplace-protecting-india-s-gig-workers-101629372885625.html" target="_blank" rel="noopener noreferrer">In a competitive marketplace, protecting India’s gig workers</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.hindustantimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> July 2021 — Hindustan Times
+</div>
+<div class="listing-item-title">
+<a href="https://www.hindustantimes.com/opinion/ecommerce-don-t-let-protectionism-drive-policy-101627291777824.html" target="_blank" rel="noopener noreferrer">E-Commerce: Don’t let protectionism drive policy</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.prajavani.net" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2021 — Prajavani
+</div>
+<div class="listing-item-title">
+<a href="https://www.prajavani.net/business/commerce-news/bringing-petrol-to-gst-will-benefit-the-people-840172.html?fbclid=IwAR1p8OTMwVOvQYZV4t8XHi17SBYH8_ybehF2TbsMI2Ir9phiyYYXf_AcCDE" target="_blank" rel="noopener noreferrer">ಪೆಟ್ರೋಲ್‌ ಜಿಎಸ್‌ಟಿ ವ್ಯಾಪ್ತಿಗೆ ತಂದರೆ ಜನರಿಗೆ ಲಾಭ</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.businesstoday.in" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2021 — Business Today
+</div>
+<div class="listing-item-title">
+<a href="https://www.businesstoday.in/opinion/columns/why-e-cigarette-ban-in-india-will-do-more-harm-than-good/story/439628.html" target="_blank" rel="noopener noreferrer">Why e-cigarette ban in India will do more harm than good</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.prajavani.net" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2021 — Prajavani
+</div>
+<div class="listing-item-title">
+<a href="https://www.prajavani.net/columns/pension-and-fdi-824743.html" target="_blank" rel="noopener noreferrer">ಪಿಂಚಣಿ ಸಮಸ್ಯೆಗೆ ಎಫ್‌ಡಿಐ ಮದ್ದು</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2020">
+2020
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.hindustantimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2020 — Hindustan Times
+</div>
+<div class="listing-item-title">
+<a href="https://www.hindustantimes.com/analysis/flawed-regulation-can-undermine-the-digital-payment-ecosystem/story-jVikN3SWxYYRKGZZiO5loL.html" target="_blank" rel="noopener noreferrer">Flawed regulation can undermine the digital payment ecosystem</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=theprint.in" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2020 — The Print
+</div>
+<div class="listing-item-title">
+<a href="https://theprint.in/opinion/indias-bargaining-power-with-china-and-us-will-grow-in-post-covid-world/420395/" target="_blank" rel="noopener noreferrer">India’s bargaining power with China and US will grow in post-Covid world</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=theprint.in" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2020 — The Print
+</div>
+<div class="listing-item-title">
+<a href="https://theprint.in/talk-point/should-modi-govt-let-oil-crash-cushion-finances-or-will-lower-retail-prices-revive-economy/407488/" target="_blank" rel="noopener noreferrer">Consumers should get the benefit, lowering fuel prices will increase their disposable income</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.hindustantimes.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2020 — Hindustan Times
+</div>
+<div class="listing-item-title">
+<a href="https://www.hindustantimes.com/analysis/use-the-oil-crash-to-boost-india-s-strategic-reserves-analysis/story-aECKMfH8mpcEKVCGe2ozJK.html" target="_blank" rel="noopener noreferrer">Use the oil crash to boost India’s strategic reserves</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.livemint.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2020 — Mint
+</div>
+<div class="listing-item-title">
+<a href="https://www.livemint.com/opinion/online-views/opinion-let-s-make-the-most-of-dirt-cheap-oil-11587458681160.html" target="_blank" rel="noopener noreferrer">Let’s Make the Most of Dirt Cheap Oil</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.deccanherald.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2020 — Deccan Herald
+</div>
+<div class="listing-item-title">
+<a href="https://www.deccanherald.com/opinion/covid-19-govt-must-act-now-to-prevent-economic-disaster-817155.html" target="_blank" rel="noopener noreferrer">COVID-19: Govt must act now to prevent economic disaster</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2019">
+2019
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.deccanherald.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2019 — Deccan Herald
+</div>
+<div class="listing-item-title">
+<a href="https://www.deccanherald.com/opinion/bengaluru-needs-more-high-tech-companies-not-fewer-780314.html" target="_blank" rel="noopener noreferrer">Bengaluru needs more high-tech companies, not fewer</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=theprint.in" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> October 2019 — The Print
+</div>
+<div class="listing-item-title">
+<a href="https://theprint.in/science/cap-on-age-limit-ivf-allowed-only-with-checks-and-balances/308467/" target="_blank" rel="noopener noreferrer">Cap on age limit for IVF could be allowed, but only with checks and balances</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.firstpost.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> September 2019 — First Post
+</div>
+<div class="listing-item-title">
+<a href="https://www.firstpost.com/tech/science/e-cigarette-ban-india-news-the-puzzling-ban-of-e-cigarettes-in-india-restrictions-will-do-more-harm-than-good-7356771.html" target="_blank" rel="noopener noreferrer">The Puzzling Ban of E-Cigarettes in India: Restrictions will do more harm than good</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.deccanherald.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> August 2019 — Deccan Herald
+</div>
+<div class="listing-item-title">
+<a href="https://www.deccanherald.com/opinion/need-to-watch-keenly-what-govt-does-with-rbi-bonanza-757626.html" target="_blank" rel="noopener noreferrer">Need to watch keenly what govt does with RBI bonanza</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.deccanherald.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> August 2019 — Deccan Herald
+</div>
+<div class="listing-item-title">
+<a href="https://www.deccanherald.com/opinion/india-needs-to-urgently-address-its-investment-problem-752680.html" target="_blank" rel="noopener noreferrer">India needs to urgently address its investment problem</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.deccanherald.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2019 — Deccan Herald
+</div>
+<div class="listing-item-title">
+<a href="https://www.deccanherald.com/specials/sunday-spotlight/delhi-must-wake-up-and-smell-the-opportunity-739059.html" target="_blank" rel="noopener noreferrer">Delhi must wake up and smell the opportunity</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.deccanherald.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2019 — Deccan Herald
+</div>
+<div class="listing-item-title">
+<a href="https://www.deccanherald.com/opinion/panorama/we-need-more-trade-not-a-trade-war-with-us-722934.html" target="_blank" rel="noopener noreferrer">We Need More Trade, not Trade War with US</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thinkpragati.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> January 2019 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="https://www.thinkpragati.com/opinion/6784/go-easy-on-amazon-and-flipkart/" target="_blank" rel="noopener noreferrer">Go Easy on Amazon and Flipkart</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2018">
+2018
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.asiaglobalonline.hku.hk" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2018 — AsiaGlobal Online
+</div>
+<div class="listing-item-title">
+<a href="https://www.asiaglobalonline.hku.hk/regulate-internet-platforms-antitrust-competition/" target="_blank" rel="noopener noreferrer">How to Regulate Internet Platforms Without Breaking Them</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.livemint.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> October 2018 — Live Mint
+</div>
+<div class="listing-item-title">
+<a href="https://www.livemint.com/Opinion/8oyrxSfessjaF3unDptvIP/Opinion--The-addictive-nature-of-bad-policies.html" target="_blank" rel="noopener noreferrer">The addictive nature of bad policies</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thinkpragati.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> September 2018 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="https://www.thinkpragati.com/opinion/5522/the-fallout-of-us-tariffs/" target="_blank" rel="noopener noreferrer">The Fallout of US Tariffs</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.livemint.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> August 2018 — Live Mint
+</div>
+<div class="listing-item-title">
+<a href="https://www.livemint.com/Opinion/WgZM9HZxouo9qiByArRETP/Having-a-minimum-wage-law-is-a-mistake.html" target="_blank" rel="noopener noreferrer">Having a minimum wage law is a mistake</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=factordaily.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2018 — Factor Daily
+</div>
+<div class="listing-item-title">
+<a href="https://factordaily.com/fix-digital-platforms-google-facebook-amazon-uber-ola-for-competition/" target="_blank" rel="noopener noreferrer">How to fix competition in a market owned by Google, Facebook, Amazon and other digital platforms</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.news18.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> February 2018 — News18
+</div>
+<div class="listing-item-title">
+<a href="https://www.news18.com/news/opinion/budget-2018-with-its-rs-59000-crore-fund-transport-ministry-should-now-focus-on-safety-speed-over-new-constructions-1648983.html" target="_blank" rel="noopener noreferrer">With its Rs 59,000 Crore Budget, Transport Ministry Should now Focus on Safety, Speed Over New Roads</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thinkpragati.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> February 2018 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="https://www.thinkpragati.com/opinion/3377/but-what-about-the-jobs-crisis/" target="_blank" rel="noopener noreferrer">But What About the Jobs Crisis</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thinkpragati.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> January 2018 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="https://www.thinkpragati.com/2017-in-review/3096/year-missed-opportunities/" target="_blank" rel="noopener noreferrer">A Year of Missed Opportunities</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2017">
+2017
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thinkpragati.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2017 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="https://www.thinkpragati.com/2017-in-review/3071/an-unwillingness-to-die/" target="_blank" rel="noopener noreferrer">An Unwillingness to Die</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thinkpragati.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2017 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="https://www.thinkpragati.com/opinion/2688/medicine-kills-patient/" target="_blank" rel="noopener noreferrer">This medicine kills the patient</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thinkpragati.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> August 2017 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="https://www.thinkpragati.com/opinion/2065/the-irony-of-indira/" target="_blank" rel="noopener noreferrer">The irony of Indira</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=naiduniaepaper.jagran.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2017 — Naiduniya
+</div>
+<div class="listing-item-title">
+<a href="http://naiduniaepaper.jagran.com/mpaper/29-may-2017-84-edition-Tarang-Page-1.html" target="_blank" rel="noopener noreferrer">क्या खतरे की घंटी है आईटी सेक्टर में घंटनी</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.prajavani.net" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2017 — Prajavani
+</div>
+<div class="listing-item-title">
+<a href="http://www.prajavani.net/news/article/2017/05/23/493401.html" target="_blank" rel="noopener noreferrer">ಬಡವರ ಪರ ಅಂದರೆ ‘ಜನಪ್ರಿಯ’ ಅಲ್ಲ! - ಪ್ರಜಾವಾಣಿ</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=bangalore.citizenmatters.in" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2017 — Citizen Matters
+</div>
+<div class="listing-item-title">
+<a href="http://bangalore.citizenmatters.in/articles/price-cap-on-movies-bangalore-karnataka-negative-consequences" target="_blank" rel="noopener noreferrer">Price cap on movies is a bad move. Here’s why!</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thinkpragati.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2017 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="https://www.thinkpragati.com/opinion/1323/dont-stunt-stent-market/" target="_blank" rel="noopener noreferrer">Don’t Stunt the Stent Market</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=nationalinterest.in" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2017 — Kannada Prabha
+</div>
+<div class="listing-item-title">
+<a href="https://nationalinterest.in/drivers-benefit-from-surge-pricing-b49edf7dc3a7" target="_blank" rel="noopener noreferrer">Drivers benefit from Surge Pricing</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thinkpragati.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> April 2017 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="https://www.thinkpragati.com/reforms/1181/unburden-our-banks/" target="_blank" rel="noopener noreferrer">Unburden Our Banks</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thinkpragati.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2017 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="https://www.thinkpragati.com/reforms/513/abolish-the-mrp/" target="_blank" rel="noopener noreferrer">Abolish the MRP</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=factordaily.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> February 2017 — Factor Daily
+</div>
+<div class="listing-item-title">
+<a href="https://factordaily.com/budget-2017-digital-push-cashless/" target="_blank" rel="noopener noreferrer">Mr Jaitley’s cashless dreams are a little problematic. Here are the reasons</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.livemint.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> January 2017 — Live Mint
+</div>
+<div class="listing-item-title">
+<a href="http://www.livemint.com/Politics/pBTabhwC9CkabhKC9pCMTP/Why-Portugal-can-be-an-attractive-investment-destination-for.html" target="_blank" rel="noopener noreferrer">Why Portugal can be an attractive investment destination for Indians</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2016">
+2016
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.ndtv.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> December 2016 — NDTV
+</div>
+<div class="listing-item-title">
+<a href="http://www.ndtv.com/opinion/what-about-black-money-in-agriculture-and-education-1632525" target="_blank" rel="noopener noreferrer">Where Demonetisation Falls Very Short Of Tackling Black Money</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.bloombergquint.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2016 — Bloomberg Quint
+</div>
+<div class="listing-item-title">
+<a href="http://www.bloombergquint.com/opinion/2016/11/12/india-must-the-seize-small-opportunities-in-a-trump-presidency" target="_blank" rel="noopener noreferrer">India must seize the small opportunities in a Trump Presidency</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thequint.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2016 — The Quint
+</div>
+<div class="listing-item-title">
+<a href="https://www.thequint.com/india/2016/11/11/narendra-modi-notes-ban-rs-500-1000-consequences-corruption-real-estate-tax-gold-banking-black-money-swiss-banks" target="_blank" rel="noopener noreferrer">Currency Clean-Up: Will It REALLY Curb Black Money &amp; Other Queries (Q&amp;A)</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=factordaily.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2016 — Factor Daily
+</div>
+<div class="listing-item-title">
+<a href="http://factordaily.com/rs-1000-rs-500-notes-scrapped-analysis-what-it-means/" target="_blank" rel="noopener noreferrer">Rs 1000, Rs 500 notes scrapped: What it means for you, me, and the guy who sells tea on the pavement</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.bloombergquint.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> November 2016 — Bloomberg Quint
+</div>
+<div class="listing-item-title">
+<a href="http://www.bloombergquint.com/uselections/2016/11/01/how-will-the-us-presidential-election-outcome-affect-india" target="_blank" rel="noopener noreferrer">How will the US Presidential Elections Outcome impact India</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.ndtv.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> October 2016 — NDTV
+</div>
+<div class="listing-item-title">
+<a href="http://www.ndtv.com/opinion/yes-indias-not-creating-enough-jobs-but-its-not-apocalyptic-yet-1475816?site=full" target="_blank" rel="noopener noreferrer">Yes, India is not creating enough jobs. But, it is not apocalyptic - Yet.</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thedialogue.co" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> October 2016 — The Dialogue
+</div>
+<div class="listing-item-title">
+<a href="http://www.thedialogue.co/boycotting-chinese-goods-impractical-harms-national-interest/" target="_blank" rel="noopener noreferrer">Boycotting Chinese Goods (Republished)</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=scroll.in" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> September 2016 — Scroll
+</div>
+<div class="listing-item-title">
+<a href="http://scroll.in/article/816223/when-the-watchdog-didnt-just-bark-competition-commission-shows-the-way-against-cement-price-fixing" target="_blank" rel="noopener noreferrer">When the watchdog didn’t just bark: Competition Commission shows the way against cement price fixing</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=factordaily.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> September 2016 — Factor Daily
+</div>
+<div class="listing-item-title">
+<a href="http://factordaily.com/digital-payment-cashless-society-good-or-bad/" target="_blank" rel="noopener noreferrer">We are trying to become a cashless society — but is that a great idea?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=thereel.scroll.in" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> August 2016 — Scroll
+</div>
+<div class="listing-item-title">
+<a href="http://thereel.scroll.in/815024/by-capping-movie-tickets-at-rs-120-karnataka-will-stifle-the-very-industry-it-seeks-to-revitalise" target="_blank" rel="noopener noreferrer">By capping movie tickets at Rs 120, Karnataka will stifle the very industry it seeks to revitalise</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thehindu.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> July 2016 — The Hindu
+</div>
+<div class="listing-item-title">
+<a href="http://www.thehindu.com/books/literary-review/anupam-manur-and-nitinpai-review-thomas-pikettys-chronicles-on-our-troubled-times/article8859591.ece" target="_blank" rel="noopener noreferrer">Chronicles of Crises</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.deccanchronicle.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> July 2016 — Deccan Chronicle
+</div>
+<div class="listing-item-title">
+<a href="http://www.deccanchronicle.com/sunday-chronicle/triptease/030716/of-mountains-and-monasteries.html" target="_blank" rel="noopener noreferrer">Of Mountains and Monasteries</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=factordaily.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2016 — Factor Daily
+</div>
+<div class="listing-item-title">
+<a href="http://factordaily.com/uber-hiding-surge-us-india/" target="_blank" rel="noopener noreferrer">Uber, please don’t pretend hiding the surge is for our benefit</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.ndtv.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2016 — NDTV
+</div>
+<div class="listing-item-title">
+<a href="http://www.ndtv.com/opinion/your-guide-to-brexit-and-5-ways-it-will-impact-india-1421554?pfrom=home-lateststories" target="_blank" rel="noopener noreferrer">Brexit: Bad For Britain, But Potentially Good For India</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=factordaily.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> June 2016 — Factor Daily
+</div>
+<div class="listing-item-title">
+<a href="http://factordaily.com/fintech-raghuram-rajan/" target="_blank" rel="noopener noreferrer">Why India’s swelling fintech industry has a lot to thank Raghuram Rajan for</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2015">
+2015
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=t.co" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> December 2015 — Prajavani
+</div>
+<div class="listing-item-title">
+<a href="https://t.co/sw6LXmKxw3" target="_blank" rel="noopener noreferrer">ಸೌರ ವಿದ್ಯುತ್ ಖರೀದಿ ಗೊಂದಲ</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thehindu.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> August 2015 — The Hindu
+</div>
+<div class="listing-item-title">
+<a href="http://www.thehindu.com/opinion/columns/harnessing-the-strengths-of-each-state/article7550946.ece" target="_blank" rel="noopener noreferrer">Harnessing the Strengths of each State</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thehindu.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> July 2015 — The Hindu
+</div>
+<div class="listing-item-title">
+<a href="http://www.thehindu.com/opinion/op-ed/maximum-retail-price-is-an-archaic-dysfunctional-mechanism/article7452745.ece" target="_blank" rel="noopener noreferrer">Time to Abolish the MRP</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thehindu.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2015 — The Hindu
+</div>
+<div class="listing-item-title">
+<a href="http://www.thehindu.com/opinion/op-ed/maximising-the-post-office/article7256701.ece" target="_blank" rel="noopener noreferrer">Maximising the Post Office</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=pragati.nationalinterest.in" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2015 — Pragati
+</div>
+<div class="listing-item-title">
+<a href="http://pragati.nationalinterest.in/2015/05/the-return-of-the-tantrum/" target="_blank" rel="noopener noreferrer">The Return of the Tantrum</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.deccanchronicle.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2015 — Deccan Chronicle
+</div>
+<div class="listing-item-title">
+<a href="http://www.deccanchronicle.com/150523/commentary-sunday-chronicle/article/mountain-high" target="_blank" rel="noopener noreferrer">On a Mountain high</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=www.thehindu.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2015 — The Hindu
+</div>
+<div class="listing-item-title">
+<a href="http://www.thehindu.com/opinion/op-ed/the-curious-case-of-the-policy-rate-cut/article6979062.ece?homepage=true" target="_blank" rel="noopener noreferrer">The Curious Case of the Policy Rate Cut</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2013">
+2013
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=archive.financialexpress.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> May 2013 — Financial Express
+</div>
+<div class="listing-item-title">
+<a href="http://archive.financialexpress.com/news/inflation-is-high-not-just-food/1115301" target="_blank" rel="noopener noreferrer">Inflation is High, not just Food</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+<img src="https://www.google.com/s2/favicons?sz=32&amp;domain=archive.financialexpress.com" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> March 2013 — Financial Express
+</div>
+<div class="listing-item-title">
+<a href="http://archive.financialexpress.com/news/column-procurement-price-inflation-bogey/1094175" target="_blank" rel="noopener noreferrer">Procurement Price Inflation Bogey</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 <nav id="op-eds-list-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>

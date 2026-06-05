@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-975513e292b2e3bbb4519098851bad3e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-18e1247d1e7b77fc28ad78b19e338b05.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,8 +83,8 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
-      page: 30,
+      valueNames: ['listing-title','listing-date','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-date","listing-description","listing-categories"],
     };
@@ -239,9 +239,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(79)</span></div><div class="category" data-category="QmlvZWNvbm9teQ==">Bioeconomy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RWNvbm9taWMlMjBQb2xpY3k=">Economic Policy <span class="quarto-category-count">(24)</span></div><div class="category" data-category="R2VvZWNvbm9taWNz">Geoeconomics <span class="quarto-category-count">(14)</span></div><div class="category" data-category="TWFjcm9lY29ub21pY3M=">Macroeconomics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGxhdGZvcm0lMjBFY29ub21pY3M=">Platform Economics <span class="quarto-category-count">(7)</span></div><div class="category" data-category="UHVibGljJTIwRmluYW5jZQ==">Public Finance <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UHVibGljJTIwUG9saWN5">Public Policy <span class="quarto-category-count">(25)</span></div><div class="category" data-category="VGVjaG5vbG9neSUyMFBvbGljeQ==">Technology Policy <span class="quarto-category-count">(6)</span></div><div class="category" data-category="VHJhZGU=">Trade <span class="quarto-category-count">(9)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -265,837 +265,669 @@ window.Quarto = {
 
 
 <p>Essays on public policy, technology, and geopolitics.</p>
-<div id="listing-blog-list" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-blog-list-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-blog-list'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div id="listing-blog-list" class="quarto-listing quarto-listing-container-custom">
+<h2 class="listing-year-header anchored" id="year-2026">
+2026
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2026 — Takshashila Institution
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1778457600000" data-listing-title-sort="Why trucks stick to the right?">
-<td>
-<span class="listing-date">May 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/20260511-Trucks-right.html" class="title listing-title">Why trucks stick to the right?</a>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="VHJhZGU=" data-listing-date-sort="1777939200000" data-listing-title-sort="Making better environmental trade-offs">
-<td>
-<span class="listing-date">May 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/20260505-trees-infra.html" class="title listing-title">Making better environmental trade-offs</a>
-</td>
-
-</tr>
-
-<tr data-index="2" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1777680000000" data-listing-title-sort="Browser Choice vs Defaults">
-<td>
-<span class="listing-date">May 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/20260502_Browser_Choice.html" class="title listing-title">Browser Choice vs Defaults</a>
-</td>
-
-</tr>
-
-<tr data-index="3" data-categories="VHJhZGU=" data-listing-date-sort="1777680000000" data-listing-title-sort="Who paid for the Liberation Day Tariffs">
-<td>
-<span class="listing-date">May 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/20260502_Tariffs_Incidence.html" class="title listing-title">Who paid for the Liberation Day Tariffs</a>
-</td>
-
-</tr>
-
-<tr data-index="4" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1777248000000" data-listing-title-sort="India’s inflation blindspot">
-<td>
-<span class="listing-date">Apr 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/20260427-inflation-blindspot.html" class="title listing-title">India’s inflation blindspot</a>
-</td>
-
-</tr>
-
-<tr data-index="5" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1776902400000" data-listing-title-sort="State of the Economy">
-<td>
-<span class="listing-date">Apr 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/20260423-state-economy.html" class="title listing-title">State of the Economy</a>
-</td>
-
-</tr>
-
-<tr data-index="6" data-categories="VGVjaG5vbG9neSUyMFBvbGljeSUyQ1BsYXRmb3JtJTIwRWNvbm9taWNz" data-listing-date-sort="1776816000000" data-listing-title-sort="Introduce MDR and Make UPI Sustainable">
-<td>
-<span class="listing-date">Apr 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/20260422-upi-10-years-mdr.html" class="title listing-title">Introduce MDR and Make UPI Sustainable</a>
-</td>
-
-</tr>
-
-<tr data-index="7" data-categories="QmlvZWNvbm9teSUyQ0Vjb25vbWljJTIwUG9saWN5" data-listing-date-sort="1774915200000" data-listing-title-sort="India is the Pharmacy of the World. But We Are Losing the Drug Development Race">
-<td>
-<span class="listing-date">Mar 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/20260331-india-pharmacy-world-drug-development.html" class="title listing-title">India is the Pharmacy of the World. But We Are Losing the Drug Development Race</a>
-</td>
-
-</tr>
-
-<tr data-index="8" data-categories="VHJhZGUlMkNCaW9lY29ub215" data-listing-date-sort="1754006400000" data-listing-title-sort="FTA and Public Health">
-<td>
-<span class="listing-date">Aug 2025</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/20250801-Ind-UK-FTA-Food.html" class="title listing-title">FTA and Public Health</a>
-</td>
-
-</tr>
-
-<tr data-index="9" data-categories="VHJhZGUlMkNHZW9lY29ub21pY3M=" data-listing-date-sort="1753401600000" data-listing-title-sort="India-UK sign FTA">
-<td>
-<span class="listing-date">Jul 2025</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/2025-07-25-India-UK-FTA.html" class="title listing-title">India-UK sign FTA</a>
-</td>
-
-</tr>
-
-<tr data-index="10" data-categories="VHJhZGUlMkNHZW9lY29ub21pY3M=" data-listing-date-sort="1748044800000" data-listing-title-sort="What's the point of a trade deal?">
-<td>
-<span class="listing-date">May 2025</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/blogs/2025-05-24-Futility-of-Trade-Deals.html" class="title listing-title">What’s the point of a trade deal?</a>
-</td>
-
-</tr>
-
-<tr data-index="11" data-categories="UGxhdGZvcm0lMjBFY29ub21pY3M=" data-listing-date-sort="1691280000000" data-listing-title-sort="1.5 stars for the rating system — How the rating system is breaking!">
-<td>
-<span class="listing-date">Aug 2023</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/1-5-stars-for-the-rating-system-how-the-rating-system-is-breaking-e717137166a7" class="title listing-title">1.5 stars for the rating system — How the rating system is breaking!</a>
-</td>
-
-</tr>
-
-<tr data-index="12" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1681776000000" data-listing-title-sort="How not to Regulate">
-<td>
-<span class="listing-date">Apr 2023</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/how-not-to-regulate-27d43b3c6499" class="title listing-title">How not to Regulate</a>
-</td>
-
-</tr>
-
-<tr data-index="13" data-categories="UGxhdGZvcm0lMjBFY29ub21pY3M=" data-listing-date-sort="1507852800000" data-listing-title-sort="Consumer abandonment due to annoying ads">
-<td>
-<span class="listing-date">Oct 2017</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/consumer-abandonment-due-to-annoying-ads-23ec29f5f470" class="title listing-title">Consumer abandonment due to annoying ads</a>
-</td>
-
-</tr>
-
-<tr data-index="14" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1506988800000" data-listing-title-sort="Exclusion through apps">
-<td>
-<span class="listing-date">Oct 2017</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/exclusion-through-apps-919fc5fc581b" class="title listing-title">Exclusion through apps</a>
-</td>
-
-</tr>
-
-<tr data-index="15" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1499040000000" data-listing-title-sort="The Indian (government's) definition of luxury">
-<td>
-<span class="listing-date">Jul 2017</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-indian-governments-definition-of-luxury-61c5d9272cc2" class="title listing-title">The Indian (government’s) definition of luxury</a>
-</td>
-
-</tr>
-
-<tr data-index="16" data-categories="UHVibGljJTIwRmluYW5jZQ==" data-listing-date-sort="1498953600000" data-listing-title-sort="What will be done with the additional tax revenue?">
-<td>
-<span class="listing-date">Jul 2017</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/what-will-be-done-with-the-additional-tax-revenue-866a0e389f25" class="title listing-title">What will be done with the additional tax revenue?</a>
-</td>
-
-</tr>
-
-<tr data-index="17" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1498435200000" data-listing-title-sort="BRO at your service">
-<td>
-<span class="listing-date">Jun 2017</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/bro-at-your-service-be80033614ca" class="title listing-title">BRO at your service</a>
-</td>
-
-</tr>
-
-<tr data-index="18" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1496016000000" data-listing-title-sort="The threat of IT job losses in India">
-<td>
-<span class="listing-date">May 2017</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-threat-of-it-job-losses-in-india-574f9dbe6b9f" class="title listing-title">The threat of IT job losses in India</a>
-</td>
-
-</tr>
-
-<tr data-index="19" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1495584000000" data-listing-title-sort="You can be pro-poor without resorting to populism">
-<td>
-<span class="listing-date">May 2017</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/you-can-be-pro-poor-without-resorting-to-populism-e1ddaeed95c9" class="title listing-title">You can be pro-poor without resorting to populism</a>
-</td>
-
-</tr>
-
-<tr data-index="20" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1491350400000" data-listing-title-sort="Do Anti-Poverty Programmes backfire?">
-<td>
-<span class="listing-date">Apr 2017</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/do-anti-poverty-programmes-backfire-6a1633e5f03" class="title listing-title">Do Anti-Poverty Programmes backfire?</a>
-</td>
-
-</tr>
-
-<tr data-index="21" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1486684800000" data-listing-title-sort="Time Lags in Price Mechanism">
-<td>
-<span class="listing-date">Feb 2017</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/time-lags-in-price-mechanism-d2252449137e" class="title listing-title">Time Lags in Price Mechanism</a>
-</td>
-
-</tr>
-
-<tr data-index="22" data-categories="RWNvbm9taWMlMjBQb2xpY3klMkNQdWJsaWMlMjBGaW5hbmNl" data-listing-date-sort="1486512000000" data-listing-title-sort="Budget 2017 and the Digital Economy">
-<td>
-<span class="listing-date">Feb 2017</span>
-</td>
-<td>
-<a href="https://medium.com/indian-national-interest/budget-2017-and-the-digital-economy-8b28b9b6bb5b" class="title listing-title">Budget 2017 and the Digital Economy</a>
-</td>
-
-</tr>
-
-<tr data-index="23" data-categories="VGVjaG5vbG9neSUyMFBvbGljeQ==" data-listing-date-sort="1481846400000" data-listing-title-sort="Does the Govt. need to go cashless?">
-<td>
-<span class="listing-date">Dec 2016</span>
-</td>
-<td>
-<a href="https://medium.com/indian-national-interest/does-the-govt-need-to-go-cashless-3e72e5e44e74" class="title listing-title">Does the Govt. need to go cashless?</a>
-</td>
-
-</tr>
-
-<tr data-index="24" data-categories="VHJhZGUlMkNHZW9lY29ub21pY3M=" data-listing-date-sort="1479168000000" data-listing-title-sort="Trump, globalisation, and Indian trade">
-<td>
-<span class="listing-date">Nov 2016</span>
-</td>
-<td>
-<a href="https://medium.com/indian-national-interest/trump-globalisation-and-indian-trade-c3b55dbc7a14" class="title listing-title">Trump, globalisation, and Indian trade</a>
-</td>
-
-</tr>
-
-<tr data-index="25" data-categories="R2VvZWNvbm9taWNz" data-listing-date-sort="1478044800000" data-listing-title-sort="Aftermath of Venezuelan Socialism">
-<td>
-<span class="listing-date">Nov 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/aftermath-of-venezuelan-socialism-a74546ccf97" class="title listing-title">Aftermath of Venezuelan Socialism</a>
-</td>
-
-</tr>
-
-<tr data-index="26" data-categories="R2VvZWNvbm9taWNz" data-listing-date-sort="1476316800000" data-listing-title-sort="Boycotting Chinese goods: Impractical and harms the national interest">
-<td>
-<span class="listing-date">Oct 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/boycotting-chinese-goods-impractical-and-harms-the-national-interest-5f035bec5850" class="title listing-title">Boycotting Chinese goods: Impractical and harms the national interest</a>
-</td>
-
-</tr>
-
-<tr data-index="27" data-categories="VGVjaG5vbG9neSUyMFBvbGljeQ==" data-listing-date-sort="1476230400000" data-listing-title-sort="Commercial models for Public Wi-Fi">
-<td>
-<span class="listing-date">Oct 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/commercial-models-for-public-wi-fi-56e0c5131730" class="title listing-title">Commercial models for Public Wi-Fi</a>
-</td>
-
-</tr>
-
-<tr data-index="28" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1473120000000" data-listing-title-sort="Structural Reforms: What are they and how do you go about it?">
-<td>
-<span class="listing-date">Sep 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/structural-reforms-what-are-they-and-how-do-you-go-about-it-d25d34dd00b7" class="title listing-title">Structural Reforms: What are they and how do you go about it?</a>
-</td>
-
-</tr>
-
-<tr data-index="29" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1470268800000" data-listing-title-sort="Problems with Movement of Goods within India">
-<td>
-<span class="listing-date">Aug 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/problems-with-movement-of-goods-within-india-a2b538e78401" class="title listing-title">Problems with Movement of Goods within India</a>
-</td>
-
-</tr>
-
-<tr data-index="30" data-categories="UGxhdGZvcm0lMjBFY29ub21pY3M=" data-listing-date-sort="1464566400000" data-listing-title-sort="Karnataka vs. Cab-Aggregators (Part II)">
-<td>
-<span class="listing-date">May 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/karnataka-vs-cab-aggregators-part-ii-67a8d9ad52d6" class="title listing-title">Karnataka vs.&nbsp;Cab-Aggregators (Part II)</a>
-</td>
-
-</tr>
-
-<tr data-index="31" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1463616000000" data-listing-title-sort="Rent Control in Mumbai">
-<td>
-<span class="listing-date">May 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/rent-control-in-mumbai-eb2bd14669f6" class="title listing-title">Rent Control in Mumbai</a>
-</td>
-
-</tr>
-
-<tr data-index="32" data-categories="UGxhdGZvcm0lMjBFY29ub21pY3M=" data-listing-date-sort="1460505600000" data-listing-title-sort="A Ban on Surge Pricing will Create Shortages">
-<td>
-<span class="listing-date">Apr 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/a-ban-on-surge-pricing-will-create-shortages-e6465c9832bb" class="title listing-title">A Ban on Surge Pricing will Create Shortages</a>
-</td>
-
-</tr>
-
-<tr data-index="33" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1459900800000" data-listing-title-sort="Distortionary Public Policy">
-<td>
-<span class="listing-date">Apr 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/distortionary-public-policy-275b7ad09f02" class="title listing-title">Distortionary Public Policy</a>
-</td>
-
-</tr>
-
-<tr data-index="34" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1459296000000" data-listing-title-sort="8th Standard Pass Yaake?">
-<td>
-<span class="listing-date">Mar 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/8th-standard-pass-yaake-f97ae366939" class="title listing-title">8th Standard Pass Yaake?</a>
-</td>
-
-</tr>
-
-<tr data-index="35" data-categories="R2VvZWNvbm9taWNz" data-listing-date-sort="1458259200000" data-listing-title-sort="Geoeconomics Round-up">
-<td>
-<span class="listing-date">Mar 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/geoeconomics-round-up-5717c94b0496" class="title listing-title">Geoeconomics Round-up</a>
-</td>
-
-</tr>
-
-<tr data-index="36" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1458259200000" data-listing-title-sort="Allocative Efficiency vs. Social welfare">
-<td>
-<span class="listing-date">Mar 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/allocative-efficiency-vs-social-welfare-1cd124aadb68" class="title listing-title">Allocative Efficiency vs.&nbsp;Social welfare</a>
-</td>
-
-</tr>
-
-<tr data-index="37" data-categories="RWNvbm9taWMlMjBQb2xpY3klMkNQdWJsaWMlMjBGaW5hbmNl" data-listing-date-sort="1456099200000" data-listing-title-sort="Budgets, Cigarettes, and MRP">
-<td>
-<span class="listing-date">Feb 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/budgets-cigarettes-and-mrp-461448e26dd4" class="title listing-title">Budgets, Cigarettes, and MRP</a>
-</td>
-
-</tr>
-
-<tr data-index="38" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1455926400000" data-listing-title-sort="Why are petrol prices not decreasing?">
-<td>
-<span class="listing-date">Feb 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/why-are-petrol-prices-not-decreasing-2129ae35422c" class="title listing-title">Why are petrol prices not decreasing?</a>
-</td>
-
-</tr>
-
-<tr data-index="39" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1455667200000" data-listing-title-sort="Growth, Urbanisation, and Poverty Reduction in India">
-<td>
-<span class="listing-date">Feb 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/growth-urbanisation-and-poverty-reduction-in-india-4d201fa60fbd" class="title listing-title">Growth, Urbanisation, and Poverty Reduction in India</a>
-</td>
-
-</tr>
-
-<tr data-index="40" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1455494400000" data-listing-title-sort="Price of Dosas">
-<td>
-<span class="listing-date">Feb 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/price-of-dosas-3d07c602cde5" class="title listing-title">Price of Dosas</a>
-</td>
-
-</tr>
-
-<tr data-index="41" data-categories="UGxhdGZvcm0lMjBFY29ub21pY3M=" data-listing-date-sort="1455494400000" data-listing-title-sort="Karnataka vs Cab-Aggregators">
-<td>
-<span class="listing-date">Feb 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/karnataka-vs-cab-aggregators-part-ii-67a8d9ad52d6" class="title listing-title">Karnataka vs Cab-Aggregators</a>
-</td>
-
-</tr>
-
-<tr data-index="42" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1455321600000" data-listing-title-sort="Inflation in India — Part 2">
-<td>
-<span class="listing-date">Feb 2016</span>
-</td>
-<td>
-<a href="https://medium.com/indian-national-interest/inflation-in-india-part-2-8e0316f2d28d" class="title listing-title">Inflation in India — Part 2</a>
-</td>
-
-</tr>
-
-<tr data-index="43" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1455235200000" data-listing-title-sort="Inflation in India — Part 1">
-<td>
-<span class="listing-date">Feb 2016</span>
-</td>
-<td>
-<a href="https://medium.com/indian-national-interest/inflation-in-india-part-1-1f2bc7e9f1e7" class="title listing-title">Inflation in India — Part 1</a>
-</td>
-
-</tr>
-
-<tr data-index="44" data-categories="R2VvZWNvbm9taWNz" data-listing-date-sort="1454803200000" data-listing-title-sort="Aftermath of Venezuelan Socialism">
-<td>
-<span class="listing-date">Feb 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/aftermath-of-venezuelan-socialism-a74546ccf97" class="title listing-title">Aftermath of Venezuelan Socialism</a>
-</td>
-
-</tr>
-
-<tr data-index="45" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1454198400000" data-listing-title-sort="Changes in FDI Regulation in 2015">
-<td>
-<span class="listing-date">Jan 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/changes-in-fdi-regulation-in-2015-8627f9a5c019" class="title listing-title">Changes in FDI Regulation in 2015</a>
-</td>
-
-</tr>
-
-<tr data-index="46" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1454025600000" data-listing-title-sort="Postcard from Kodaikanal">
-<td>
-<span class="listing-date">Jan 2016</span>
-</td>
-<td>
-<a href="https://medium.com/@anupammanur/postcard-from-kodaikanal-6b6da36b8f86" class="title listing-title">Postcard from Kodaikanal</a>
-</td>
-
-</tr>
-
-<tr data-index="47" data-categories="R2VvZWNvbm9taWNz" data-listing-date-sort="1453334400000" data-listing-title-sort="Has Modi lost the Narrative Dominance?">
-<td>
-<span class="listing-date">Jan 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/has-modi-lost-the-narrative-dominance-4e284c810bf" class="title listing-title">Has Modi lost the Narrative Dominance?</a>
-</td>
-
-</tr>
-
-<tr data-index="48" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1453334400000" data-listing-title-sort="Flavoursome Financial Instruments">
-<td>
-<span class="listing-date">Jan 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-flavoursome-financial-instrument-20f4b76dd698" class="title listing-title">Flavoursome Financial Instruments</a>
-</td>
-
-</tr>
-
-<tr data-index="49" data-categories="RWNvbm9taWMlMjBQb2xpY3klMkNHZW9lY29ub21pY3M=" data-listing-date-sort="1452643200000" data-listing-title-sort="Taking advantage of lower commodity prices">
-<td>
-<span class="listing-date">Jan 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/taking-advantage-of-lower-commodity-prices-58953debb560" class="title listing-title">Taking advantage of lower commodity prices</a>
-</td>
-
-</tr>
-
-<tr data-index="50" data-categories="RWNvbm9taWMlMjBQb2xpY3klMkNHZW9lY29ub21pY3M=" data-listing-date-sort="1452211200000" data-listing-title-sort="The Chinese Debt Burden">
-<td>
-<span class="listing-date">Jan 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-chinese-debt-burden-7fb54039d5e1" class="title listing-title">The Chinese Debt Burden</a>
-</td>
-
-</tr>
-
-<tr data-index="51" data-categories="RWNvbm9taWMlMjBQb2xpY3klMkNHZW9lY29ub21pY3M=" data-listing-date-sort="1452124800000" data-listing-title-sort="Brazilian Economy in the Doldrums">
-<td>
-<span class="listing-date">Jan 2016</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/brazilian-economy-in-the-doldrums-a9fd6558ac78" class="title listing-title">Brazilian Economy in the Doldrums</a>
-</td>
-
-</tr>
-
-<tr data-index="52" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1451952000000" data-listing-title-sort="Ministry of Risk Management">
-<td>
-<span class="listing-date">Jan 2016</span>
-</td>
-<td>
-<a href="https://medium.com/@anupammanur/ministry-of-risk-management-c8bf7ceddbe7" class="title listing-title">Ministry of Risk Management</a>
-</td>
-
-</tr>
-
-<tr data-index="53" data-categories="VGVjaG5vbG9neSUyMFBvbGljeSUyQ1BsYXRmb3JtJTIwRWNvbm9taWNz" data-listing-date-sort="1449014400000" data-listing-title-sort="Karnataka's confounding solar policy">
-<td>
-<span class="listing-date">Dec 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/karnatakas-confounding-solar-policy-9d4b20ed13d9" class="title listing-title">Karnataka’s confounding solar policy</a>
-</td>
-
-</tr>
-
-<tr data-index="54" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1448841600000" data-listing-title-sort="Upholding Economic Freedom">
-<td>
-<span class="listing-date">Nov 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/upholding-economic-freedom-b881f6b7c295" class="title listing-title">Upholding Economic Freedom</a>
-</td>
-
-</tr>
-
-<tr data-index="55" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1443225600000" data-listing-title-sort="Costly Holidays">
-<td>
-<span class="listing-date">Sep 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/costly-holidays-15629687195b" class="title listing-title">Costly Holidays</a>
-</td>
-
-</tr>
-
-<tr data-index="56" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1442102400000" data-listing-title-sort="Glittery Alternatives">
-<td>
-<span class="listing-date">Sep 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/glittery-alternatives-4249284410ff" class="title listing-title">Glittery Alternatives</a>
-</td>
-
-</tr>
-
-<tr data-index="57" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1439251200000" data-listing-title-sort="The Need for Clarity in the Revised IFC">
-<td>
-<span class="listing-date">Aug 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-need-for-clarity-in-the-revised-ifc-cc9a5300daa8" class="title listing-title">The Need for Clarity in the Revised IFC</a>
-</td>
-
-</tr>
-
-<tr data-index="58" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1438732800000" data-listing-title-sort="A Fiscal Lesson for Monetary Policy">
-<td>
-<span class="listing-date">Aug 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/a-fiscal-lesson-for-monetary-policy-d71513f3da2e" class="title listing-title">A Fiscal Lesson for Monetary Policy</a>
-</td>
-
-</tr>
-
-<tr data-index="59" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1438214400000" data-listing-title-sort="Central Bank Independence — Part II">
-<td>
-<span class="listing-date">Jul 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-macroeconomic-case-for-central-bank-independence-ii-23aa4095ec66" class="title listing-title">Central Bank Independence — Part II</a>
-</td>
-
-</tr>
-
-<tr data-index="60" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1438214400000" data-listing-title-sort="The Macroeconomic Case for Central Bank Independence — II">
-<td>
-<span class="listing-date">Jul 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-macroeconomic-case-for-central-bank-independence-ii-23aa4095ec66" class="title listing-title">The Macroeconomic Case for Central Bank Independence — II</a>
-</td>
-
-</tr>
-
-<tr data-index="61" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1438214400000" data-listing-title-sort="The Macroeconomic Case for Central Bank Independence — I">
-<td>
-<span class="listing-date">Jul 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-macroeconomic-case-for-central-bank-independence-i-76755333009e" class="title listing-title">The Macroeconomic Case for Central Bank Independence — I</a>
-</td>
-
-</tr>
-
-<tr data-index="62" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1437436800000" data-listing-title-sort="Central Bank Independence — Part I">
-<td>
-<span class="listing-date">Jul 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-macroeconomic-case-for-central-bank-independence-i-76755333009e" class="title listing-title">Central Bank Independence — Part I</a>
-</td>
-
-</tr>
-
-<tr data-index="63" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1436918400000" data-listing-title-sort="Divergence between Wholesale and Retail Inflation">
-<td>
-<span class="listing-date">Jul 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/divergence-between-wholesale-and-retail-inflation-b37cce67d62c" class="title listing-title">Divergence between Wholesale and Retail Inflation</a>
-</td>
-
-</tr>
-
-<tr data-index="64" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1436486400000" data-listing-title-sort="Do 'Make in India' and 'Startup India' go together?">
-<td>
-<span class="listing-date">Jul 2015</span>
-</td>
-<td>
-<a href="https://medium.com/indian-national-interest/do-make-in-india-and-startup-india-go-together-3c4f38a50a79" class="title listing-title">Do ‘Make in India’ and ‘Startup India’ go together?</a>
-</td>
-
-</tr>
-
-<tr data-index="65" data-categories="R2VvZWNvbm9taWNz" data-listing-date-sort="1435622400000" data-listing-title-sort="Snippets from the Greek Crisis">
-<td>
-<span class="listing-date">Jun 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/snippets-from-the-greek-crisis-1ccf1be81cb7" class="title listing-title">Snippets from the Greek Crisis</a>
-</td>
-
-</tr>
-
-<tr data-index="66" data-categories="UHVibGljJTIwRmluYW5jZQ==" data-listing-date-sort="1435104000000" data-listing-title-sort="Deadly Taxes">
-<td>
-<span class="listing-date">Jun 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/deadly-taxes-deda5ad57c70" class="title listing-title">Deadly Taxes</a>
-</td>
-
-</tr>
-
-<tr data-index="67" data-categories="RWNvbm9taWMlMjBQb2xpY3klMkNUZWNobm9sb2d5JTIwUG9saWN5" data-listing-date-sort="1434931200000" data-listing-title-sort="The Economic Consequences of Debt Repayment">
-<td>
-<span class="listing-date">Jun 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-economic-consequences-of-debt-repayment-3d2a8481a12e" class="title listing-title">The Economic Consequences of Debt Repayment</a>
-</td>
-
-</tr>
-
-<tr data-index="68" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1434499200000" data-listing-title-sort="Demonetising a currency">
-<td>
-<span class="listing-date">Jun 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/demonetising-a-currency-749715dd11ab" class="title listing-title">Demonetising a currency</a>
-</td>
-
-</tr>
-
-<tr data-index="69" data-categories="R2VvZWNvbm9taWNz" data-listing-date-sort="1433548800000" data-listing-title-sort="Narendra Modi's One Year — A review of reviews">
-<td>
-<span class="listing-date">Jun 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/narendra-modis-one-year-a-review-of-reviews-64911d6c1475" class="title listing-title">Narendra Modi’s One Year — A review of reviews</a>
-</td>
-
-</tr>
-
-<tr data-index="70" data-categories="VHJhZGU=" data-listing-date-sort="1432339200000" data-listing-title-sort="Potential Output — Importance and Estimation">
-<td>
-<span class="listing-date">May 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/potential-output-importance-and-estimation-9db949721c7e" class="title listing-title">Potential Output — Importance and Estimation</a>
-</td>
-
-</tr>
-
-<tr data-index="71" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1430870400000" data-listing-title-sort="The Pritchett Test for Evaluating Policy Programs">
-<td>
-<span class="listing-date">May 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-pritchett-test-for-evaluating-policy-programs-4eedfd8ab55" class="title listing-title">The Pritchett Test for Evaluating Policy Programs</a>
-</td>
-
-</tr>
-
-<tr data-index="72" data-categories="R2VvZWNvbm9taWNz" data-listing-date-sort="1429833600000" data-listing-title-sort="Why is the Dollar the World's Reserve Currency?">
-<td>
-<span class="listing-date">Apr 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/why-is-the-dollar-the-worlds-reserve-currency-43dbc564c352" class="title listing-title">Why is the Dollar the World’s Reserve Currency?</a>
-</td>
-
-</tr>
-
-<tr data-index="73" data-categories="VHJhZGU=" data-listing-date-sort="1429747200000" data-listing-title-sort="The Murky Connections between Trade and Exchange Rate">
-<td>
-<span class="listing-date">Apr 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/the-murky-connections-between-trade-and-exchange-rate-e83eaae0945f" class="title listing-title">The Murky Connections between Trade and Exchange Rate</a>
-</td>
-
-</tr>
-
-<tr data-index="74" data-categories="RWNvbm9taWMlMjBQb2xpY3klMkNUZWNobm9sb2d5JTIwUG9saWN5" data-listing-date-sort="1429228800000" data-listing-title-sort="Using Price Discrimination to ensure Net Neutrality">
-<td>
-<span class="listing-date">Apr 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/using-price-discrimination-to-ensure-net-neutrality-e6d829250206" class="title listing-title">Using Price Discrimination to ensure Net Neutrality</a>
-</td>
-
-</tr>
-
-<tr data-index="75" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1428883200000" data-listing-title-sort="Does a strong currency mean a strong economy?">
-<td>
-<span class="listing-date">Apr 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/does-a-strong-currency-mean-a-strong-economy-84c17f2bc11d" class="title listing-title">Does a strong currency mean a strong economy?</a>
-</td>
-
-</tr>
-
-<tr data-index="76" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1423612800000" data-listing-title-sort="Making Sense of India's Latest GDP Figures">
-<td>
-<span class="listing-date">Feb 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/making-sense-of-indias-latest-gdp-figures-a0804b3cceaa" class="title listing-title">Making Sense of India’s Latest GDP Figures</a>
-</td>
-
-</tr>
-
-<tr data-index="77" data-categories="VHJhZGU=" data-listing-date-sort="1423526400000" data-listing-title-sort="Snapshot of India's Export Industries">
-<td>
-<span class="listing-date">Feb 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/snapshot-of-indias-export-industries-a6e752f38a17" class="title listing-title">Snapshot of India’s Export Industries</a>
-</td>
-
-</tr>
-
-<tr data-index="78" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1423008000000" data-listing-title-sort="Deflationary trend in the world economy">
-<td>
-<span class="listing-date">Feb 2015</span>
-</td>
-<td>
-<a href="https://anupammanur.substack.com/p/deflationary-trend-in-the-world-economy-8835a05c1df6" class="title listing-title">Deflationary trend in the world economy</a>
-</td>
-
-</tr>
-
-</tbody>
-</table>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/20260511-Trucks-right.html" target="_blank" rel="noopener noreferrer">Why trucks stick to the right?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2026 — Takshashila Institution
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/20260505-trees-infra.html" target="_blank" rel="noopener noreferrer">Making better environmental trade-offs</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2026 — Takshashila Institution
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/20260502_Browser_Choice.html" target="_blank" rel="noopener noreferrer">Browser Choice vs Defaults</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2026 — Takshashila Institution
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/20260502_Tariffs_Incidence.html" target="_blank" rel="noopener noreferrer">Who paid for the Liberation Day Tariffs</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2026 — Takshashila Institution
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/20260427-inflation-blindspot.html" target="_blank" rel="noopener noreferrer">India’s inflation blindspot</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2026 — Takshashila Institution
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/20260423-state-economy.html" target="_blank" rel="noopener noreferrer">State of the Economy</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2026 — Takshashila Institution
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/20260422-upi-10-years-mdr.html" target="_blank" rel="noopener noreferrer">Introduce MDR and Make UPI Sustainable</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+March 2026 — Takshashila Institution
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/20260331-india-pharmacy-world-drug-development.html" target="_blank" rel="noopener noreferrer">India is the Pharmacy of the World. But We Are Losing the Drug Development Race</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2025">
+2025
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+August 2025 — Takshashila Institution
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/20250801-Ind-UK-FTA-Food.html" target="_blank" rel="noopener noreferrer">FTA and Public Health</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2025 — Takshashila Institution
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/2025-07-25-India-UK-FTA.html" target="_blank" rel="noopener noreferrer">India-UK sign FTA</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2025 — Takshashila Institution
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/blogs/2025-05-24-Futility-of-Trade-Deals.html" target="_blank" rel="noopener noreferrer">What’s the point of a trade deal?</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2023">
+2023
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+August 2023 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/1-5-stars-for-the-rating-system-how-the-rating-system-is-breaking-e717137166a7" target="_blank" rel="noopener noreferrer">1.5 stars for the rating system — How the rating system is breaking!</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2023 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/how-not-to-regulate-27d43b3c6499" target="_blank" rel="noopener noreferrer">How not to Regulate</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2017">
+2017
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+October 2017 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/consumer-abandonment-due-to-annoying-ads-23ec29f5f470" target="_blank" rel="noopener noreferrer">Consumer abandonment due to annoying ads</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+October 2017 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/exclusion-through-apps-919fc5fc581b" target="_blank" rel="noopener noreferrer">Exclusion through apps</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2017 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-indian-governments-definition-of-luxury-61c5d9272cc2" target="_blank" rel="noopener noreferrer">The Indian (government’s) definition of luxury</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2017 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/what-will-be-done-with-the-additional-tax-revenue-866a0e389f25" target="_blank" rel="noopener noreferrer">What will be done with the additional tax revenue?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+June 2017 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/bro-at-your-service-be80033614ca" target="_blank" rel="noopener noreferrer">BRO at your service</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2017 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-threat-of-it-job-losses-in-india-574f9dbe6b9f" target="_blank" rel="noopener noreferrer">The threat of IT job losses in India</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2017 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/you-can-be-pro-poor-without-resorting-to-populism-e1ddaeed95c9" target="_blank" rel="noopener noreferrer">You can be pro-poor without resorting to populism</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2017 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/do-anti-poverty-programmes-backfire-6a1633e5f03" target="_blank" rel="noopener noreferrer">Do Anti-Poverty Programmes backfire?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2017 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/time-lags-in-price-mechanism-d2252449137e" target="_blank" rel="noopener noreferrer">Time Lags in Price Mechanism</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2017 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://medium.com/indian-national-interest/budget-2017-and-the-digital-economy-8b28b9b6bb5b" target="_blank" rel="noopener noreferrer">Budget 2017 and the Digital Economy</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2016">
+2016
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+December 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://medium.com/indian-national-interest/does-the-govt-need-to-go-cashless-3e72e5e44e74" target="_blank" rel="noopener noreferrer">Does the Govt. need to go cashless?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+November 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://medium.com/indian-national-interest/trump-globalisation-and-indian-trade-c3b55dbc7a14" target="_blank" rel="noopener noreferrer">Trump, globalisation, and Indian trade</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+November 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/aftermath-of-venezuelan-socialism-a74546ccf97" target="_blank" rel="noopener noreferrer">Aftermath of Venezuelan Socialism</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+October 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/boycotting-chinese-goods-impractical-and-harms-the-national-interest-5f035bec5850" target="_blank" rel="noopener noreferrer">Boycotting Chinese goods: Impractical and harms the national interest</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+October 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/commercial-models-for-public-wi-fi-56e0c5131730" target="_blank" rel="noopener noreferrer">Commercial models for Public Wi-Fi</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+September 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/structural-reforms-what-are-they-and-how-do-you-go-about-it-d25d34dd00b7" target="_blank" rel="noopener noreferrer">Structural Reforms: What are they and how do you go about it?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+August 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/problems-with-movement-of-goods-within-india-a2b538e78401" target="_blank" rel="noopener noreferrer">Problems with Movement of Goods within India</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/karnataka-vs-cab-aggregators-part-ii-67a8d9ad52d6" target="_blank" rel="noopener noreferrer">Karnataka vs.&nbsp;Cab-Aggregators (Part II)</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/rent-control-in-mumbai-eb2bd14669f6" target="_blank" rel="noopener noreferrer">Rent Control in Mumbai</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/a-ban-on-surge-pricing-will-create-shortages-e6465c9832bb" target="_blank" rel="noopener noreferrer">A Ban on Surge Pricing will Create Shortages</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/distortionary-public-policy-275b7ad09f02" target="_blank" rel="noopener noreferrer">Distortionary Public Policy</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+March 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/8th-standard-pass-yaake-f97ae366939" target="_blank" rel="noopener noreferrer">8th Standard Pass Yaake?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+March 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/geoeconomics-round-up-5717c94b0496" target="_blank" rel="noopener noreferrer">Geoeconomics Round-up</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+March 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/allocative-efficiency-vs-social-welfare-1cd124aadb68" target="_blank" rel="noopener noreferrer">Allocative Efficiency vs.&nbsp;Social welfare</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/budgets-cigarettes-and-mrp-461448e26dd4" target="_blank" rel="noopener noreferrer">Budgets, Cigarettes, and MRP</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/why-are-petrol-prices-not-decreasing-2129ae35422c" target="_blank" rel="noopener noreferrer">Why are petrol prices not decreasing?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/growth-urbanisation-and-poverty-reduction-in-india-4d201fa60fbd" target="_blank" rel="noopener noreferrer">Growth, Urbanisation, and Poverty Reduction in India</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/price-of-dosas-3d07c602cde5" target="_blank" rel="noopener noreferrer">Price of Dosas</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/karnataka-vs-cab-aggregators-part-ii-67a8d9ad52d6" target="_blank" rel="noopener noreferrer">Karnataka vs Cab-Aggregators</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://medium.com/indian-national-interest/inflation-in-india-part-2-8e0316f2d28d" target="_blank" rel="noopener noreferrer">Inflation in India — Part 2</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://medium.com/indian-national-interest/inflation-in-india-part-1-1f2bc7e9f1e7" target="_blank" rel="noopener noreferrer">Inflation in India — Part 1</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/aftermath-of-venezuelan-socialism-a74546ccf97" target="_blank" rel="noopener noreferrer">Aftermath of Venezuelan Socialism</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+January 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/changes-in-fdi-regulation-in-2015-8627f9a5c019" target="_blank" rel="noopener noreferrer">Changes in FDI Regulation in 2015</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+January 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://medium.com/@anupammanur/postcard-from-kodaikanal-6b6da36b8f86" target="_blank" rel="noopener noreferrer">Postcard from Kodaikanal</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+January 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/has-modi-lost-the-narrative-dominance-4e284c810bf" target="_blank" rel="noopener noreferrer">Has Modi lost the Narrative Dominance?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+January 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-flavoursome-financial-instrument-20f4b76dd698" target="_blank" rel="noopener noreferrer">Flavoursome Financial Instruments</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+January 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/taking-advantage-of-lower-commodity-prices-58953debb560" target="_blank" rel="noopener noreferrer">Taking advantage of lower commodity prices</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+January 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-chinese-debt-burden-7fb54039d5e1" target="_blank" rel="noopener noreferrer">The Chinese Debt Burden</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+January 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/brazilian-economy-in-the-doldrums-a9fd6558ac78" target="_blank" rel="noopener noreferrer">Brazilian Economy in the Doldrums</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+January 2016 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://medium.com/@anupammanur/ministry-of-risk-management-c8bf7ceddbe7" target="_blank" rel="noopener noreferrer">Ministry of Risk Management</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2015">
+2015
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+December 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/karnatakas-confounding-solar-policy-9d4b20ed13d9" target="_blank" rel="noopener noreferrer">Karnataka’s confounding solar policy</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+November 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/upholding-economic-freedom-b881f6b7c295" target="_blank" rel="noopener noreferrer">Upholding Economic Freedom</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+September 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/costly-holidays-15629687195b" target="_blank" rel="noopener noreferrer">Costly Holidays</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+September 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/glittery-alternatives-4249284410ff" target="_blank" rel="noopener noreferrer">Glittery Alternatives</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+August 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-need-for-clarity-in-the-revised-ifc-cc9a5300daa8" target="_blank" rel="noopener noreferrer">The Need for Clarity in the Revised IFC</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+August 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/a-fiscal-lesson-for-monetary-policy-d71513f3da2e" target="_blank" rel="noopener noreferrer">A Fiscal Lesson for Monetary Policy</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-macroeconomic-case-for-central-bank-independence-ii-23aa4095ec66" target="_blank" rel="noopener noreferrer">Central Bank Independence — Part II</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-macroeconomic-case-for-central-bank-independence-ii-23aa4095ec66" target="_blank" rel="noopener noreferrer">The Macroeconomic Case for Central Bank Independence — II</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-macroeconomic-case-for-central-bank-independence-i-76755333009e" target="_blank" rel="noopener noreferrer">The Macroeconomic Case for Central Bank Independence — I</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-macroeconomic-case-for-central-bank-independence-i-76755333009e" target="_blank" rel="noopener noreferrer">Central Bank Independence — Part I</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/divergence-between-wholesale-and-retail-inflation-b37cce67d62c" target="_blank" rel="noopener noreferrer">Divergence between Wholesale and Retail Inflation</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://medium.com/indian-national-interest/do-make-in-india-and-startup-india-go-together-3c4f38a50a79" target="_blank" rel="noopener noreferrer">Do ‘Make in India’ and ‘Startup India’ go together?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+June 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/snippets-from-the-greek-crisis-1ccf1be81cb7" target="_blank" rel="noopener noreferrer">Snippets from the Greek Crisis</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+June 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/deadly-taxes-deda5ad57c70" target="_blank" rel="noopener noreferrer">Deadly Taxes</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+June 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-economic-consequences-of-debt-repayment-3d2a8481a12e" target="_blank" rel="noopener noreferrer">The Economic Consequences of Debt Repayment</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+June 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/demonetising-a-currency-749715dd11ab" target="_blank" rel="noopener noreferrer">Demonetising a currency</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+June 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/narendra-modis-one-year-a-review-of-reviews-64911d6c1475" target="_blank" rel="noopener noreferrer">Narendra Modi’s One Year — A review of reviews</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/potential-output-importance-and-estimation-9db949721c7e" target="_blank" rel="noopener noreferrer">Potential Output — Importance and Estimation</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-pritchett-test-for-evaluating-policy-programs-4eedfd8ab55" target="_blank" rel="noopener noreferrer">The Pritchett Test for Evaluating Policy Programs</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/why-is-the-dollar-the-worlds-reserve-currency-43dbc564c352" target="_blank" rel="noopener noreferrer">Why is the Dollar the World’s Reserve Currency?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/the-murky-connections-between-trade-and-exchange-rate-e83eaae0945f" target="_blank" rel="noopener noreferrer">The Murky Connections between Trade and Exchange Rate</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/using-price-discrimination-to-ensure-net-neutrality-e6d829250206" target="_blank" rel="noopener noreferrer">Using Price Discrimination to ensure Net Neutrality</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/does-a-strong-currency-mean-a-strong-economy-84c17f2bc11d" target="_blank" rel="noopener noreferrer">Does a strong currency mean a strong economy?</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/making-sense-of-indias-latest-gdp-figures-a0804b3cceaa" target="_blank" rel="noopener noreferrer">Making Sense of India’s Latest GDP Figures</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/snapshot-of-indias-export-industries-a6e752f38a17" target="_blank" rel="noopener noreferrer">Snapshot of India’s Export Industries</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2015 — Medium
+</div>
+<div class="listing-item-title">
+<a href="https://anupammanur.substack.com/p/deflationary-trend-in-the-world-economy-8835a05c1df6" target="_blank" rel="noopener noreferrer">Deflationary trend in the world economy</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 <nav id="blog-list-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>

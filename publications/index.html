@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-975513e292b2e3bbb4519098851bad3e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-18e1247d1e7b77fc28ad78b19e338b05.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,8 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
-      
+      valueNames: ['listing-title','listing-date','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-date","listing-description","listing-categories"],
     };
 
@@ -238,9 +239,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(30)</span></div><div class="category" data-category="QmlvZWNvbm9teQ==">Bioeconomy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWNvbm9taWMlMjBQb2xpY3k=">Economic Policy <span class="quarto-category-count">(8)</span></div><div class="category" data-category="R2VvZWNvbm9taWNz">Geoeconomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjcm9lY29ub21pY3M=">Macroeconomics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UHVibGljJTIwRmluYW5jZQ==">Public Finance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGljJTIwUG9saWN5">Public Policy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VGVjaCUyMFBvbGljeQ==">Tech Policy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VHJhZGU=">Trade <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=">Trade and Geoeconomics <span class="quarto-category-count">(12)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -263,348 +264,301 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-publications-list" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-publications-list-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-publications-list'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Paper
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div id="listing-publications-list" class="quarto-listing quarto-listing-container-custom">
+<h2 class="listing-year-header anchored" id="year-2026">
+2026
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2026 — Takshashila Policy Brief 2026-18
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Paper</a>
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="RWNvbm9taWMlMjBQb2xpY3klMkNQdWJsaWMlMjBGaW5hbmNl" data-listing-date-sort="1778803200000" data-listing-title-sort="Taxing Mobile Capital and the Limits of Domestic Absorption">
-<td>
-<span class="listing-date">May 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/Taxing-Mobile-Capital-20260515.html" class="title listing-title">Taxing Mobile Capital and the Limits of Domestic Absorption</a>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1775088000000" data-listing-title-sort="Geopolitics of Fertiliser Supply in India">
-<td>
-<span class="listing-date">Apr 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20260402-Fertilizer-Geopolitics.html" class="title listing-title">Geopolitics of Fertiliser Supply in India</a>
-</td>
-
-</tr>
-
-<tr data-index="2" data-categories="QmlvZWNvbm9teQ==" data-listing-date-sort="1775001600000" data-listing-title-sort="Proposal for a Right-Based Seaweed Cultivation System in India">
-<td>
-<span class="listing-date">Apr 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20260401-India-seaweed-opportunity.html" class="title listing-title">Proposal for a Right-Based Seaweed Cultivation System in India</a>
-</td>
-
-</tr>
-
-<tr data-index="3" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1774569600000" data-listing-title-sort="Turbulence Ahead for the Indian Airline Industry">
-<td>
-<span class="listing-date">Mar 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20260327-Turbulence-Ahead-Indian-Airline-Industry.html" class="title listing-title">Turbulence Ahead for the Indian Airline Industry</a>
-</td>
-
-</tr>
-
-<tr data-index="4" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1773792000000" data-listing-title-sort="Policy Responses to India’s LPG Supply Crisis">
-<td>
-<span class="listing-date">Mar 2026</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20260318-Policy-Responses-to-India-LPG-Supply-Crisis.html" class="title listing-title">Policy Responses to India’s LPG Supply Crisis</a>
-</td>
-
-</tr>
-
-<tr data-index="5" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1765497600000" data-listing-title-sort="Regionalisation of the Indian Rupee">
-<td>
-<span class="listing-date">Dec 2025</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20251215-regionalisation-of-the-indian-rupee.html" class="title listing-title">Regionalisation of the Indian Rupee</a>
-</td>
-
-</tr>
-
-<tr data-index="6" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1760486400000" data-listing-title-sort="Economic and Security Implications of Pakistan’s Cryptocurrency Push">
-<td>
-<span class="listing-date">Oct 2025</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20251015-Pak-Crypto-Implications.html" class="title listing-title">Economic and Security Implications of Pakistan’s Cryptocurrency Push</a>
-</td>
-
-</tr>
-
-<tr data-index="7" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1743292800000" data-listing-title-sort="The Future of India-US Trade: India’s Strategic Choices Against Trump’s Trade Pressures">
-<td>
-<span class="listing-date">Mar 2025</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20250330-future-of-india-us-trade.html" class="title listing-title">The Future of India-US Trade: India’s Strategic Choices Against Trump’s Trade Pressures</a>
-</td>
-
-</tr>
-
-<tr data-index="8" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1725840000000" data-listing-title-sort="US-India Economic Ties: To the Next Level and Beyond">
-<td>
-<span class="listing-date">Sep 2024</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20240909-us-india-economic-ties-recommendations.html" class="title listing-title">US-India Economic Ties: To the Next Level and Beyond</a>
-</td>
-
-</tr>
-
-<tr data-index="9" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1721088000000" data-listing-title-sort="De-dollarisation: Temporary blip, prolonged dip, or inevitable demise?">
-<td>
-<span class="listing-date">Jul 2024</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20240716-De-Dollarisation-Trends-Discussion-Document.html" class="title listing-title">De-dollarisation: Temporary blip, prolonged dip, or inevitable demise?</a>
-</td>
-
-</tr>
-
-<tr data-index="10" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1684108800000" data-listing-title-sort="Time to Launch the US-India Trade Relationship into Another Orbit">
-<td>
-<span class="listing-date">May 2023</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20230515-time-to-launch-the-us-india-trade-relationship-into-another-orbit.html" class="title listing-title">Time to Launch the US-India Trade Relationship into Another Orbit</a>
-</td>
-
-</tr>
-
-<tr data-index="11" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1676332800000" data-listing-title-sort="Dominant Economic Narratives in the Post-Pandemic World">
-<td>
-<span class="listing-date">Feb 2023</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20230210-Dominant-Economic-Narratives-in-the-Post-Pandemic-World.html" class="title listing-title">Dominant Economic Narratives in the Post-Pandemic World</a>
-</td>
-
-</tr>
-
-<tr data-index="12" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1662076800000" data-listing-title-sort="Sri Lanka's Economic Crisis">
-<td>
-<span class="listing-date">Sep 2022</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20220828-Sri-Lankas-Economic-Crisis.html" class="title listing-title">Sri Lanka’s Economic Crisis</a>
-</td>
-
-</tr>
-
-<tr data-index="13" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1652832000000" data-listing-title-sort="From Protectionism to Global Integration: India's Trade Policy Before and After 1991">
-<td>
-<span class="listing-date">May 2022</span>
-</td>
-<td>
-<a href="https://the1991project.com/essays/protectionism-global-integration-indias-trade-policy-and-after-1991" class="title listing-title">From Protectionism to Global Integration: India’s Trade Policy Before and After 1991</a>
-</td>
-
-</tr>
-
-<tr data-index="14" data-categories="VHJhZGU=" data-listing-date-sort="1652659200000" data-listing-title-sort="From Protectionism to Global Integration: India's Trade Policy Before and After 1991">
-<td>
-<span class="listing-date">May 2022</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20220516-Manur_India-Imports-1991.html" class="title listing-title">From Protectionism to Global Integration: India’s Trade Policy Before and After 1991</a>
-</td>
-
-</tr>
-
-<tr data-index="15" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1647302400000" data-listing-title-sort="De-Dollarising Nexus: A Mirage">
-<td>
-<span class="listing-date">Mar 2022</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20220315-De-Dollarising-V1.0.pdf.html" class="title listing-title">De-Dollarising Nexus: A Mirage</a>
-</td>
-
-</tr>
-
-<tr data-index="16" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1613692800000" data-listing-title-sort="Takshashila Strategic Assessment - India and the Saudi-Russia Oil Price War">
-<td>
-<span class="listing-date">Feb 2021</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20201419-TSA-Saudi-Russia-Oil-AR-AK-AM-v1.0.html" class="title listing-title">Takshashila Strategic Assessment - India and the Saudi-Russia Oil Price War</a>
-</td>
-
-</tr>
-
-<tr data-index="17" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1610496000000" data-listing-title-sort="India’s Opportunity to Displace China in Global Supply Chains">
-<td>
-<span class="listing-date">Jan 2021</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20210113-Indias-Opportunity-to-Displace-China-in-Global-Supply-Chains_TDD_V1.0-2.html" class="title listing-title">India’s Opportunity to Displace China in Global Supply Chains</a>
-</td>
-
-</tr>
-
-<tr data-index="18" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1605052800000" data-listing-title-sort="A Liberal Trade Regime in an Uncertain World">
-<td>
-<span class="listing-date">Nov 2020</span>
-</td>
-<td>
-<a href="https://www.amazon.in/dp/B08NC125Q6/" class="title listing-title">A Liberal Trade Regime in an Uncertain World</a>
-</td>
-
-</tr>
-
-<tr data-index="19" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1588809600000" data-listing-title-sort="India in the Post COVID-19 World Order">
-<td>
-<span class="listing-date">May 2020</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20200507-India-post-Covid-World-Order.html" class="title listing-title">India in the Post COVID-19 World Order</a>
-</td>
-
-</tr>
-
-<tr data-index="20" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1587427200000" data-listing-title-sort="A Pathway for Post-Pandemic Economic Reconstruction">
-<td>
-<span class="listing-date">Apr 2020</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20200527-a-pathway-for-post-pandemic-economic-reconstruction.html" class="title listing-title">A Pathway for Post-Pandemic Economic Reconstruction</a>
-</td>
-
-</tr>
-
-<tr data-index="21" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1586390400000" data-listing-title-sort="India and the Saudi-Russia Oil Price War">
-<td>
-<span class="listing-date">Apr 2020</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20200409-India-and-the-Saudi-Russia-Oil-Price-War.html" class="title listing-title">India and the Saudi-Russia Oil Price War</a>
-</td>
-
-</tr>
-
-<tr data-index="22" data-categories="RWNvbm9taWMlMjBQb2xpY3k=" data-listing-date-sort="1585180800000" data-listing-title-sort="An Indian Approach Towards Strategic Petroleum Reserves">
-<td>
-<span class="listing-date">Mar 2020</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20200317-TDD_SPRBackground_AM_RS_NR_V2_2020-02.html" class="title listing-title">An Indian Approach Towards Strategic Petroleum Reserves</a>
-</td>
-
-</tr>
-
-<tr data-index="23" data-categories="R2VvZWNvbm9taWNzJTJDUHVibGljJTIwUG9saWN5" data-listing-date-sort="1584403200000" data-listing-title-sort="Takshashila Discussion Document - An Indian Approach Towards Strategic Petroleum Reserves">
-<td>
-<span class="listing-date">Mar 2020</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20200317-An-Indian-Approach-Towards-Strategic-Petroleum-Reserves.html" class="title listing-title">Takshashila Discussion Document - An Indian Approach Towards Strategic Petroleum Reserves</a>
-</td>
-
-</tr>
-
-<tr data-index="24" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1581033600000" data-listing-title-sort="Governing Tech Platforms in India">
-<td>
-<span class="listing-date">Feb 2020</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20200207-Governing-Tech-Platforms-in-India.html" class="title listing-title">Governing Tech Platforms in India</a>
-</td>
-
-</tr>
-
-<tr data-index="25" data-categories="VHJhZGUlMjBhbmQlMjBHZW9lY29ub21pY3M=" data-listing-date-sort="1562630400000" data-listing-title-sort="Deriving India’s Strategies for a New World Order">
-<td>
-<span class="listing-date">Jul 2019</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20180709-TDD-Indias-Strategies-New-World-Order.html" class="title listing-title">Deriving India’s Strategies for a New World Order</a>
-</td>
-
-</tr>
-
-<tr data-index="26" data-categories="VGVjaCUyMFBvbGljeQ==" data-listing-date-sort="1532995200000" data-listing-title-sort="Regulating Multi-Sided Platforms – Challenges in the Indian Context">
-<td>
-<span class="listing-date">Jul 2018</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20180801-regulating-multi-sided-platforms-challenges-in-the-indian-context.html" class="title listing-title">Regulating Multi-Sided Platforms – Challenges in the Indian Context</a>
-</td>
-
-</tr>
-
-<tr data-index="27" data-categories="UHVibGljJTIwUG9saWN5" data-listing-date-sort="1531094400000" data-listing-title-sort="Takshashila Discussion Document - Deriving India’s Strategies for a New World Order">
-<td>
-<span class="listing-date">Jul 2018</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20180709-TDD-Indias-Strategies-New-World-Order-AK-PK-AM-2018-02.html" class="title listing-title">Takshashila Discussion Document - Deriving India’s Strategies for a New World Order</a>
-</td>
-
-</tr>
-
-<tr data-index="28" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1480464000000" data-listing-title-sort="An Account of Unaccounted Money">
-<td>
-<span class="listing-date">Nov 2016</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20161130-TDD-Unaccounted-Income-AM-MV-2016-05-29-Nov1.html" class="title listing-title">An Account of Unaccounted Money</a>
-</td>
-
-</tr>
-
-<tr data-index="29" data-categories="TWFjcm9lY29ub21pY3M=" data-listing-date-sort="1479859200000" data-listing-title-sort="India's currency Reform 2016">
-<td>
-<span class="listing-date">Nov 2016</span>
-</td>
-<td>
-<a href="https://takshashila.org.in/content/publications/20161123-Slidedoc-Currency-Reform-Analysis.html" class="title listing-title">India’s currency Reform 2016</a>
-</td>
-
-</tr>
-
-</tbody>
-</table>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/Taxing-Mobile-Capital-20260515.html" target="_blank" rel="noopener noreferrer">Taxing Mobile Capital and the Limits of Domestic Absorption</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2026
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20260402-Fertilizer-Geopolitics.html" target="_blank" rel="noopener noreferrer">Geopolitics of Fertiliser Supply in India</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2026
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20260401-India-seaweed-opportunity.html" target="_blank" rel="noopener noreferrer">Proposal for a Right-Based Seaweed Cultivation System in India</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+March 2026
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20260327-Turbulence-Ahead-Indian-Airline-Industry.html" target="_blank" rel="noopener noreferrer">Turbulence Ahead for the Indian Airline Industry</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+March 2026
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20260318-Policy-Responses-to-India-LPG-Supply-Crisis.html" target="_blank" rel="noopener noreferrer">Policy Responses to India’s LPG Supply Crisis</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2025">
+2025
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+December 2025
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20251215-regionalisation-of-the-indian-rupee.html" target="_blank" rel="noopener noreferrer">Regionalisation of the Indian Rupee</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+October 2025
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20251015-Pak-Crypto-Implications.html" target="_blank" rel="noopener noreferrer">Economic and Security Implications of Pakistan’s Cryptocurrency Push</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+March 2025
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20250330-future-of-india-us-trade.html" target="_blank" rel="noopener noreferrer">The Future of India-US Trade: India’s Strategic Choices Against Trump’s Trade Pressures</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2024">
+2024
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+September 2024
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20240909-us-india-economic-ties-recommendations.html" target="_blank" rel="noopener noreferrer">US-India Economic Ties: To the Next Level and Beyond</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2024
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20240716-De-Dollarisation-Trends-Discussion-Document.html" target="_blank" rel="noopener noreferrer">De-dollarisation: Temporary blip, prolonged dip, or inevitable demise?</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2023">
+2023
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2023
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20230515-time-to-launch-the-us-india-trade-relationship-into-another-orbit.html" target="_blank" rel="noopener noreferrer">Time to Launch the US-India Trade Relationship into Another Orbit</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2023
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20230210-Dominant-Economic-Narratives-in-the-Post-Pandemic-World.html" target="_blank" rel="noopener noreferrer">Dominant Economic Narratives in the Post-Pandemic World</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2022">
+2022
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+September 2022
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20220828-Sri-Lankas-Economic-Crisis.html" target="_blank" rel="noopener noreferrer">Sri Lanka’s Economic Crisis</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2022
+</div>
+<div class="listing-item-title">
+<a href="https://the1991project.com/essays/protectionism-global-integration-indias-trade-policy-and-after-1991" target="_blank" rel="noopener noreferrer">From Protectionism to Global Integration: India’s Trade Policy Before and After 1991</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2022 — Takshashila Publication
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20220516-Manur_India-Imports-1991.html" target="_blank" rel="noopener noreferrer">From Protectionism to Global Integration: India’s Trade Policy Before and After 1991</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+March 2022
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20220315-De-Dollarising-V1.0.pdf.html" target="_blank" rel="noopener noreferrer">De-Dollarising Nexus: A Mirage</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2021">
+2021
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2021 — Takshashila Publication
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20201419-TSA-Saudi-Russia-Oil-AR-AK-AM-v1.0.html" target="_blank" rel="noopener noreferrer">Takshashila Strategic Assessment - India and the Saudi-Russia Oil Price War</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+January 2021
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20210113-Indias-Opportunity-to-Displace-China-in-Global-Supply-Chains_TDD_V1.0-2.html" target="_blank" rel="noopener noreferrer">India’s Opportunity to Displace China in Global Supply Chains</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2020">
+2020
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+November 2020
+</div>
+<div class="listing-item-title">
+<a href="https://www.amazon.in/dp/B08NC125Q6/" target="_blank" rel="noopener noreferrer">A Liberal Trade Regime in an Uncertain World</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+May 2020
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20200507-India-post-Covid-World-Order.html" target="_blank" rel="noopener noreferrer">India in the Post COVID-19 World Order</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2020
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20200527-a-pathway-for-post-pandemic-economic-reconstruction.html" target="_blank" rel="noopener noreferrer">A Pathway for Post-Pandemic Economic Reconstruction</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+April 2020
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20200409-India-and-the-Saudi-Russia-Oil-Price-War.html" target="_blank" rel="noopener noreferrer">India and the Saudi-Russia Oil Price War</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+March 2020
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20200317-TDD_SPRBackground_AM_RS_NR_V2_2020-02.html" target="_blank" rel="noopener noreferrer">An Indian Approach Towards Strategic Petroleum Reserves</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+March 2020 — Takshashila Discussion Documeny 2020-02. · with Narayan Ramachandran and Rohan Seth
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20200317-An-Indian-Approach-Towards-Strategic-Petroleum-Reserves.html" target="_blank" rel="noopener noreferrer">Takshashila Discussion Document - An Indian Approach Towards Strategic Petroleum Reserves</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+February 2020
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20200207-Governing-Tech-Platforms-in-India.html" target="_blank" rel="noopener noreferrer">Governing Tech Platforms in India</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2019">
+2019
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2019
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20180709-TDD-Indias-Strategies-New-World-Order.html" target="_blank" rel="noopener noreferrer">Deriving India’s Strategies for a New World Order</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2018">
+2018
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2018
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20180801-regulating-multi-sided-platforms-challenges-in-the-indian-context.html" target="_blank" rel="noopener noreferrer">Regulating Multi-Sided Platforms – Challenges in the Indian Context</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+July 2018 — Takshashila Publication · with Pranay Kotasthane and Anirudh KanisettI
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20180709-TDD-Indias-Strategies-New-World-Order-AK-PK-AM-2018-02.html" target="_blank" rel="noopener noreferrer">Takshashila Discussion Document - Deriving India’s Strategies for a New World Order</a>
+</div>
+</div>
+</div>
+<h2 class="listing-year-header anchored" id="year-2016">
+2016
+</h2>
+<div class="listing-year-items">
+<div class="listing-item">
+<div class="listing-item-meta">
+November 2016
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20161130-TDD-Unaccounted-Income-AM-MV-2016-05-29-Nov1.html" target="_blank" rel="noopener noreferrer">An Account of Unaccounted Money</a>
+</div>
+</div>
+<div class="listing-item">
+<div class="listing-item-meta">
+November 2016
+</div>
+<div class="listing-item-title">
+<a href="https://takshashila.org.in/content/publications/20161123-Slidedoc-Currency-Reform-Analysis.html" target="_blank" rel="noopener noreferrer">India’s currency Reform 2016</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="publications-list-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 
 

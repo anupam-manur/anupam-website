@@ -1,0 +1,21 @@
+<%
+  const grouped = {};
+  for (const item of items) {
+    const year = new Date(item.date).getFullYear();
+    if (!grouped[year]) grouped[year] = [];
+    grouped[year].push(item);
+  }
+  const years = Object.keys(grouped).sort((a, b) => b - a);
+%>
+<% for (const year of years) { %>
+<h2 class="listing-year-header" id="year-<%= year %>"><%= year %></h2>
+<div class="listing-year-items">
+<% for (const item of grouped[year]) { %>
+<% const d = new Date(item.date); const monthYear = d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }); const pub = item.description ? ' — ' + item.description : ''; const domain = (item.path || '').replace(/^https?:\/\//, '').split('/')[0]; const faviconUrl = 'https://www.google.com/s2/favicons?sz=32&domain=' + domain; %>
+<div class="listing-item">
+<div class="listing-item-meta"><img src="<%= faviconUrl %>" class="listing-pub-icon" alt="" width="14" height="14" onerror="this.style.display='none'"> <%= monthYear %><%= pub %></div>
+<div class="listing-item-title"><a href="<%= item.path %>" target="_blank" rel="noopener noreferrer"><%= item.title %></a></div>
+</div>
+<% } %>
+</div>
+<% } %>

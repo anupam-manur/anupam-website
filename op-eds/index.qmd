@@ -4,16 +4,11 @@ listing:
   - id: op-eds-list
     contents:
       - op-eds.yml
-    type: table
+    template: ../_listing-opeds.ejs
     sort: "date desc"
-    categories: true
-    sort-ui: true
-    filter-ui: true
-    fields: [date, title, description]
-    field-display-names:
-      description: "Publication"
-      title: "Article"
-    date-format: "MMM YYYY"
+    filter-ui: false
+    sort-ui: false
+    categories: false
 ---
 
 Opinion pieces published in newspapers, magazines, and online outlets. Titles link to the original publication.

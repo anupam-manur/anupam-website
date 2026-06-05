@@ -4,13 +4,11 @@ listing:
   - id: blog-list
     contents:
       - blog.yml
-    type: table
+    template: ../_listing-year-grouped.ejs
     sort: "date desc"
-    categories: true
-    sort-ui: true
-    filter-ui: true
-    fields: [date, title]
-    date-format: "MMM YYYY"
+    filter-ui: false
+    sort-ui: false
+    categories: false
     feed:
       title: "Anupam Manur — Blog"
       description: "Essays on public policy, technology, and geopolitics"

@@ -18,7 +18,6 @@ from bs4 import BeautifulSoup
 
 REPO = Path(__file__).parent.parent
 IPPR_QMD = REPO / "ippr.qmd"
-COVER_IMAGE = REPO / "images" / "ippr-current-issue.png"
 CURRENT_URL = "https://ippr.in/index.php/ippr/issue/current"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; anupammanur-sync/1.0)"}
 
@@ -108,14 +107,10 @@ def extract_issue_info(soup: BeautifulSoup, issue_url: str) -> tuple[str, str, s
 
 # ── File operations ────────────────────────────────────────────────
 
-def download_cover(cover_url: str) -> None:
-    resp = requests.get(cover_url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    COVER_IMAGE.write_bytes(resp.content)
-    print(f"  Downloaded cover image ({len(resp.content) // 1024} KB) → {COVER_IMAGE.name}")
-
-
-def build_block(vol_label: str, issue_url: str, description: str) -> str:
+def build_block(vol_label: str, issue_url: str, cover_url: str, description: str) -> str:
+    # Use the cover image URL directly from IPPR's server — avoids committing
+    # large binaries and ensures the browser always gets the correct image
+    # (different URL per issue = no CDN caching problems).
     return (
         f"<!-- IPPR_AUTO_START -->\n"
         f"## Current Issue — {vol_label}\n"
@@ -123,7 +118,7 @@ def build_block(vol_label: str, issue_url: str, description: str) -> str:
         f"```{{=html}}\n"
         f'<div style="text-align:center;margin:2rem 0;">\n'
         f'  <a href="{issue_url}" target="_blank">\n'
-        f'    <img src="images/ippr-current-issue.png"'
+        f'    <img src="{cover_url}"'
         f' alt="IPPR {vol_label} Cover"'
         f' style="max-width:350px;width:100%;border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,0.12);">\n'
         f"  </a>\n"
@@ -169,16 +164,15 @@ def main() -> None:
     print(f"  Issue URL    : {issue_url}")
     print(f"  Cover URL    : {cover_url}")
 
-    # Check whether this issue is already in ippr.qmd
+    # Check whether this issue (with the correct direct cover URL) is already in ippr.qmd
     existing = IPPR_QMD.read_text(encoding="utf-8")
-    if vol_label in existing and issue_url in existing:
+    if vol_label in existing and issue_url in existing and cover_url in existing:
         print("No new issue detected — ippr.qmd is already current.")
         set_output("changed", "false")
         return
 
     print(f"New issue detected ({vol_label}) — updating …")
-    download_cover(cover_url)
-    new_block = build_block(vol_label, issue_url, description)
+    new_block = build_block(vol_label, issue_url, cover_url, description)
     changed = update_qmd(new_block)
     set_output("changed", "true" if changed else "false")
     print("Done.")

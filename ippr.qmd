@@ -17,7 +17,7 @@ I am the Managing Editor of the **Indian Public Policy Review** — a peer-revie
 ```{=html}
 <div style="text-align:center;margin:2rem 0;">
   <a href="https://ippr.in/index.php/ippr/issue/view/35" target="_blank">
-    <img src="images/ippr-current-issue.png" alt="IPPR Vol. 7 No. 2 (2026) Cover" style="max-width:350px;width:100%;border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,0.12);">
+    <img src="https://ippr.in/public/journals/1/cover_issue_35_en_US.png" alt="IPPR Vol. 7 No. 2 (2026) Cover" style="max-width:350px;width:100%;border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,0.12);">
   </a>
 </div>
 ```

@@ -1,0 +1,48 @@
+name: Sync IPPR Current Issue
+
+on:
+  schedule:
+    - cron: '0 6 1 */2 *'   # 6 am UTC on the 1st of every other month
+  workflow_dispatch:          # manual trigger button in GitHub Actions UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run IPPR scraper
+        id: scraper
+        run: python scripts/sync_ippr.py
+
+      - name: Commit and push (if changed)
+        id: commit
+        run: |
+          git config user.name "ippr-sync[bot]"
+          git config user.email "actions@github.com"
+          git add ippr.qmd images/ippr-current-issue.png
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "auto: update IPPR current issue"
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Trigger deploy workflow
+        if: steps.commit.outputs.changed == 'true'
+        run: gh workflow run deploy.yml
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

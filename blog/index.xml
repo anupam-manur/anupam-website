@@ -10,7 +10,15 @@
 <atom:link href="https://anupammanur.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on public policy, technology, and geopolitics</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sun, 28 Jun 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 02 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Operation Trialblazer - the name takes all the glory</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The EU-US Trade Deal (Truce?)</title>
   <link>https://anupammanur.com/</link>
@@ -167,14 +175,6 @@
   <category>Public Policy</category>
   <guid>https://anupammanur.com/</guid>
   <pubDate>Mon, 26 Jun 2017 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>The threat of IT job losses in India</title>
-  <link>https://anupammanur.com/</link>
-  <description>Medium</description>
-  <category>Public Policy</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Mon, 29 May 2017 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

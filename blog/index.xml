@@ -10,7 +10,15 @@
 <atom:link href="https://anupammanur.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on public policy, technology, and geopolitics</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Mon, 06 Jul 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Unlocking India’s night shift remains a relatively cheap growth reform</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Economic Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>India’s Credible Commitment Crisis</title>
   <link>https://anupammanur.com/</link>
@@ -167,14 +175,6 @@
   <category>Public Policy</category>
   <guid>https://anupammanur.com/</guid>
   <pubDate>Mon, 03 Jul 2017 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>What will be done with the additional tax revenue?</title>
-  <link>https://anupammanur.com/</link>
-  <description>Medium</description>
-  <category>Public Finance</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Sun, 02 Jul 2017 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

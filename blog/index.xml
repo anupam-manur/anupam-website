@@ -9,8 +9,32 @@
 <link>https://anupammanur.com/blog/</link>
 <atom:link href="https://anupammanur.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on public policy, technology, and geopolitics</description>
-<generator>quarto-1.9.38</generator>
-<lastBuildDate>Fri, 17 Jul 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Sat, 25 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Wars Revealed Some Uncomfortable Vulnerabilities for India</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Airports Running an Airline is like Referee Fielding a Team</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>IndiGo increases market share, worsening concentration</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Economic Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The Effects of a Sudden Stop in Low-Skilled Immigration</title>
   <link>https://anupammanur.com/</link>
@@ -151,30 +175,6 @@
   <category>Platform Economics</category>
   <guid>https://anupammanur.com/</guid>
   <pubDate>Sun, 06 Aug 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>How not to Regulate</title>
-  <link>https://anupammanur.com/</link>
-  <description>Medium</description>
-  <category>Public Policy</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Tue, 18 Apr 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Consumer abandonment due to annoying ads</title>
-  <link>https://anupammanur.com/</link>
-  <description>Medium</description>
-  <category>Platform Economics</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Fri, 13 Oct 2017 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Exclusion through apps</title>
-  <link>https://anupammanur.com/</link>
-  <description>Medium</description>
-  <category>Public Policy</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Tue, 03 Oct 2017 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

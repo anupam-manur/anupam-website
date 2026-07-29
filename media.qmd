@@ -9,13 +9,21 @@ toc: true
 
 ::: {.g-col-6}
 ::: {.course-card}
+### Discussion on Trump's tariffs on Swiss cheese
+TRT World Interview on new round of tariffs by US.
+
+{{< video https://www.youtube.com/watch?v=ELQsNVn9Pzk width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
 ### Discussion on EU-US Trade Deal
 TRT World interview on the effectiveness of a EU-US trade deal
 
 {{< video https://youtu.be/RH_hkCNlopw width="100%" height="225" >}}
 :::
 :::
-
 
 
 ::: {.g-col-6}
@@ -169,6 +177,33 @@ ET Now Panel Discussion.
 ## Select Podcasts
 
 ::: {.grid}
+
+::: {.g-col-6}
+::: {.course-card}
+### Turbulence | Disruption in the Global Economic Order — Bretton Woods No More
+Turbulence: Special Series on Geoeconomics
+
+{{< video https://www.youtube.com/watch?v=7x1nbgwiIXw width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Turbulence | Tariffs and Trade Disruption — Trump and Beyond
+Turbulence: Special Series on Geoeconomics
+
+{{< video https://www.youtube.com/watch?v=2FI0KT-f0as width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
+### Turbulence | The Future of Money
+Turbulence: Special Series on Geoeconomics
+
+{{< video https://www.youtube.com/watch?v=lBKX7ojNrcI width="100%" height="225" >}}
+:::
+:::
 
 ::: {.g-col-6}
 ::: {.course-card}

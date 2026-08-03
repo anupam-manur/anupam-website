@@ -10,7 +10,23 @@
 <atom:link href="https://anupammanur.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on public policy, technology, and geopolitics</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Sat, 25 Jul 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 03 Aug 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Are Social Media ruining our lives?</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>India must hedge against Weaponised Payments and UPI doesn’t cut it</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Technology Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The Wars Revealed Some Uncomfortable Vulnerabilities for India</title>
   <link>https://anupammanur.com/</link>
@@ -158,23 +174,6 @@
   <category>Geoeconomics</category>
   <guid>https://anupammanur.com/</guid>
   <pubDate>Fri, 25 Jul 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>What&#39;s the point of a trade deal?</title>
-  <link>https://anupammanur.com/</link>
-  <description>Takshashila Institution</description>
-  <category>Trade</category>
-  <category>Geoeconomics</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Sat, 24 May 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>1.5 stars for the rating system — How the rating system is breaking!</title>
-  <link>https://anupammanur.com/</link>
-  <description>Medium</description>
-  <category>Platform Economics</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Sun, 06 Aug 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

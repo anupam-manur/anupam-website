@@ -9,6 +9,15 @@ toc: true
 
 ::: {.g-col-6}
 ::: {.course-card}
+### Will India's tax exemption bring in component manufacturers?
+Interview on Tax Exemption for Component Manufacturers
+
+{{< video https://www.youtube.com/watch?v=wnm4DsUO_1E width="100%" height="225" >}}
+:::
+:::
+
+::: {.g-col-6}
+::: {.course-card}
 ### Discussion on Trump's tariffs on Swiss cheese
 TRT World Interview on new round of tariffs by US.
 

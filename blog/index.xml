@@ -10,7 +10,23 @@
 <atom:link href="https://anupammanur.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on public policy, technology, and geopolitics</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 03 Aug 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Basic Tax Hygeine is Not Grand Industrial Policy</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Finance</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Zero MDR for UPI no More (Maybe?)</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Are Social Media ruining our lives?</title>
   <link>https://anupammanur.com/</link>
@@ -156,24 +172,6 @@
   <category>Economic Policy</category>
   <guid>https://anupammanur.com/</guid>
   <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>FTA and Public Health</title>
-  <link>https://anupammanur.com/</link>
-  <description>Takshashila Institution</description>
-  <category>Trade</category>
-  <category>Bioeconomy</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>India-UK sign FTA</title>
-  <link>https://anupammanur.com/</link>
-  <description>Takshashila Institution</description>
-  <category>Trade</category>
-  <category>Geoeconomics</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Fri, 25 Jul 2025 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

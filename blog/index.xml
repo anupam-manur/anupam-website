@@ -10,7 +10,31 @@
 <atom:link href="https://anupammanur.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on public policy, technology, and geopolitics</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 10 Aug 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 28 Aug 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Washington Assumes the Burden of a Sliding Yen</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Does the Best Case for Free UPI Hold</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Tax We Levy On Ourselves</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Finance</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Digital Arrests Are Not Uniquely Indian</title>
   <link>https://anupammanur.com/</link>
@@ -146,31 +170,6 @@
   <category>Trade</category>
   <guid>https://anupammanur.com/</guid>
   <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>India’s inflation blindspot</title>
-  <link>https://anupammanur.com/</link>
-  <description>Takshashila Institution</description>
-  <category>Macroeconomics</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>State of the Economy</title>
-  <link>https://anupammanur.com/</link>
-  <description>Takshashila Institution</description>
-  <category>Macroeconomics</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Introduce MDR and Make UPI Sustainable</title>
-  <link>https://anupammanur.com/</link>
-  <description>Takshashila Institution</description>
-  <category>Technology Policy</category>
-  <category>Platform Economics</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

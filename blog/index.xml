@@ -10,7 +10,15 @@
 <atom:link href="https://anupammanur.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Essays on public policy, technology, and geopolitics</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Fri, 28 Aug 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 13 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Compared to What?</title>
+  <link>https://anupammanur.com/</link>
+  <description>Takshashila Institution</description>
+  <category>Public Policy</category>
+  <guid>https://anupammanur.com/</guid>
+  <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Washington Assumes the Burden of a Sliding Yen</title>
   <link>https://anupammanur.com/</link>
@@ -160,14 +168,6 @@
   <link>https://anupammanur.com/</link>
   <description>Takshashila Institution</description>
   <category>Public Policy</category>
-  <guid>https://anupammanur.com/</guid>
-  <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Who paid for the Liberation Day Tariffs</title>
-  <link>https://anupammanur.com/</link>
-  <description>Takshashila Institution</description>
-  <category>Trade</category>
   <guid>https://anupammanur.com/</guid>
   <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
 </item>
